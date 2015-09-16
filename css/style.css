@@ -1,12 +1,12 @@
 header {
-  background: url("../Images/Blocbox/BBbackground.png")top center no-repeat;
+  background: url("../Images/Blocbox/BBbackground-1.png")top center no-repeat;
   text-align: left;
   background-size: cover;
   height: 40em;
 }
 .overlay {
   background: linear-gradient(25deg,#c43e12 0%, #781e00 96%);
-  opacity:.97;
+  opacity:.9;
   height: 10em;
 }
 h1 {
@@ -19,6 +19,15 @@ h1 {
 .nav {
   margin-left: 3em;
 }
+.nav a {
+  color: white;
+}
+.nav a:hover {
+  color: #12c49b;
+}
+.nav li a:active {
+  border-bottom: 2px solid #12c49b;
+}
 ul li {
   font-family: Comfortaa;
   font-size: .9em;
@@ -28,21 +37,27 @@ ul li {
   display: inline-block;
   margin-right: 25px;
 }
-a {
-  color: white;
-}
-#circles {
-  float: right;
-}
 
-#circles li a {
+i {
   width: 50px;
   height: 50px;
-  margin-top: 3.5em;
+  margin-top: 1.8em;
   background: #00785c;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
+  border: 1px solid #12c49b; 
   text-align: center;
   display: inline-block;
+}
+.fa {
+  padding-top: 8px;
+  color: white;
+}
+.BB {
+  margin-top: 11.5em;
+}
+.Box {
+  height: 75%;
+  width: 75%;
 }
