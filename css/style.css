@@ -8,6 +8,9 @@ header {
   background: linear-gradient(25deg,#c43e12 0%, #781e00 96%);
   opacity:.9;
   height: 10em;
+  border-bottom: 2px inset;
+  border-color: #12c49b;
+  box-shadow: 0 2px 20px 5px;
 }
 h1 {
   font-family: Comfortaa, Arial, Helvetica;
@@ -15,9 +18,11 @@ h1 {
   margin-left: 2em;
   margin-top: 2.2em;
   color: white;
+  letter-spacing: 2px;
 }
 .nav {
   margin-left: 3em;
+  letter-spacing: 1px;
 }
 .nav a {
   color: white;
@@ -58,6 +63,56 @@ i {
   margin-top: 11.5em;
 }
 .Box {
+  height: 60%;
+  width: 60%;
+  margin-left: 5em;
+}
+#CP {
+  background: url("../Images/ClearPlate/BGplate.jpg")top center no-repeat;
+  height: 30em;
+  background-size:cover;
+}
+#overlay2 {
+  height: 30em;
+  width: 100%;
+  position: absolute;
+  background-color: #00785c;
+  opacity:.7
+}
+.CPlogo {
+  margin-top: 8em;
+  opacity: .8;
   height: 75%;
-  width: 75%;
+  width:75%;
+  margin-left: 5em;
+}
+#Paycrave {
+  background: url("../Images/PAYCRAVE/PAYCRAVE_IPHONE6.png")center 32% no-repeat;
+  height: 30em;
+  background-size:150%;
+}
+#overlay3 {
+  height: 30em;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(200deg, #781E00  35%, #c43e12 65%);
+  opacity:.9
+}
+.PClogo {
+  margin-top: 10em;
+  opacity: .9;
+  height: 75%;
+  width:75%;
+  margin-left: 5em;
+}
+.Me {
+  height: 30em;
+  width:cover;
+  }
+.Welcome {
+  height:30em;
+  width:50%;
+}
+.SP {
+
 }
