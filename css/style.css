@@ -1,12 +1,17 @@
 header {
-  background: url("../Images/Blocbox/BBbackground-1.png")top center no-repeat;
+  background: url("../Images/Blocbox/BBbackground.png")top center no-repeat;
   text-align: left;
   background-size: cover;
   height: 40em;
+  top:0;
 }
 .overlay {
   background: linear-gradient(25deg,#c43e12 0%, #781e00 96%);
   opacity:.9;
+  z-index:1;
+  position: fixed;
+  top:0;
+  width: 100%;
   height: 10em;
   border-bottom: 2px inset;
   border-color: #12c49b;
@@ -59,16 +64,15 @@ i {
   padding-top: 8px;
   color: white;
 }
-.BB {
-  margin-top: 11.5em;
-}
+
 .Box {
+  margin-top: 20em;
   height: 60%;
   width: 60%;
-  margin-left: 5em;
-}
+  margin-left: 7.5em;
+  }
 #CP {
-  background: url("../Images/ClearPlate/BGplate.jpg")top center no-repeat;
+  background: url("../Images/ClearPlate/CPMobileDisplay.png") center 35% no-repeat;
   height: 30em;
   background-size:cover;
 }
