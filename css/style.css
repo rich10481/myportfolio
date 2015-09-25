@@ -1,62 +1,82 @@
 header {
   background: url("../Images/Blocbox/BBbackground.png")top center no-repeat;
-  text-align: left;
+  text-align: center;
   background-size: cover;
   height: 40em;
   top:0;
 }
+
 .overlay {
-  background: linear-gradient(25deg,#c43e12 0%, #781e00 96%);
+  background: linear-gradient(10deg,#525B5C 30%, #76898A 70%);
   opacity:.9;
   z-index:1;
   position: fixed;
   top:0;
   width: 100%;
   height: 10em;
-  border-bottom: 2px inset;
-  border-color: #12c49b;
+  border-bottom:2px inset;
+  border-color: #00E7FF;
   box-shadow: 0 2px 20px 5px;
 }
 h1 {
   font-family: Comfortaa, Arial, Helvetica;
-  font-size: 1.4em;
-  margin-left: 2em;
-  margin-top: 2.2em;
-  color: white;
-  letter-spacing: 2px;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+  color: #ffffff;
+  letter-spacing: .15em;
 }
 .nav {
-  margin-left: 3em;
-  letter-spacing: 1px;
+  margin-bottom: .7em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+  text-align: center;
+  letter-spacing: .02em;
 }
 .nav a {
-  color: white;
+  color: #cccccc;
 }
-.nav a:hover {
-  color: #12c49b;
+.nav li a:hover {
+  color: #FF7400;
 }
-.nav li a:active {
-  border-bottom: 2px solid #12c49b;
+.selected {
+  border-bottom: 2px solid #00E7FF ;
 }
-ul li {
+.nav li {
   font-family: Comfortaa;
-  font-size: .9em;
+  font-size: .8em;
   text-decoration: none;
   text-align: left;
   list-style: none;
   display: inline-block;
   margin-right: 25px;
+  padding-bottom: .2em;
+}
+.top-icons {
+  text-align: center;
+}
+.top-icons li {
+  font-size: 14px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin-right: 25px;
+  margin-top: -1.7em;
 }
 
 i {
   width: 50px;
   height: 50px;
   margin-top: 1.8em;
-  background: #00785c;
+  background: #525B5C ;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  border: 1px solid #12c49b; 
+  border: 1px solid #00E7FF; 
   text-align: center;
   display: inline-block;
 }
@@ -66,13 +86,14 @@ i {
 }
 
 .Box {
-  margin-top: 20em;
-  height: 60%;
-  width: 60%;
-  margin-left: 7.5em;
+  margin-top: 21.5em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
   }
 #CP {
-  background: url("../Images/ClearPlate/CPMobileDisplay.png") center 35% no-repeat;
+  background: url("../Images/ClearPlate/CPMobileDisplay.png") center 5% no-repeat;
   height: 30em;
   background-size:cover;
 }
@@ -80,15 +101,25 @@ i {
   height: 30em;
   width: 100%;
   position: absolute;
-  background-color: #00785c;
-  opacity:.7
+  background-color: #00E7FF;
+  opacity:.85
+}
+.CP1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .CPlogo {
-  margin-top: 8em;
-  opacity: .8;
-  height: 75%;
-  width:75%;
-  margin-left: 5em;
+  margin-top: 12em;
+  max-width: 250px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.PC1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 #Paycrave {
   background: url("../Images/PAYCRAVE/PAYCRAVE_IPHONE6.png")center 32% no-repeat;
@@ -99,15 +130,16 @@ i {
   height: 30em;
   width: 100%;
   position: absolute;
-  background: linear-gradient(200deg, #781E00  35%, #c43e12 65%);
+  background: #ffffff;
   opacity:.9
 }
 .PClogo {
-  margin-top: 10em;
+  margin-top: 14em;
   opacity: .9;
-  height: 75%;
-  width:75%;
-  margin-left: 5em;
+  max-width: 250px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Me {
   height: 30em;
@@ -120,3 +152,4 @@ i {
 .SP {
 
 }
+
