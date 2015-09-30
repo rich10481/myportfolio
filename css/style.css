@@ -9,7 +9,7 @@ header {
 .overlay {
   background: linear-gradient(10deg,#525B5C 30%, #76898A 70%);
   opacity:.9;
-  z-index:1;
+  z-index:5;
   position: fixed;
   top:0;
   width: 100%;
@@ -18,22 +18,22 @@ header {
   border-color: #00E7FF;
   box-shadow: 0 2px 20px 5px;
 }
-h1 {
+.title {
   font-family: Comfortaa, Arial, Helvetica;
   font-size: 1em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 1.5em;
+  margin-top: 2.5em;
   margin-bottom: .5em;
   color: #ffffff;
   letter-spacing: .15em;
 }
 .nav {
-  margin-bottom: .7em;
+  margin-bottom: .4em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.5em;
+  margin-top: .8em;
   text-align: center;
   letter-spacing: .02em;
 }
@@ -133,6 +133,7 @@ i {
   background: #ffffff;
   opacity:.9
 }
+
 .PClogo {
   margin-top: 14em;
   opacity: .9;
@@ -141,15 +142,75 @@ i {
   margin-left: auto;
   margin-right: auto;
 }
-.Me {
+
+.Bottom {
   height: 30em;
-  width:cover;
+}
+
+.Me {
+  background: url("../Images/Me/SP.jpg") 35%;
+  background-size: 100%;
+  height: 30em;
   }
+
+  #multi-overlay1 {
+  height: 30em;
+  width:50%;
+  z-index: 1;
+  margin-left: 25em;
+  position: absolute;
+  background-color: #525B5C;
+  opacity: .5;
+}
+
 .Welcome {
   height:30em;
-  width:50%;
+  background-color: #525B5C;
+  z-index: 3;
 }
-.SP {
 
+#multi-overlay2 {
+  height: 30em;
+  width:50%;
+  z-index: 2;
+  margin-left: 27em;
+  position: absolute;
+  background-color: #525B5C;
+  opacity: .5;  
 }
+
+@media screen and (min-width: 1024px) {
+    .title {
+    font-size: 1.1em;
+    text-align: left;
+    margin-top: 2.5em;
+    margin-left: 2.5em;
+  }
+  .nav {
+    font-size: 1.1em;
+    text-align: left;
+    margin-left: 2.6em;
+  }
+  .top-icons {
+    margin-top: 1.7em;
+    margin-left: -2.5em;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .title {
+    font-size: 1.1em;
+    margin-top: 2.5em;
+    margin-bottom: 0;
+  }
+  .nav {
+    font-size: 1.1em;
+    margin-left: 2.6em;
+  }
+  .top-icons {
+    margin-top: 1.7em;
+    margin-right: -6em;
+  }
+}
+
+
 
