@@ -145,15 +145,21 @@ i {
 
 .Bottom {
   height: 30em;
+  background-color: #525B5C;
 }
 
 .Me {
   background: url("../Images/Me/SP.jpg") 35%;
-  background-size: 100%;
+  background-size: contain;
+  background-position: center 3em;
+  background-repeat: no-repeat;
+  background-color: #525B5C;
   height: 30em;
+  max-height: 30em;
+  margin-top: 5em;
   }
 
-  #multi-overlay1 {
+  /*#multi-overlay1 {
   height: 30em;
   width:50%;
   z-index: 1;
@@ -161,7 +167,7 @@ i {
   position: absolute;
   background-color: #525B5C;
   opacity: .5;
-}
+}*/
 
 .Welcome {
   height:30em;
@@ -169,17 +175,74 @@ i {
   z-index: 3;
 }
 
-#multi-overlay2 {
+/*#multi-overlay2 {
   height: 30em;
-  width:50%;
   z-index: 2;
   margin-left: 27em;
   position: absolute;
   background-color: #525B5C;
   opacity: .5;  
+}*/
+.Hi {
+  color: #00E7FF;
+  font-family: Comfortaa, arial, helvetica;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 1em;
+  padding-left: 2%;
 }
-
-@media screen and (min-width: 1024px) {
+.Intro {
+    color: #eaeaea;
+    font-size: 1.1em;
+    margin-right: 2em;
+    padding: 2%;
+   } 
+@media screen and (min-width: 320px) and (max-width:480px) {
+  .Me {
+    height: 20em;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .Welcome {
+    height: 25em;
+    padding: 1.7em;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 461px) and (max-width:640px) {
+  .Me {
+    height: 20em;
+    background-size: contain;
+    background-position: center 3em;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .Welcome {
+    height: 22em;
+    padding: 2em 3em 3em 3em;
+  }
+} 
+@media screen and (min-width: 641px) and (max-width: 900px) {
+    .Me {
+      background-position: left fixed;
+      margin-top: 0;
+    }
+    .Intro {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+}
+@media screen and (min-width: 901px) {
+  .Me {
+    margin-top: 0;
+  }
+  .Welcome {
+    padding: 5em 7em 3em 3em;
+  }
+}
+@media screen and (min-width: 1025px) {
     .title {
     font-size: 1.1em;
     text-align: left;
@@ -210,6 +273,20 @@ i {
     margin-top: 1.7em;
     margin-right: -6em;
   }
+}
+
+.Button {
+  font-family: comfortaa, arial, helvetica;
+  padding: .5em;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 3em;
+  color: #FF7400;
+  border: solid;
+  border-radius: 10px;
+  border-color: #00E7FF; 
+  max-width: 15em;
+  padding: 2%;
 }
 
 
