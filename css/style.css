@@ -1,4 +1,4 @@
-header {
+.BBImage {
   background: url("../Images/Blocbox/BBbackground.png")top center no-repeat;
   text-align: center;
   background-size: cover;
@@ -20,25 +20,24 @@ header {
 }
 .title {
   font-family: Comfortaa, Arial, Helvetica;
-  font-size: 1em;
+  font-size: 1.1em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 2.5em;
+  margin-top: 1.5em;
   margin-bottom: .5em;
-  color: #ffffff;
-  letter-spacing: .15em;
+  color: #ccc;
+  letter-spacing: .1em;
 }
 .nav {
-  margin-bottom: .4em;
+  margin-bottom: .5em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: .8em;
   text-align: center;
   letter-spacing: .02em;
 }
 .nav a {
-  color: #cccccc;
+  color: #fff;
 }
 .nav li a:hover {
   color: #FF7400;
@@ -47,15 +46,16 @@ header {
   border-bottom: 2px solid #00E7FF ;
 }
 .nav li {
-  font-family: Comfortaa;
+  font-family: 'Comfortaa', sans-serif;
   font-size: .8em;
   text-decoration: none;
   text-align: left;
   list-style: none;
   display: inline-block;
+  margin-top: 1.7em;
   margin-right: 25px;
-  padding-bottom: .2em;
 }
+
 .top-icons {
   text-align: center;
 }
@@ -65,7 +65,7 @@ header {
   list-style: none;
   display: inline-block;
   margin-right: 25px;
-  margin-top: -1.7em;
+  margin-top: -2em;
 }
 
 i {
@@ -99,6 +99,36 @@ i:hover {
   width: 100%;
   max-width: 250px;
   }
+.BBproject {
+  background: url(../Images/Blocbox/BlocboxBG.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  height: 50em;
+}  
+
+.Box2 {
+  margin-top: 24em;
+  max-width: 250px;
+}  
+
+.BBslogan {
+  font-size: 1em;
+  letter-spacing: .2em;
+  font-family: "Roboto Slab", serif;
+  color: #525B5C;
+}
+
+.tools {
+  margin-top: 11em;
+  width: 100%;
+}
+
+.projectTools {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1.2em;
+  color: #525B5C;
+}
 
 #CP {
   background: url("../Images/ClearPlate/CPMobileDisplay.png") center 5% no-repeat;
