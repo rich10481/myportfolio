@@ -10,7 +10,7 @@ h2 {
   font-family: 'Comfortaa', sans-serif;
   font-size: 1.4em;
   text-align: center;
-  margin-top: 1em;
+  /*margin-top: 1em;*/
   letter-spacing: .02em;
 }
 
@@ -44,7 +44,7 @@ p {
   text-align: center;
   margin-top: 1.5em;
   margin-bottom: .5em;
-  color: #ccc;
+  color: #fff;
   letter-spacing: .1em;
 }
 .nav {
@@ -141,7 +141,7 @@ i:hover {
 }
 
 .tools {
-  margin-top: 11em;
+  padding-top: 11em;
   width: 100%;
 }
 
@@ -151,25 +151,31 @@ i:hover {
   color: #525B5C;
 }
 
-.BBResearch {
+.DarkGray {
   background-color: #525B5C;
   text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 .hyperlink {
   color: #00E7FF;
 }
 
+.hyperlinkOrange {
+  color: #FF7400;
+}
+
 .blue {
   color: #00E7FF;
-  margin: 0;
-  padding-top: 1em;
+  padding-top: 1.5em;
+  padding-bottom: .5em;
 }
 
 .pBB {
   color: #fff;
-  padding-bottom: 2em;
-  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 .Background {
@@ -180,20 +186,21 @@ i:hover {
 
 
 #BBResearchDocs {
-  margin-top: 1em;
-  margin-bottom: 2em;
-  max-width: 70%;
+  margin-bottom: -1.5em
 
+  
 }
 
 .BBResearch2 {
     background-color: #525B5C;
-    padding: 0 0 4em 0;
+    padding: 0 0 3em 0;
     text-align: center;
 }
 
 #UPimg {
-  max-width: 70%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
 }
 
 
@@ -203,45 +210,37 @@ i:hover {
   text-align: center;
 }
 
-.Branding {
+.BrightBlue {
+  background-color: #00E7FF;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.BottomDiv {
   background-color: #00E7FF;
   margin-top: -1.4em;
-  text-align: center;
-  padding-bottom: 3em;
+  padding-bottom: 5em;
 }
+
 
 .gray {
   color: #525B5c;
-  padding-top: 1em;
+  padding-top: 1.5em;
+  padding-bottom: .5em;
 }
 
 .pGray {
   color: #525B5c;
-  padding: 2em 0 2em 0;
+  padding: 1em 0 1em 0;
 }
 
 
 #CAimg {
   max-width: 80%;
-}
-
-#BBsketches {
-  max-width: 70%;
-}
-
-#BBLogo1 {
-  max-width: 70%;
-}
-
-#BBLogo2 {
-  max-width: 70%;
-}
-
-#BBFont {
-  max-width: 60%;
-  border: 15px solid;
-  border-bottom: 7px solid;
-  border-color: #fff;
+  border: .2em solid;
+  border-color: #525B5C;
+  margin-bottom: 1.5em;
 }
 
 .BBUserFlows {
@@ -250,9 +249,153 @@ i:hover {
   padding: 2em;
 }
 
-#BBUFimg {
-  max-width: 70%;
+#BBsketches {
+  margin-bottom: 2em;
+  border-top: .2em solid;
+  border-bottom: .2em solid;
+  border-color: #525B5C;
 }
+
+#BBLogo1 {
+  border-top: .2em solid;
+  border-bottom: .2em solid;
+  border-color: #525B5C;
+  margin-bottom: 2em;
+}
+
+#BBLogo2 {
+  border-top: .2em solid;
+  border-bottom: .2em solid;
+  border-color: #525B5C;
+  margin-bottom: 2em;
+}
+
+#BBFont {
+  border-top: .2em solid;
+  border-bottom: .2em solid;
+  border-color: #525B5C;
+  margin-bottom: 2em;
+}
+
+
+
+#BBUFimg {
+  border-top: .2em solid;
+  border-bottom: .2em solid;
+  border-color: #525B5C;
+  margin-bottom: 1.5em;
+}
+
+.LightGray {
+  text-align: center;
+  background-color: #76898A;
+  padding-top: 1em;
+  padding-bottom: 2em;}
+
+#BBBalsamiqWF {
+  max-width: 70%;
+  border: .2em solid;
+  border-color: #525B5c;
+  margin-bottom: 2em;
+}
+
+#BBBlackWhiteWF {
+  max-width: 70%;
+  border: .2em solid;
+  border-color: #525B5c;
+  margin-bottom: 2em;
+}
+
+#BBColorWF {
+  max-width: 70%;
+  border: .2em solid;
+  border-color: #525B5c;
+  margin-bottom: 2em;
+}
+
+.Code {
+  background-color: #00E7FF;
+  text-align: center;
+  margin-top: -1.4em;
+  padding-bottom: 2em;
+}
+
+#BBCode {
+  max-width: 70%;
+  border: .2em solid;
+  border-color: #525B5c;
+}
+
+.PCBG {
+  background: url("../Images/PAYCRAVE/PCBG.png") center no-repeat;
+  background-size: cover;
+}
+
+.PCOverlay {
+  background: linear-gradient(180deg, #525B5c, 50%, #00E7FF 90%);
+  height: 100%;
+  opacity: .7;
+}
+
+#PCimg {
+  margin-top: -25%;
+  position: absolute;
+}
+
+#PCListView {
+  width: 20%;
+}
+
+#PCListView2 {
+  width: 20%;
+}
+
+#PCDetailView1 {
+  width: 20%;
+}
+
+#PCDetailView2 {
+  width: 20%;
+}
+
+#PCMenu1 {
+  width: 20%;
+}
+
+#PCMenu2 {
+  width: 20%;
+}
+
+.projectsFooter {
+  position: fixed;
+  height: 5em;
+  width: 100%;
+  opacity: .9;
+  bottom: 0;
+  background: linear-gradient(20deg, #525B5C, 25%, #fff 75%);
+
+}
+
+#CPGoTo {
+  height: 70px;
+  width: 190px;
+  padding-right: 1.5em;
+  float: right;
+}
+
+#BBGoTo {
+  height: 60px;
+  width: 170px;
+  float: left;
+  padding-top: 1em;
+  padding-left: 1.5em;
+}
+
+.PCHeading {
+  margin-left: 3%;
+}
+
+
 
 #CP {
   background: url("../Images/ClearPlate/CPMobileDisplay.png") center 5% no-repeat;
@@ -285,11 +428,13 @@ i:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
 #Paycrave {
   background: url("../Images/PAYCRAVE/PAYCRAVE_IPHONE6.png") center no-repeat;
   height: 30em;
   background-size: 65em;
 }
+
 #overlay3 {
   height: 30em;
   width: 100%;
@@ -297,6 +442,27 @@ i:hover {
   background: #ffffff;
   opacity:.9;
 }
+
+#PCCA {
+  border: .2em solid;
+  border-color: #333;
+}
+
+#PCWireframes {
+  border: .2em solid;
+  border-color: #333;
+  margin-bottom: 1em;
+
+}
+
+#PCDraftLogo {
+}
+
+#PCFinalLogo {
+}
+
+
+
 
 .PClogo {
   margin: 14em auto .5em auto;
@@ -340,6 +506,7 @@ i:hover {
   margin-top: 0;
   padding-left: 2%;
 }
+
 .Intro {
     color: #eaeaea;
     font-family: Museo Slab, Helvetica, sans-serif;
@@ -380,9 +547,41 @@ i:hover {
   }
 
   .pGray {
-    padding: 1em 0 1em 0;
+    padding: 1em 0 2em 0;
+  }
+
+  .PCBG {
+    height: 33em;
+  }
+
+  .PCHeading {
+    width: 75%
+  }
+
+  #PCCA {
+    border-left: none;
+    border-right: none;
+  }
+
+  #PCDraftLogo {
+    width: 40%;
+  }
+
+  #PCFinalLogo {
+    width: 40%;
+  }
+
+  #PCSketch1 {
+    border-left: none;
+    border-right: none;
+  }
+
+  #PCSketch2 {
+    border-left: none;
+    border-right: none;
   }
 }
+
 @media screen and (min-width: 461px) and (max-width:640px) {
   .Me {
     height: 20em;
@@ -395,7 +594,48 @@ i:hover {
     height: 25em;
     padding: 2em 3em 3em 3em;
   }
+
+  .PCBG {
+    height: 35em;
+  }
+
+  .PCHeading {
+    width: 75%
+  }
+
+  #PCDraftLogo {
+    width: 40%;
+  }
+
+  #PCFinalLogo {
+    width: 40%;
+  }
+
+  #BBLogo1 {
+    width: 60%;
+    border: .2em solid;
+    border-color: #525B5C;
+  }
+
+  #BBLogo2 {
+    width: 60%;
+    border: .2em solid;
+    border-color: #525B5C;
+  }
+
+  #BBFont {
+    width: 60%;
+    border: .2em solid;
+    border-color: #525B5C;
+  }
+
+  #BBUFimg {
+    width: 70%;
+    border: .2em solid;
+    border-color: #525B5C;
+  }
 } 
+
 @media screen and (min-width: 641px) and (max-width: 899px) {
     .Me {
       background-position: left fixed;
@@ -413,7 +653,65 @@ i:hover {
       margin-top: 1em;
       margin-bottom: 1em;
     }
-}
+
+    #BBResearchDocs {
+      max-width: 60%;
+    }
+
+    #BBsketches {
+    width: 70%;  
+    border: .2em solid;
+    border-color: #525B5C;
+    }
+
+    #BBLogo1 {
+      width: 70%;
+      border: .2em solid;
+      border-color: #525B5C;
+      margin-bottom: 2em;
+    }
+
+    #BBLogo2 {
+      width: 70%;
+      border: .2em solid;
+      border-color: #525B5C;
+      margin-bottom: 2em;
+    }
+
+    #BBFont {
+      width: 70%;
+      border: .2em solid;
+      border-color: #525B5C;
+      margin-bottom: 2em;
+    }
+
+    #UPimg {
+      max-width: 60%;
+    }
+
+    #BBUFimg {
+      width: 70%;
+      border: .2em solid;
+      border-color: #525B5C;
+    }
+
+    .PCBG {
+    height: 35em;
+    }
+
+    .PCHeading {
+      width: 50%;
+    }
+
+    #PCDraftLogo {
+      width: 30%;
+    }
+
+    #PCFinalLogo {
+      width: 30%;
+    }
+  }
+
 @media screen and (min-width: 900px) {
   .Me {
     margin: 0;
@@ -423,6 +721,76 @@ i:hover {
   }
   .Welcome {
     padding: 3em 7em 3em 3em;
+  }
+
+  .PCBG {
+    height: 37em;
+  }
+
+  .PCHeading {
+    width: 50%;
+  }
+
+  #BBResearchDocs {
+      max-width: 60%;
+    }
+
+  #UPimg {
+    max-width: 60%;
+  }
+
+  #BBUFimg {
+      width: 70%;
+      border: .2em solid;
+      border-color: #525B5C;
+    }
+
+  #BBsketches {
+  width: 70%;  
+  border: .2em solid;
+  border-color: #525B5C;
+  }
+
+  #BBLogo1 {
+      width: 70%;
+      border: .2em solid;
+      border-color: #525B5C;
+      margin-bottom: 2em;
+    }
+
+  #BBLogo2 {
+    width: 70%;
+    border: .2em solid;
+    border-color: #525B5C;
+    margin-bottom: 2em;
+  }
+
+  #BBFont {
+    width: 70%;
+    border: .2em solid;
+    border-color: #525B5C;
+  }
+
+
+  #PCDraftLogo {
+    width: 25%;
+  }
+
+  #PCFinalLogo {
+    width: 25%;
+  }
+
+  #PCWireframes {
+    max-width: 70%;
+  }
+
+  #PCCA {
+    max-width: 70%;
+    margin-bottom: 3em;
+  }
+
+  .container {
+    max-width: 70%;
   }
 }
 
@@ -445,6 +813,71 @@ i:hover {
   .top-icons {
     margin-top: 1.7em;
     margin-left: -2.5em;
+  }
+
+  #BBResearchDocs {
+      max-width: 60%;
+    }
+
+  #UPimg {
+      max-width: 60%;
+    }
+
+  #BBUFimg {
+    width: 70%;
+    border: .2em solid;
+  border-color: #525B5C;
+  }
+
+  #BBsketches {
+  width: 70%;  
+  border: .2em solid;
+  border-color: #525B5C;
+  }
+
+  #BBLogo1 {
+      width: 70%;
+      border: .2em solid;
+      border-color: #525B5C;
+      margin-bottom: 2em;
+    }
+
+  #BBLogo2 {
+    width: 70%;
+    border: .2em solid;
+    border-color: #525B5C;
+    margin-bottom: 2em;
+  }
+
+  #BBFont {
+    width: 70%;
+    border: .2em solid;
+    border-color: #525B5C;
+    margin-bottom: 2em;
+  }
+
+
+  .PCBG {
+    height: 40em;
+  }
+
+  .PCHeading {
+    max-width: 40%;
+    margin-left: 7%;
+  }
+
+  #PCWireframes {
+    max-width: 70%;
+  }
+
+  #PCCA {
+    max-width: 70%;
+    margin-bottom: 3em;
+
+  }
+
+  .container {
+    max-width: 70%;
   }
 }
 
@@ -480,10 +913,73 @@ i:hover {
     text-align: center;
   }
 
+  #BBResearchDocs {
+    max-width: 50%;
+  }
+
+  #UPimg {
+      max-width: 50%;
+    }
+
+  #CAimg {
+    max-width: 60%;
+  }
+
   #BBsketches {
-    border-left: 7em solid;
-    border-right: 7em solid;
-    border-color: #00E7FF;
+    width: 50%;
+    border: .2em solid;
+    border-color: #525B5C;
+    margin-bottom: 2em;
+
+  }
+
+  #BBLogo1 {
+    width: 40%;
+    border: .2em solid;
+    border-color: #525B5C;
+    margin-bottom: 2em;
+    }
+
+  #BBLogo2 {
+    width: 40%;
+    border: .2em solid;
+    border-color: #525B5C;
+    margin-bottom: 2em;
+  }
+
+  #BBFont {
+    width: 50%;
+    border: .2em solid;
+    border-color: #525B5C;
+    margin-bottom: 2em;
+  }
+
+  #BBUFimg{
+    width: 50%;
+    border: .2em solid;
+    border-color: #525B5C;
+    margin-bottom: 2em;
+  }
+
+  .PCBG {
+    height: 45em;
+  }
+
+  .PCHeading {
+    max-width: 40%;
+    margin-left: 7%;
+  }
+
+ #PCWireframes {
+    max-width: 50%;
+  }
+
+  #PCCA {
+    max-width: 50%;
+  }
+
+  .container {
+    max-width: 50%;
   }
 }
 
