@@ -221,6 +221,7 @@ i:hover {
   background-color: #00E7FF;
   margin-top: -1.4em;
   padding-bottom: 5em;
+  text-align: center;
 }
 
 
@@ -366,29 +367,26 @@ i:hover {
   width: 20%;
 }
 
-.projectsFooter {
-  position: fixed;
-  height: 5em;
-  width: 100%;
-  opacity: .9;
-  bottom: 0;
-  background: linear-gradient(20deg, #525B5C, 25%, #fff 75%);
+.GoTo {
+  background: #76898A;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-color: #525b5c;
+}
 
+#ViewProjects {
+  color: #00E7FF;
 }
 
 #CPGoTo {
-  height: 70px;
-  width: 190px;
-  padding-right: 1.5em;
-  float: right;
+ 
 }
 
 #BBGoTo {
-  height: 60px;
-  width: 170px;
-  float: left;
-  padding-top: 1em;
-  padding-left: 1.5em;
+ 
+}
+
+#PCGoTo {
 }
 
 .PCHeading {
@@ -580,6 +578,34 @@ i:hover {
     border-left: none;
     border-right: none;
   }
+
+  .GoTo {
+    text-align: center;
+  }
+
+  #ViewProjects {
+    margin: 0;
+    padding-top: 3%;
+  }
+
+  .center-GoTo {
+    padding-top: 3%;
+  }
+
+  #BBGoTo {
+     width: 45%;
+     padding-top: 5%;
+  }
+
+  #PCGoTo {
+    width: 50%;
+    padding-top: 5%;
+  }
+
+  #CPGoTo {
+    width: 50%;
+    padding-bottom: 3%;
+  }
 }
 
 @media screen and (min-width: 461px) and (max-width:640px) {
@@ -633,6 +659,30 @@ i:hover {
     width: 70%;
     border: .2em solid;
     border-color: #525B5C;
+  }
+
+  .GoTo {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .center-GoTo {
+    padding-top: 3%;
+  }
+
+  #BBGoTo {
+     width: 30%;
+     padding-top: 5%;
+  }
+
+  #PCGoTo {
+    width: 35%;
+    padding-top: 5%;
+  }
+
+  #CPGoTo {
+    width: 35%;
+    padding-bottom: 3%;
   }
 } 
 
@@ -710,7 +760,34 @@ i:hover {
     #PCFinalLogo {
       width: 30%;
     }
+
+    .GoTo {
+    text-align: center;
   }
+
+  .center-GoTo {
+    padding-top: 3%;
+  }
+
+   #ViewProjects {
+    font-size: 2em;
+  }
+
+  #BBGoTo {
+     width: 25%;
+     padding-top: 5%;
+  }
+
+  #PCGoTo {
+    width: 30%;
+    padding-top: 5%;
+  }
+
+  #CPGoTo {
+    width: 30%;
+    padding-bottom: 3%;
+  }
+}
 
 @media screen and (min-width: 900px) {
   .Me {
@@ -771,6 +848,51 @@ i:hover {
     border-color: #525B5C;
   }
 
+  .GoTo {
+    height: 100px;
+  }
+
+  .left-GoTo {
+    width: 20%;
+    float: left;
+    display: inline-block;
+    padding-top: 2.7%;
+  }
+
+  .right-GoTo {
+    width: 20%;
+    float: right;
+    display: inline-block;
+    padding-top: 1.5%;
+  }
+
+  .center-GoTo {
+    width: 60%;
+    display: inline-block;
+    padding-top: 3.2%;    
+    }
+
+
+  #ViewProjects {
+    margin: 0;
+    padding: 0;
+  }
+
+  #BBGoTo {
+     width: 70%;
+     margin-left: 4em;
+     padding: 0;
+  }
+
+  #PCGoTo {
+       width: 70%;
+       margin-left: 4em;
+       padding: 0;
+  }
+
+  #CPGoTo {
+    width: 70%;
+  }
 
   #PCDraftLogo {
     width: 25%;
@@ -879,6 +1001,36 @@ i:hover {
   .container {
     max-width: 70%;
   }
+
+  .GoTo {
+    height: 100px;
+  }
+
+  .left-GoTo {
+    width: 20%;
+    float: left;
+    display: inline-block;
+    padding-top: 2.7%;
+  }
+
+  .right-GoTo {
+    width: 20%;
+    float: right;
+    display: inline-block;
+    padding-top: 1.5%;
+  }
+
+  .center-GoTo {
+    width: 60%;
+    display: inline-block;
+    padding-top: 3.2%;    
+    }
+
+
+  #ViewProjects {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -980,6 +1132,51 @@ i:hover {
 
   .container {
     max-width: 50%;
+  }
+
+  .GoTo {
+    height: 100px;
+  }
+
+  .left-GoTo {
+    width: 20%;
+    float: left;
+    display: inline-block;
+    padding-top: 1.7%;
+  }
+
+  .right-GoTo {
+    width: 20%;
+    float: right;
+    display: inline-block;
+    padding-top: .5%;
+  }
+
+  .center-GoTo {
+    width: 60%;
+    display: inline-block;
+    padding-top: 2.6%;    
+    }
+
+  #ViewProjects {
+    margin: 0;
+    padding: 0;
+  }
+
+  #BBGoTo {
+     width: 60%;
+     margin-left: 4em;
+     padding: 0;
+  }
+
+  #PCGoTo {
+       width: 70%;
+       margin-left: 4em;
+       padding: 0;
+  }
+
+  #CPGoTo {
+    width: 70%;
   }
 }
 
