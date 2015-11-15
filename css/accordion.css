@@ -1,0 +1,41 @@
+.tab-group {
+}
+
+.tab {
+  position: relative;
+  width: 80%;
+
+}
+
+.tab input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -999;
+  opacity: 0;
+
+}
+
+.tab label {
+  color: #FF7400;
+  display: block;
+  font-family: "Comfortaa", sans-serif;
+  letter-spacing: .1em;
+  font-size: 2.4em;
+
+}
+
+.tab-content {
+  max-height: 0;
+  overflow: auto;
+  transition: all .35s;
+}
+
+.tab-content p {
+  margin: 1em 0;
+}
+
+.tab input:checked ~ .tab-content {
+    max-height: 15em;
+  }
+

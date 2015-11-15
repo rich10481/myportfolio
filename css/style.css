@@ -338,6 +338,23 @@ i:hover {
   opacity: .7;
 }
 
+.CPBG {
+  background: url("../Images/ClearPlate/CPBG.png") center no-repeat;
+  background-size: cover;
+}
+
+.CPOverlay {
+  background: linear-gradient(180deg, #525B5c, 50%, #00E7FF 90%);
+  height: 100%;
+  opacity: .7;
+}
+
+#CPimg {
+  width: 100%;
+  margin-top: -35%;
+  position: absolute;
+}
+
 #PCimg {
   margin-top: -25%;
   position: absolute;
@@ -513,6 +530,17 @@ i:hover {
     margin-left: 0;
     padding: 2%;
    } 
+
+.Quote {
+  background: linear-gradient(rgba(255,255,255,.7), #00E7FF);
+  position: absolute;
+}
+
+.Orange {
+  color: #525B5C;
+}
+
+  
 @media screen and (min-width: 320px) and (max-width:460px) {
   .Me {
     height: 30em;
@@ -602,10 +630,56 @@ i:hover {
     padding-top: 5%;
   }
 
+  #PCGoTo2 {
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
   #CPGoTo {
     width: 50%;
     padding-bottom: 3%;
   }
+
+  #CPimg {
+    margin-top: -35%;
+      }
+
+  .CPBG {
+    height: 40em;
+  }    
+
+  .CPHeading {
+    width: 75%;
+    margin-left: 5%;
+  }
+
+  .Docs {
+    width: 90%;
+  }
+
+  .Main {
+    text-align: center;
+  }
+
+  .Maton {
+    width: 200px;
+    padding-top: 9em;
+    margin-left: 4.5em;
+  }
+
+  .Quote {
+    padding: 2em;
+    height: 12em;
+  }
+  .Orange {
+    font-size: 18px;
+  }
+
+  .tab-group {
+    margin-left: 17%;
+    }
 }
 
 @media screen and (min-width: 461px) and (max-width:640px) {
@@ -680,10 +754,58 @@ i:hover {
     padding-top: 5%;
   }
 
+  #PCGoTo2 {
+    width: 35%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
   #CPGoTo {
     width: 35%;
     padding-bottom: 3%;
   }
+
+  .CPBG {
+    height: 40em;
+  }    
+
+  #CPimg {
+    margin-top: -30%;
+      }
+
+  .CPHeading {
+    width: 65%;
+    margin-left: 5%;
+  }
+
+   .Docs {
+    width: 85%;
+  }
+
+  .Main {
+    text-align: center;
+  }
+
+  .Maton {
+    width: 200px;
+    padding-top: 9em;
+    margin-left: 4.5em;
+  }
+
+  .Quote {
+    padding: 2em;
+    height: 11em;
+
+  }
+  .Orange {
+    font-size: 18px;
+    margin-top: 1.5em;
+  }
+
+  .tab-group {
+    margin-left: 17%;
+    }
 } 
 
 @media screen and (min-width: 641px) and (max-width: 899px) {
@@ -783,9 +905,62 @@ i:hover {
     padding-top: 5%;
   }
 
+  #PCGoTo2 {
+    width: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
   #CPGoTo {
     width: 30%;
     padding-bottom: 3%;
+  }
+
+  .CPBG {
+    height: 42em;
+  }    
+
+  #CPimg {
+    margin-top: -22%;
+      }
+
+  .CPHeading {
+    width: 50%;
+    margin-left: 5%;
+  }
+
+   .Docs {
+    width: 75%;
+  }
+
+   .Main {
+    width: 40%;
+    text-align: left;
+
+  }
+
+  .Maton {
+    width: 400px;
+    padding-top: 7em;
+    margin-left: 1.5em;
+  }
+
+  .Quote {
+    padding: 3em;
+    height: 10em;
+    bottom: 0;
+  }
+  .Orange {
+    font-size: 18px;
+    margin-top: 1em;
+  }
+
+  .tab-group {
+    width: 170%;
+    margin-left: 90%;
+    margin-top: -110%;
+
   }
 }
 
@@ -890,6 +1065,13 @@ i:hover {
        padding: 0;
   }
 
+  #PCGoTo2 {
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
   #CPGoTo {
     width: 70%;
   }
@@ -913,6 +1095,51 @@ i:hover {
 
   .container {
     max-width: 70%;
+  }
+
+  .CPBG {
+    height: 42em;
+  }    
+
+  #CPimg {
+    margin-top: -20%;
+      }
+
+  .CPHeading {
+    width: 50%;
+    margin-left: 5%;
+  }
+
+  .Docs {
+    width: 70%;
+  }
+
+  .Main {
+    width: 40%;
+    text-align: left;
+
+  }
+
+  .Maton {
+    width: 400px;
+    padding-top: 5em;
+    margin-left: 1.5em;
+  }
+
+  .Quote {
+    padding: 3em;
+    height: 10em;
+    bottom: 0;
+  }
+  .Orange {
+    font-size: 18px;
+    margin-top: 1em;
+  }
+
+  .tab-group {
+    width: 170%;
+    margin-left: 90%;
+    margin-top: -110%;
   }
 }
 
@@ -1030,6 +1257,57 @@ i:hover {
   #ViewProjects {
     margin: 0;
     padding: 0;
+  }
+
+  .CPBG {
+    height: 44em;
+  }    
+
+  #CPimg {
+    margin-top: -20%;
+      }
+
+  .CPHeading {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  .Docs {
+    width: 70%;
+  }
+
+     .Main {
+    width: 40%;
+    text-align: left;
+
+  }
+
+  .Main {
+    width: 40%;
+    text-align: left;
+
+  }
+
+  .Maton {
+    width: 350px;
+    padding-top: 5em;
+    margin-left: 1.5em;
+  }
+
+  .Quote {
+    padding: 3em 6em;
+    height: 10em;
+  }
+  .Orange {
+    font-size: 18px;
+    margin-top: 1em;
+  }
+
+  .tab-group {
+    width: 180%;
+    margin-left: 80%;
+    margin-top: -25em;
+
   }
 }
 
@@ -1175,8 +1453,49 @@ i:hover {
        padding: 0;
   }
 
+  #PCGoTo2 {
+    width: 70%;
+    margin-right: 4em;
+    padding-top: 5%;
+  }
+
   #CPGoTo {
     width: 70%;
+  }
+
+  .CPBG {
+    height: 45em;
+  }  
+
+  .Docs {
+    width: 60%;
+  }  
+
+ .Main {
+    width: 40%;
+    text-align: left;
+
+  }
+
+  .Maton {
+    width: 350px;
+    padding-top: 5em;
+    margin-left: 3.5em;
+  }
+
+  .Quote {
+    padding: 3em 7em;
+    height: 10em;
+  }
+  .Orange {
+    font-size: 18px;
+    margin-top: 1em;
+  }
+
+  .tab-group {
+    width: 180%;
+    margin-left: 80%;
+    margin-top: -25em;
   }
 }
 
@@ -1227,6 +1546,39 @@ i:hover {
   transition-timing-function: ease-out;
 }
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+.hvr-underline-from-center2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #00E7FF;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center2:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
 }
