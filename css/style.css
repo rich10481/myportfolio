@@ -1,10 +1,4 @@
-.BBImage {
-  background: url("../Images/Blocbox/BBbackground.png")top center no-repeat;
-  text-align: center;
-  background-size: cover;
-  height: 40em;
-  top:0;
-}
+
 
 h2 {
   font-family: 'Comfortaa', sans-serif;
@@ -15,7 +9,7 @@ h2 {
 }
 
 p {
-  font-family: 'Museo Slab', serif;
+  font-family: 'Museo Slab', Helvetica, sans-serif;
   font-size: 1em;
   text-align: justify;
   letter-spacing: .03em;
@@ -36,6 +30,7 @@ p {
   border-color: #00E7FF;
   box-shadow: 0 2px 20px 5px;
 }
+
 .title {
   font-family: Comfortaa, Arial, Helvetica;
   font-size: 1.1em;
@@ -109,8 +104,19 @@ i:hover {
 
 }
 
+.textbox {
+  background-color: #525b5c;
+  opacity: .45;
+  -webkit-filter: blur(10px);
+  height: 20em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 10em;
+}
+
 .Box {
-  margin-top: 21.5em;
+  margin-top: 16em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: .5em;
@@ -131,24 +137,16 @@ i:hover {
   max-width: 250px;
 }  
 
-.BBslogan {
-  margin-top: .5em;
-  text-align: center;
-  font-size: 1em;
-  letter-spacing: .2em;
-  font-family: "Roboto Slab", serif;
-  color: #525B5C;
-}
 
 .tools {
-  padding-top: 11em;
+  padding-top: 15em;
   width: 100%;
 }
 
 .projectTools {
   font-family: 'Comfortaa', sans-serif;
   font-size: 1em;
-  color: #525B5C;
+  color: #FFF;
 }
 
 .DarkGray {
@@ -410,8 +408,6 @@ i:hover {
   margin-left: 3%;
 }
 
-
-
 #CP {
   background: url("../Images/ClearPlate/CPMobileDisplay.png") center 5% no-repeat;
   height: 30em;
@@ -492,43 +488,28 @@ i:hover {
   background-color: #525B5C;
 }
 
-.Me {
-  background: url("../Images/Me/SP.jpg") 35%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #525B5C;
-  height: 30em;
-  max-height: 30em;
-  margin-top: 5em;
-  }
-
-
 .Welcome {
-  height:30em;
-  background-color: #525B5C;
-  z-index: 3;
+  background-image: url("../Images/Me/RICH-7.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+  width: 100%;
+  height: 80%;
+}
+
+.BB {
+  background: url("../Images/Blocbox/BBbackground.png") center no-repeat;
+  text-align: center;
+  background-size: cover;
+  height: 40em;
+  width: 100%;
 }
 
 
-.Hi {
-  color: #00E7FF;
-  text-align: left;
-  font-family: Comfortaa, arial, helvetica;
-  font-size: 2em;
-  font-weight: 600;
-  letter-spacing: 2px;
-  margin-top: 0;
-  padding-left: 2%;
-}
 
 .Intro {
-    color: #eaeaea;
-    font-family: Museo Slab, Helvetica, sans-serif;
-    font-size: 1.1em;
-    margin-right: 2em;
-    margin-left: 0;
-    padding: 2%;
+    color: #fff;
+    position: relative;
+    text-shadow: 1px 1px #333;
    } 
 
 .Quote {
@@ -549,18 +530,24 @@ i:hover {
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
+
   .Welcome {
-    height: 25em;
-    padding: 1.7em;
-    text-align: left;
+    top: 10em;
+    width: 100%;
   }
 
   .Intro {
-    font-size: 1em;
+    font-size: .9em;
+    top: 13em;
+    left: 0;
+    right: 0;
   }
 
   .Button {
     font-size: 1em;
+    position: relative;
+    top: 11em;
+    left: 1.5em;
   }
 
   .BBslogan {
@@ -691,8 +678,26 @@ i:hover {
     background-repeat: no-repeat;
   }
   .Welcome {
-    height: 25em;
-    padding: 2em 3em 3em 3em;
+    top: 10em;
+    width: 100%;
+  }
+
+  .Intro {
+    font-size: .9em;
+    top: 15em;
+    left: 0;
+    right: 0;
+  }
+
+  .Button {
+    font-size: 1em;
+    position: relative;
+    top: 13em;
+    left: 1.5em;
+  }
+
+  .textbox {
+    bottom: 6em;
   }
 
   .PCBG {
@@ -817,14 +822,31 @@ i:hover {
       border-left: 30px solid;
       border-color:  #525B5C;
     }
-    .Welcome {
-      padding: 3em;
-    }
-    
-    .Intro {
-      margin-top: 1em;
-      margin-bottom: 1em;
-    }
+  
+  .Welcome {
+     top: 10em;
+     width: 100%;
+     bakground-repeat: none;
+     background-position:20% 20%;
+  }
+
+  .Intro {
+    font-size: .9em;
+    top: 17em;
+    left: 0;
+    right: 0;
+  }
+
+  .Button {
+    font-size: 1em;
+    position: relative;
+    top: 15em;
+    left: 2.5em;
+  }
+
+  .textbox {
+    bottom: 4em;
+  }
 
     #BBResearchDocs {
       max-width: 60%;
@@ -971,9 +993,33 @@ i:hover {
     border: 40px solid;
     border-color:  #525B5C;
   }
+  
   .Welcome {
-    padding: 3em 7em 3em 3em;
+     height: 90%;
+     top: 10em;
+     width: 100%;
+     bakground-repeat: none;
+     background-position:20% 20%;
   }
+
+  .Intro {
+    font-size: 1.1em;
+    top: 17em;
+    left: 0;
+    right: 0;
+  }
+
+  .Button {
+    font-size: 1em;
+    position: relative;
+    top: 19em;
+    left: 3.5em;
+  }
+
+  .textbox {
+    bottom: 5em;
+  }
+
 
   .PCBG {
     height: 37em;
@@ -1144,7 +1190,8 @@ i:hover {
 }
 
 @media screen and (min-width: 1025px) {
-    .title {
+   
+  .title {
     font-size: 1.1em;
     text-align: left;
     margin-top: 2.5em;
@@ -1163,6 +1210,33 @@ i:hover {
     margin-top: 1.7em;
     margin-left: -2.5em;
   }
+
+  .Welcome {
+     height: 90%;
+     top: 10em;
+     width: 100%;
+     bakground-repeat: none;
+     background-position:20% 20%;
+  }
+
+  .Intro {
+    font-size: 1.1em;
+    top: 18.5em;
+    left: 0;
+    right: 0;
+  }
+
+  .Button {
+    font-size: 1em;
+    position: relative;
+    top: 20.5em;
+    left: 4.2em;
+  }
+
+  .textbox {
+    bottom: 3em;
+  }
+
 
   #BBResearchDocs {
       max-width: 60%;
@@ -1326,12 +1400,31 @@ i:hover {
     margin-right: -6em;
   }
 
+  
   .Welcome {
-    padding: 5em 17em 5em 1em;
+     height: 95%;
+     top: 10em;
+     width: 100%;
+     bakground-repeat: none;
+     background-position: ;
   }
 
   .Intro {
-    margin: 1em 7em 2em 0;
+    font-size: 1.1em;
+    top: 21em;
+    left: -11em;
+    margin-right: 0;
+  }
+
+  .Button {
+    font-size: 1em;
+    position: relative;
+    top: 23em;
+    left: .7em;
+  }
+
+  .textbox {
+    bottom: 3em;
   }
 
   p { 
@@ -1497,6 +1590,44 @@ i:hover {
     margin-left: 80%;
     margin-top: -25em;
   }
+}
+
+@media screen and (min-width:1300px) {
+
+    .Welcome {
+     height: 95%;
+     top: 10em;
+     width: 100%;
+     bakground-repeat: none;
+     background-position: 3% 23%;
+  }
+
+  .Intro {
+    font-size: 1.1em;
+    top: 21em;
+    left: -11em;
+    right: 0;
+  }
+
+  .Button {
+    font-size: 1.1em;
+    position: relative;
+    top: 20.5em;
+    left: 2em;
+  }
+
+  .textbox {
+    bottom: 3em;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+   .Button {
+    font-size: 1.1em;
+    position: relative;
+    top: 20.5em;
+    left: 3.25em;
+ }
 }
 
 .Button {
