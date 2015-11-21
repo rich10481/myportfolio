@@ -109,9 +109,7 @@ i:hover {
 }
 
 .textbox {
-  background-color: #525b5c;
-  opacity: .45;
-  -webkit-filter: blur(10px);
+  background-color: rgba(81,91,92,.5);
   height: 20em;
   position: absolute;
   left: 0;
@@ -504,7 +502,8 @@ i:hover {
   background-size: cover;
   background-attachment:fixed;
   width: 100%;
-  height: 80%;
+  position: relative;
+  top: 10em;
 }
 
 .BB {
@@ -544,6 +543,8 @@ i:hover {
   border-color: #00E7FF; 
   max-width: 15em;
   padding: 2%;
+  background-color: #525B5C;
+
 }
 
 .Button:hover {
@@ -651,26 +652,30 @@ i:hover {
   }
 
   .Welcome {
-    top: 10em;
-    width: 100%;
+    height: 80%;
   }
 
   .Intro {
-    font-size: .9em;
-    top: 13em;
-    left: 0;
-    right: 0;
+    font-size: 1em;
+    margin-bottom: 10.5em;
+    top: .5em;
+    width: 85%;
+  }
+
+  .Button {
+    font-size: 1.1em;
+    position: relative;
+    top: -8em;
+    margin-left: 6.5%;
+    padding: 1%;
+  }
+
+  .textbox {
+    bottom: 5em;
   }
 
   .top-icons li {
     padding-top: .3em;
-  }
-
-  .Button {
-    font-size: 1em;
-    position: relative;
-    top: 13em;
-    left: 1.3em;
   }
 
   .Box {
@@ -820,27 +825,28 @@ i:hover {
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
+
   .Welcome {
-    top: 10em;
-    width: 100%;
+    height: 80%;
   }
 
   .Intro {
-    font-size: .9em;
-    top: 15em;
-    left: 0;
-    right: 0;
+    font-size: 1.1em;
+    margin-bottom: 10.5em;
+    top: .5em;
+    width: 85%;
+  }
+
+  .Button {
+    font-size: 1.1em;
+    position: relative;
+    top: -8.7em;
+    margin-left: 6.5%;
+    padding: 1%;
   }
 
   .top-icons li {
     padding-top: .4em;
-  }
-
-  .Button {
-    font-size: 1em;
-    position: relative;
-    top: 15em;
-    left: 2em;
   }
 
   .textbox {
@@ -996,30 +1002,30 @@ i:hover {
     }
   
   .Welcome {
-     top: 10em;
-     width: 100%;
-     bakground-repeat: none;
+     height: 80%;
+     background-repeat: none;
      background-position:20% 20%;
   }
 
  .Intro {
-    font-size: 1em;
-    margin-bottom: 3em;
-    top: 17em;
-    left: 0;
-    right: 0;
+    font-size: 1.1em;
+    margin-bottom: 10.5em;
+    top: .7em;
+    width: 85%;
+  }
+
+  .Button {
+    font-size: 1.1em;
+    position: relative;
+    top: -8.7em;
+    margin-left: 6.5%;
+    padding: 1%;
   }
 
   .top-icons li {
     padding-top: .4em;
   }
 
-  .Button {
-    font-size: 1em;
-    position: relative;
-    top: 15em;
-    left: 2.5em;
-  }
 
   .textbox {
     bottom: 4em;
@@ -1194,29 +1200,29 @@ i:hover {
   
   .Welcome {
      height: 90%;
-     top: 10em;
-     width: 100%;
-     bakground-repeat: none;
+     background-repeat: none;
      background-position:20% 20%;
   }
 
   .Intro {
-    font-size: 1.1em;
-    top: 17em;
-    left: 0;
-    right: 0;
+    font-size: 1.3em;
+    margin-bottom: 10.5em;
+    top: .7em;
+    width: 80%;
   }
+
+  .Button {
+    font-size: 1.1em;
+    position: relative;
+    top: -10.5em;
+    margin-left: 3.3em;
+    padding: 1%;
+  }  
 
   .top-icons li {
     padding-top: .4em;
   }
 
-  .Button {
-    font-size: 1em;
-    position: relative;
-    top: 19em;
-    left: 3.5em;
-  }
 
   .textbox {
     bottom: 5em;
@@ -1302,7 +1308,7 @@ i:hover {
   }
 
   #BBGoTo {
-     width: 75%;
+     width: 65%;
      margin-top: .4em;
      margin-left: 1em;
      padding-bottom: 2%;
@@ -1310,16 +1316,15 @@ i:hover {
 
     #PCGoTo {
        width: 90%;
-       margin-left: 1em;
+       margin-left: 2em;
        padding: 1%;
-       margin-top: .2em;
+       
   }
 
   #PCGoTo2 {
-    width: 70%;
-    padding-top: 5%;
+    width: 75%;
+    padding-top: 9%;
     padding-bottom: 5%;
-
   }
 
   #CPGoTo {
@@ -1437,24 +1442,21 @@ i:hover {
 
   .Welcome {
      height: 90%;
-     top: 10em;
-     width: 100%;
-     bakground-repeat: none;
+     background-repeat: none;
      background-position:20% 20%;
   }
 
   .Intro {
-    font-size: 1.1em;
-    top: 18.5em;
-    left: 0;
-    right: 0;
+    font-size: 1.3em;
+    margin-bottom: 10.5em;
+    top: .1em;
+    width: 80%;
   }
 
   .Button {
-    font-size: 1em;
+    font-size: 1.1em;
     position: relative;
-    top: 20.5em;
-    left: 4.2em;
+    top: -11.7em;
     padding: 1%;
   }
 
@@ -1562,6 +1564,19 @@ i:hover {
     padding: 0;
   }
 
+  #BBGoTo {
+     width: 65%;
+     margin-top: .4em;
+     margin-left: 1em;
+     padding-bottom: 2%;
+  }
+
+  #PCGoTo2 {
+    width: 75%;
+    padding-top: 8%;
+    padding-bottom: 5%;
+  }
+
   #PCGoTo {
     margin-top: -.3em;
   }
@@ -1649,24 +1664,25 @@ i:hover {
   
   .Welcome {
      height: 95%;
-     top: 10em;
-     width: 100%;
-     bakground-repeat: none;
-     background-position: ;
+     background-repeat: none;
   }
 
   .Intro {
-    font-size: 1.1em;
-    top: 21em;
-    left: -11em;
-    margin-right: 0;
+    font-size: 1.3em;
+    margin-bottom: 10.5em;
+    top: .5em;
+    left: -6em;
+    width: 80%;
+    right: 0;
+
   }
 
   .Button {
-    font-size: 1em;
+    font-size: 1.1em;
     position: relative;
-    top: 23em;
-    left: .7em;
+    top: -11em;
+    margin-left: 7%;
+    padding: 1%;
   }
 
   .textbox {
@@ -1867,25 +1883,21 @@ i:hover {
 
   .Welcome {
      height: 97%;
-     top: 10em;
-     width: 100%;
-     bakground-repeat: none;
+     background-repeat: none;
      background-position: 3% 23%;
   }
 
   .Intro {
     font-size: 1.3em;
-    margin-bottom: 2.5em;
-    top: 19em;
-    left: -8em;
-    right: 0;
+    margin-bottom: 10.5em;
+    top: .5em;
   }
 
   .Button {
     font-size: 1.1em;
     position: relative;
-    top: 20.5em;
-    margin-left: 3.3em;
+    top: -11em;
+    margin-left: 9%;
     padding: 1%;
   }
 
