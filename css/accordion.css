@@ -1,10 +1,15 @@
 .tab-group {
+  width: 100%;
+  float: left;
+  background-color: rgba(0,0,0,.4);
+  padding: 0 2em;
+  text-align: left;
+  height: 40em;
 }
 
 .tab {
   position: relative;
-  width: 80%;
-
+  width: 100%;
 }
 
 .tab input {
@@ -21,21 +26,30 @@
   display: block;
   font-family: "Comfortaa", sans-serif;
   letter-spacing: .1em;
-  font-size: 2.4em;
-
+  font-size: 1.3em;
 }
 
 .tab-content {
   max-height: 0;
   overflow: auto;
   transition: all .35s;
+  width: 100%;
+  font-size: .7em;
+  font-weight: normal;
+  color: #fff;
 }
 
 .tab-content p {
   margin: 1em 0;
+  text-align: left;
+
 }
 
 .tab input:checked ~ .tab-content {
-    max-height: 15em;
+    max-height: 30em;
   }
+
+
+
+
 

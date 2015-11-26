@@ -24,9 +24,8 @@ p {
 
 .overlay {
   background: linear-gradient(10deg,#525B5C 30%, #76898A 70%);
-  opacity:.9;
   z-index:5;
-  position: fixed;
+  position: relative;
   top:0;
   width: 100%;
   height: 10em;
@@ -70,7 +69,8 @@ p {
   list-style: none;
   display: inline-block;
   margin-top: 1.7em;
-  margin-right: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .top-icons {
@@ -118,7 +118,7 @@ i:hover {
 }
 
 .Box {
-  margin-top: 11.5em;
+  margin-top: 14em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: .5em;
@@ -402,29 +402,18 @@ i:hover {
   color: #eaeaea;
 }
 
-#CPGoTo {
- 
-}
-
-#BBGoTo {
- 
-}
-
-#PCGoTo {
-}
-
 .PCHeading {
   margin-left: 3%;
 }
 
 #CP {
   background: url("../Images/ClearPlate/CPMobileDisplay.png") center 5% no-repeat;
-  height: 30em;
+  height: 35em;
   background-size: 30em;
 }
 
 #overlay2 {
-  height: 30em;
+  height: 35em;
   width: 100%;
   position: absolute;
   background-color: #00E7FF;
@@ -438,7 +427,7 @@ i:hover {
 }
 
 .CPlogo {
-  margin: 12em auto 0;
+  margin: 14em auto 0;
   width: 100%;
   max-width: 250px;
 }
@@ -451,12 +440,12 @@ i:hover {
 
 #Paycrave {
   background: url("../Images/PAYCRAVE/PAYCRAVE_IPHONE6.png") center no-repeat;
-  height: 30em;
+  height: 35em;
   background-size: 65em;
 }
 
 #overlay3 {
-  height: 30em;
+  height: 35em;
   width: 100%;
   position: absolute;
   background: #76898A;
@@ -475,17 +464,8 @@ i:hover {
 
 }
 
-#PCDraftLogo {
-}
-
-#PCFinalLogo {
-}
-
-
-
-
 .PClogo {
-  margin: 11.5em auto .5em auto;
+  margin: 14em auto .5em auto;
   opacity: .9;
   width: 100%;
   max-width: 250px;
@@ -506,30 +486,26 @@ i:hover {
   top: 10em;
 }
 
+.Main {
+  background:url("../Images/Me/Rich-17.jpg")left no-repeat;
+  background-size: cover;
+  height: 40em;
+}
+
 .BB {
   background: url("../Images/Blocbox/BBbackground.png") center no-repeat;
   text-align: center;
   background-size: cover;
-  height: 30em;
+  height: 35em;
   width: 100%;
 }
-
-
 
 .Intro {
     color: #fff;
     position: relative;
     text-shadow: 1px 1px #333;
-   } 
+} 
 
-.Quote {
-  background: linear-gradient(rgba(255,255,255,.7), #00E7FF);
-  position: relative;
-}
-
-.Orange {
-  color: #525B5C;
-}
 
 .Button {
   font-family: comfortaa, arial, helvetica;
@@ -558,6 +534,7 @@ i:hover {
   width: 100%;
   border-top: .2em solid;
   border-color: #fff;
+  clear: both;
 }
 
 .Copyright {
@@ -643,13 +620,6 @@ i:hover {
 
   
 @media screen and (min-width: 320px) and (max-width:460px) {
-  .Me {
-    height: 30em;
-    background-size: contain;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
 
   .Welcome {
     height: 80%;
@@ -780,26 +750,14 @@ i:hover {
   }
 
   .Main {
-    text-align: center;
-  }
-
-  .Maton {
-    width: 200px;
-    padding-top: 9em;
-    margin-left: 4.5em;
-  }
-
-  .Quote {
-    padding: 2em;
-    height: 12em;
-  }
-  .Orange {
-    font-size: 18px;
+    height: 40em;
   }
 
   .tab-group {
-    margin-left: 17%;
-    }
+    height: 40em;
+    margin-top: -2.5em;
+    padding-top: 16em;
+  }
 
   .footer {
     height: 5em;
@@ -845,13 +803,27 @@ i:hover {
     padding: 1%;
   }
 
-  .top-icons li {
-    padding-top: .4em;
-  }
+    .title {
+      font-size: 1.2em;
+      margin-top: 2em;
+    }
 
-  .textbox {
-    bottom: 6em;
-  }
+    .nav {
+      margin-top: -1em;
+    }
+
+    .nav li {
+      font-size: .9em;
+    }
+
+    .top-icons {
+      margin-top: -.6em;
+    }
+
+    .top-icons li {
+      padding-top: .4em;
+    }
+
 
   .PCBG {
     height: 35em;
@@ -951,34 +923,24 @@ i:hover {
     width: 85%;
   }
 
-  .Main {
-    text-align: center;
-  }
-
-  .Maton {
-    width: 200px;
-    padding-top: 9em;
-    margin-left: 4.5em;
-  }
-
-  .Quote {
-    padding: 2em;
-    height: 11em;
-
-  }
-  .Orange {
-    font-size: 18px;
-    margin-top: 1.5em;
-  }
-
   .tab-group {
-    margin-left: 17%;
-    }
+    padding-top: 16em;
+    margin-top: -2.7em;
+  }
+
+  .tab label {
+    font-size: 1.7em;
+  }
+
+  .tab-content {
+    font-size: .9em;
+  }
 
   .footer {
     height: 5em;
     text-align: center;
   }
+
   .Copyright {
     margin-top: 1.5em;
     text-align: center;
@@ -1022,14 +984,27 @@ i:hover {
     padding: 1%;
   }
 
-  .top-icons li {
-    padding-top: .4em;
-  }
+    .title {
+      font-size: 1.5em;
+      margin-top: 1em;
+    }
 
+    .nav {
+      margin-top: -1em;
+    }
 
-  .textbox {
-    bottom: 4em;
-  }
+    .nav li {
+      font-size: 1em;
+    }
+
+    .top-icons {
+      margin-top: -.7em;
+    }
+  
+
+    .top-icons li {
+      padding-top: .4em;
+    }
 
     #BBResearchDocs {
       max-width: 60%;
@@ -1144,44 +1119,35 @@ i:hover {
   }
 
    .Docs {
-    width: 75%;
+     width: 75%;
   }
 
    .Main {
-    width: 40%;
-    text-align: left;
-
+     background-position: 0% 40%;
+     height: 50em;
   }
 
-  .Maton {
-    width: 400px;
-    padding-top: 7em;
-    margin-left: 1.5em;
+   .tab-group {
+     margin-top: -2.5em;
+     padding-top: 22em;
+     height: 50em;
   }
 
-  .Quote {
-    margin-top: 9em;
-    padding: 3em;
+   .tab label {
+     font-size: 1.7em;
   }
 
-  .Orange {
-    font-size: 18px;
-    margin-top: 1em;
+   .tab-content {
+     font-size: 1em;
   }
 
-  .tab-group {
-    width: 170%;
-    margin-left: 90%;
-    margin-top: -110%;
+   .footer {
+     height: 4em;
+     display: inline-flex;
   }
 
-  .footer {
-    height: 4em;
-    display: inline-flex;
-  }
-
-  .Copyright{
-    margin-top: 2.5em;
+   .Copyright{
+     margin-top: 2.5em;
   }
 
   .message {
@@ -1218,6 +1184,23 @@ i:hover {
     margin-left: 3.3em;
     padding: 1%;
   }  
+
+  .title {
+      font-size: 1.5em;
+      margin-top: 1em;
+    }
+
+    .nav {
+      margin-top: -1em;
+    }
+
+    .nav li {
+      font-size: 1em;
+    }
+
+    .top-icons {
+      margin-top: -.7em;
+    }
 
   .top-icons li {
     padding-top: .4em;
@@ -1371,32 +1354,24 @@ i:hover {
     width: 70%;
   }
 
-  .Main {
-    width: 40%;
-    text-align: left;
-
+   .Main {
+     background-position: 0% 40%;
+     height: 50em;
   }
 
-  .Maton {
-    width: 400px;
-    padding-top: 5em;
-    margin-left: 1.5em;
+   .tab-group {
+     margin-top: -2.5em;
+     padding-top: 19em;
+     height: 50em;
+  }
+   
+   .tab label {
+     font-size: 2.2em;
   }
 
-  .Quote {
-    margin-top: 9em;
-    padding: 3em;
-  }
-
-  .Orange {
-    font-size: 18px;
-    margin-top: 1em;
-  }
-
-  .tab-group {
-    width: 170%;
-    margin-left: 90%;
-    margin-top: -110%;
+   .tab-content {
+     font-size: 1em;
+     padding: 0 2em 0 0em;
   }
 
   .footer {
@@ -1421,20 +1396,24 @@ i:hover {
 @media screen and (min-width: 1025px) {
    
   .title {
-    font-size: 1.1em;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-bottom: 0;
     text-align: left;
-    margin-top: 2.5em;
-    margin-left: 2.5em;
+  }
+
+  .nav {
+    font-size: 1.1em;
+    margin-left: 1em;
+    text-align: left;   
+    margin-top: -.5em;
   }
 
   p {
     font-size: 1.2em;
   }
-  .nav {
-    font-size: 1.1em;
-    text-align: left;
-    margin-left: 2.6em;
-  }
+  
   .top-icons {
     margin-top: 1.7em;
     margin-left: -2.5em;
@@ -1602,32 +1581,21 @@ i:hover {
     width: 70%;
   }
 
-  .Main {
-    width: 40%;
-    text-align: left;
-
-  }
-
-  .Maton {
-    width: 350px;
-    padding-top: 5em;
-    margin-left: 1.5em;
-  }
-
-  .Quote {
-    margin-top: 11em;
-    padding: 3em;
-  }
-
-  .Orange {
-    font-size: 18px;
-    margin-top: 1em;
-  }
-
   .tab-group {
-    width: 180%;
-    margin-left: 80%;
-    margin-top: -25em;
+     margin-top: -.1em;
+     padding-top: 19em;
+     height: 50em;
+     padding-left: 3em;
+     padding-right: 3em;
+  }
+   
+   .tab label {
+     font-size: 2.2em;
+  }
+
+   .tab-content {
+     font-size: 1em;
+     padding: 0 2em 0 0;
   }
 
   .footer {
@@ -1648,14 +1616,18 @@ i:hover {
 
 @media screen and (min-width: 1200px) {
   .title {
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-top: 2.5em;
+    margin-left: 1.75em;
     margin-bottom: 0;
   }
+
   .nav {
     font-size: 1.1em;
-    margin-left: 2.6em;
+    margin-left: 1.75em;
+    margin-top: -.5em;
   }
+
   .top-icons {
     margin-top: 1.7em;
     margin-right: -6em;
@@ -1830,32 +1802,14 @@ i:hover {
     width: 60%;
   }  
 
- .Main {
-    width: 40%;
-    text-align: left;
-
-  }
-
-  .Maton {
-    width: 350px;
-    padding-top: 5em;
-    margin-left: 3.5em;
-  }
-
-  .Quote {
-    padding: 3em 7em;
-    height: 10em;
-    margin-top: 12em;
-  }
-  .Orange {
-    font-size: 18px;
-    margin-top: 1em;
+  .Main {
+     background-position: 0% 35%;
+     height: 52em;
   }
 
   .tab-group {
-    width: 180%;
-    margin-left: 80%;
-    margin-top: -25em;
+     padding-top: 25em;
+     height: 52em;
   }
 
   .Button {
@@ -1913,6 +1867,11 @@ i:hover {
   .message {
     margin-top: .7em;
     margin-left: 18%;
+  }
+
+  .Main {
+     background-position: 0% 34%;
+     height: 52em;
   }
 }
 
