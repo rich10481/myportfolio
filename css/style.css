@@ -212,7 +212,7 @@ i:hover {
 
 
 #BBResearchDocs {
-  margin-bottom: -1.5em
+  margin-bottom: -1.5em;
 }
 
 .BBResearch2 {
@@ -356,7 +356,11 @@ i:hover {
 }
 
 .PCOverlay {
+<<<<<<< HEAD
   background: linear-gradient(180deg, #525B5C, 50%, #76898A 90%);
+=======
+  background: linear-gradient(180deg, #525B5c, 50%, #76898A 90%);
+>>>>>>> d220a4f7894458658c6a41eb806177d354940dcd
   height: 100%;
   opacity: .7;
   margin-top: 10em;
