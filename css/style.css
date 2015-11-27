@@ -359,6 +359,7 @@ i:hover {
   background: linear-gradient(180deg, #525B5C, 50%, #76898A 90%);
   height: 100%;
   opacity: .7;
+  margin-top: 10em;
 }
 
 .CPBG {
