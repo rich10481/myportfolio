@@ -135,13 +135,13 @@ i:hover {
 }  
 
 .Box2 {
-  margin-top: 21em;
+  margin-top: 14em;
   max-width: 250px;
 }  
 
 
 .tools {
-  padding-top: 15em;
+  padding-top: 17em;
   width: 100%;
 }
 
@@ -186,6 +186,7 @@ i:hover {
   padding-top: 1em;
 }
 
+
 .Background {
   margin-top: -1.3em;
   background-color: #76898A;
@@ -226,7 +227,7 @@ i:hover {
 }
 
 .BottomDiv {
-  background-color: #00E7FF;
+  background-color: #525B5C;
   margin-top: -1.4em;
   padding-bottom: 1em;
   text-align: center;
@@ -341,7 +342,7 @@ i:hover {
 }
 
 .PCOverlay {
-  background: linear-gradient(180deg, #525B5c, 50%, #00E7FF 90%);
+  background: linear-gradient(180deg, #525B5C, 50%, #76898A 90%);
   height: 100%;
   opacity: .7;
 }
@@ -506,6 +507,10 @@ i:hover {
     text-shadow: 1px 1px #333;
 } 
 
+.tab-content {
+  font-weight: 300;
+}
+
 
 .Button {
   font-family: comfortaa, arial, helvetica;
@@ -612,8 +617,8 @@ i:hover {
   transition-timing-function: ease-out;
 }
 .hvr-underline-from-center2:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-  left: 5em;
-  right: 5em;
+  left: 0;
+  right: 0;
 }
 
 /*-----------MEDIA QUERIES--------------------------------------------------*/
@@ -985,8 +990,8 @@ i:hover {
   }
 
     .title {
-      font-size: 1.5em;
-      margin-top: 1em;
+      font-size: 1.3em;
+      margin-top: 1.4em;
     }
 
     .nav {
@@ -1186,7 +1191,7 @@ i:hover {
   }  
 
   .title {
-      font-size: 1.5em;
+      font-size: 1.3em;
       margin-top: 1em;
     }
 
@@ -1298,7 +1303,7 @@ i:hover {
   }
 
     #PCGoTo {
-       width: 90%;
+       width: 80%;
        margin-left: 2em;
        padding: 1%;
        
@@ -1396,15 +1401,15 @@ i:hover {
 @media screen and (min-width: 1025px) {
    
   .title {
-    font-size: 1.5em;
-    margin-top: 1.5em;
+    font-size: 1.3em;
+    margin-top: 2em;
     margin-left: 1em;
     margin-bottom: 0;
     text-align: left;
   }
 
   .nav {
-    font-size: 1.1em;
+    font-size: 1em;
     margin-left: 1em;
     text-align: left;   
     margin-top: -.5em;
@@ -1617,13 +1622,13 @@ i:hover {
 @media screen and (min-width: 1200px) {
   .title {
     font-size: 1.3em;
-    margin-top: 2.5em;
+    margin-top: 2em;
     margin-left: 1.75em;
     margin-bottom: 0;
   }
 
   .nav {
-    font-size: 1.1em;
+    font-size: 1em;
     margin-left: 1.75em;
     margin-top: -.5em;
   }
