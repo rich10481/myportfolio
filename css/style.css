@@ -4,12 +4,11 @@ h2 {
   font-family: 'Comfortaa', sans-serif;
   font-size: 1.4em;
   text-align: center;
-  /*margin-top: 1em;*/
   letter-spacing: .02em;
 }
 
 p {
-  font-family: 'Museo Slab', sans-serif;
+  font-family: "museo-slab", sans-serif;
   font-size: 1em;
   text-align: justify;
   letter-spacing: .03em;
@@ -23,6 +22,18 @@ p {
 }
 
 .overlay {
+  background: linear-gradient(10deg,#525B5C 30%, #76898A 70%);
+  z-index:5;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 10em;
+  border-bottom:2px inset;
+  border-color: #00E7FF;
+  box-shadow: 0 2px 20px 5px;
+}
+
+.overlayAM {
   background: linear-gradient(10deg,#525B5C 30%, #76898A 70%);
   z-index:5;
   position: relative;
@@ -45,6 +56,7 @@ p {
   color: #fff;
   letter-spacing: .1em;
 }
+
 .nav {
   margin-bottom: .5em;
   margin-left: auto;
@@ -52,15 +64,19 @@ p {
   text-align: center;
   letter-spacing: .02em;
 }
+
 .nav a {
   color: #fff;
 }
+
 .nav li a:hover {
   color: #FF7400;
 }
+
 .selected {
   border-bottom: 2px solid #00E7FF ;
 }
+
 .nav li {
   font-family: 'Comfortaa', sans-serif;
   font-size: .8em;
@@ -76,6 +92,7 @@ p {
 .top-icons {
   text-align: center;
 }
+
 .top-icons li {
   font-size: 14px;
   text-decoration: none;
@@ -124,7 +141,7 @@ i:hover {
   margin-bottom: .5em;
   width: 100%;
   max-width: 250px;
-  }
+}
 
 .BBproject {
   background: url(../Images/Blocbox/BlocboxBG.png) center no-repeat;
@@ -135,13 +152,13 @@ i:hover {
 }  
 
 .Box2 {
-  margin-top: 14em;
+  margin-top: 23em;
   max-width: 250px;
 }  
 
 
 .tools {
-  padding-top: 17em;
+  padding-top: 13em;
   width: 100%;
 }
 
@@ -196,8 +213,6 @@ i:hover {
 
 #BBResearchDocs {
   margin-bottom: -1.5em
-
-  
 }
 
 .BBResearch2 {
@@ -232,7 +247,6 @@ i:hover {
   padding-bottom: 1em;
   text-align: center;
 }
-
 
 .gray {
   color: #525B5c;
@@ -425,6 +439,7 @@ i:hover {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10em;
 }
 
 .CPlogo {
@@ -478,14 +493,6 @@ i:hover {
   background-color: #525B5C;
 }
 
-.Welcome {
-  background-image: url("../Images/Me/RICH-7.jpg");
-  background-size: cover;
-  background-attachment:fixed;
-  width: 100%;
-  position: relative;
-  top: 10em;
-}
 
 .Main {
   background:url("../Images/Me/Rich-17.jpg")left no-repeat;
@@ -501,14 +508,10 @@ i:hover {
   width: 100%;
 }
 
-.Intro {
-    color: #fff;
-    position: relative;
-    text-shadow: 1px 1px #333;
-} 
 
-.tab-content {
+.bold {
   font-weight: 300;
+  color: #fff;
 }
 
 
@@ -626,28 +629,6 @@ i:hover {
   
 @media screen and (min-width: 320px) and (max-width:460px) {
 
-  .Welcome {
-    height: 80%;
-  }
-
-  .Intro {
-    font-size: 1em;
-    margin-bottom: 10.5em;
-    top: .5em;
-    width: 85%;
-  }
-
-  .Button {
-    font-size: 1.1em;
-    position: relative;
-    top: -8em;
-    margin-left: 6.5%;
-    padding: 1%;
-  }
-
-  .textbox {
-    bottom: 5em;
-  }
 
   .top-icons li {
     padding-top: .3em;
@@ -739,7 +720,7 @@ i:hover {
 
   #CPimg {
     margin-top: -35%;
-      }
+  }
 
   .CPBG {
     height: 40em;
@@ -768,6 +749,7 @@ i:hover {
     height: 5em;
     text-align: center;
   }
+
   .Copyright {
     margin-top: 1.5em;
     text-align: center;
@@ -781,32 +763,6 @@ i:hover {
 }
 
 @media screen and (min-width: 461px) and (max-width:640px) {
-  .Me {
-    height: 20em;
-    background-size: contain;
-    background-position: center 3em;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-
-  .Welcome {
-    height: 80%;
-  }
-
-  .Intro {
-    font-size: 1.1em;
-    margin-bottom: 10.5em;
-    top: .5em;
-    width: 85%;
-  }
-
-  .Button {
-    font-size: 1.1em;
-    position: relative;
-    top: -8.7em;
-    margin-left: 6.5%;
-    padding: 1%;
-  }
 
     .title {
       font-size: 1.2em;
@@ -824,6 +780,7 @@ i:hover {
     .top-icons {
       margin-top: -.6em;
     }
+  
 
     .top-icons li {
       padding-top: .4em;
@@ -959,35 +916,6 @@ i:hover {
 } 
 
 @media screen and (min-width: 641px) and (max-width: 899px) {
-    .Me {
-      background-position: left fixed;
-      margin-top: 0;
-      margin: 0;
-      padding: 0;
-      border-left: 30px solid;
-      border-color:  #525B5C;
-    }
-  
-  .Welcome {
-     height: 80%;
-     background-repeat: none;
-     background-position:20% 20%;
-  }
-
- .Intro {
-    font-size: 1.1em;
-    margin-bottom: 10.5em;
-    top: .7em;
-    width: 85%;
-  }
-
-  .Button {
-    font-size: 1.1em;
-    position: relative;
-    top: -8.7em;
-    margin-left: 6.5%;
-    padding: 1%;
-  }
 
     .title {
       font-size: 1.3em;
@@ -1162,33 +1090,6 @@ i:hover {
 }
 
 @media screen and (min-width: 900px) {
-  .Me {
-    margin: 0;
-    padding: 0;
-    border: 40px solid;
-    border-color:  #525B5C;
-  }
-  
-  .Welcome {
-     height: 90%;
-     background-repeat: none;
-     background-position:20% 20%;
-  }
-
-  .Intro {
-    font-size: 1.3em;
-    margin-bottom: 10.5em;
-    top: .7em;
-    width: 80%;
-  }
-
-  .Button {
-    font-size: 1.1em;
-    position: relative;
-    top: -10.5em;
-    margin-left: 3.3em;
-    padding: 1%;
-  }  
 
   .title {
       font-size: 1.3em;
@@ -1424,30 +1325,6 @@ i:hover {
     margin-left: -2.5em;
   }
 
-  .Welcome {
-     height: 90%;
-     background-repeat: none;
-     background-position:20% 20%;
-  }
-
-  .Intro {
-    font-size: 1.3em;
-    margin-bottom: 10.5em;
-    top: .1em;
-    width: 80%;
-  }
-
-  .Button {
-    font-size: 1.1em;
-    position: relative;
-    top: -11.7em;
-    padding: 1%;
-  }
-
-  .textbox {
-    bottom: 3em;
-  }
-
 
   #BBResearchDocs {
       max-width: 60%;
@@ -1638,34 +1515,6 @@ i:hover {
     margin-right: -6em;
   }
 
-  
-  .Welcome {
-     height: 95%;
-     background-repeat: none;
-  }
-
-  .Intro {
-    font-size: 1.3em;
-    margin-bottom: 10.5em;
-    top: .5em;
-    left: -6em;
-    width: 80%;
-    right: 0;
-
-  }
-
-  .Button {
-    font-size: 1.1em;
-    position: relative;
-    top: -11em;
-    margin-left: 7%;
-    padding: 1%;
-  }
-
-  .textbox {
-    bottom: 3em;
-  }
-
   p { 
    margin-left: 18%;
    margin-right: 18%; 
@@ -1839,30 +1688,6 @@ i:hover {
 }
 
 @media screen and (min-width:1300px) {
-
-  .Welcome {
-     height: 97%;
-     background-repeat: none;
-     background-position: 3% 23%;
-  }
-
-  .Intro {
-    font-size: 1.3em;
-    margin-bottom: 10.5em;
-    top: .5em;
-  }
-
-  .Button {
-    font-size: 1.1em;
-    position: relative;
-    top: -11em;
-    margin-left: 9%;
-    padding: 1%;
-  }
-
-  .textbox {
-    bottom: 3em;
-  }
 
   .Copyright{
     margin-top: 2.3em;
