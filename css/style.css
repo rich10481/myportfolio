@@ -4,14 +4,14 @@ h2 {
   font-family: 'Comfortaa', sans-serif;
   font-size: 1.4em;
   text-align: center;
-  /*margin-top: 1em;*/
   letter-spacing: .02em;
 }
 
 p {
-  font-family: 'Museo Slab', sans-serif;
+  font-family: "museo-slab", sans-serif;
   font-size: 1em;
-  text-align: justify;
+  font-weight: 100;
+  text-align: left;
   letter-spacing: .03em;
   margin-left: 7%;
   margin-right: 7%;
@@ -45,6 +45,7 @@ p {
   color: #fff;
   letter-spacing: .1em;
 }
+
 .nav {
   margin-bottom: .5em;
   margin-left: auto;
@@ -52,15 +53,19 @@ p {
   text-align: center;
   letter-spacing: .02em;
 }
+
 .nav a {
   color: #fff;
 }
+
 .nav li a:hover {
   color: #FF7400;
 }
+
 .selected {
   border-bottom: 2px solid #00E7FF ;
 }
+
 .nav li {
   font-family: 'Comfortaa', sans-serif;
   font-size: .8em;
@@ -76,6 +81,7 @@ p {
 .top-icons {
   text-align: center;
 }
+
 .top-icons li {
   font-size: 14px;
   text-decoration: none;
@@ -105,7 +111,6 @@ i:hover {
 .fa {
   color: white;
   padding: 9px 5px 9px 5px;
-
 }
 
 .textbox {
@@ -124,18 +129,18 @@ i:hover {
   margin-bottom: .5em;
   width: 100%;
   max-width: 250px;
-  }
+}
 
 .BBproject {
   background: url(../Images/Blocbox/BlocboxBG.png) center no-repeat;
   background-size: cover;
   width: 100%;
   text-align: center;
-  height: 45em;
+  height: 40em;
 }  
 
 .Box2 {
-  margin-top: 21em;
+  margin-top: 13em;
   max-width: 250px;
 }  
 
@@ -194,9 +199,7 @@ i:hover {
 
 
 #BBResearchDocs {
-  margin-bottom: -1.5em
-
-  
+  margin-bottom: -1.5em 
 }
 
 .BBResearch2 {
@@ -208,7 +211,6 @@ i:hover {
 #UPimg {
   margin-top: 1em;
   margin-bottom: 1em;
-
 }
 
 
@@ -226,9 +228,9 @@ i:hover {
 }
 
 .BottomDiv {
-  background-color: #00E7FF;
+  background-color: #525B5C;
   margin-top: -1.4em;
-  padding-bottom: 1em;
+  padding-bottom: 3em;
   text-align: center;
 }
 
@@ -299,7 +301,8 @@ i:hover {
   text-align: center;
   background-color: #76898A;
   padding-top: 1em;
-  padding-bottom: 2em;}
+  padding-bottom: 2em;
+}
 
 #BBBalsamiqWF {
   max-width: 70%;
@@ -341,7 +344,7 @@ i:hover {
 }
 
 .PCOverlay {
-  background: linear-gradient(180deg, #525B5c, 50%, #00E7FF 90%);
+  background: linear-gradient(180deg, #525B5c, 50%, #76898A 90%);
   height: 100%;
   opacity: .7;
 }
@@ -352,7 +355,7 @@ i:hover {
 }
 
 .CPOverlay {
-  background: linear-gradient(180deg, #525B5c, 50%, #00E7FF 90%);
+  background: linear-gradient(180deg, #525B5c, 50%, #76898A 90%);
   height: 100%;
   opacity: .35;
 }
@@ -469,7 +472,6 @@ i:hover {
   opacity: .9;
   width: 100%;
   max-width: 250px;
-  
 }
 
 .Bottom {
@@ -520,7 +522,6 @@ i:hover {
   max-width: 15em;
   padding: 2%;
   background-color: #525B5C;
-
 }
 
 .Button:hover {
@@ -562,6 +563,7 @@ i:hover {
   position: relative;
   overflow: hidden;
 }
+
 .hvr-underline-from-center:before {
   content: "";
   position: absolute;
@@ -578,6 +580,7 @@ i:hover {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
@@ -595,6 +598,7 @@ i:hover {
   position: relative;
   overflow: hidden;
 }
+
 .hvr-underline-from-center2:before {
   content: "";
   position: absolute;
@@ -611,6 +615,7 @@ i:hover {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-underline-from-center2:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 5em;
   right: 5em;
@@ -743,6 +748,7 @@ i:hover {
   .CPHeading {
     width: 75%;
     margin-left: 5%;
+    margin-top: -10%;
   }
 
   .Docs {
@@ -917,6 +923,7 @@ i:hover {
   .CPHeading {
     width: 65%;
     margin-left: 5%;
+    margin-top: -10%;
   }
 
    .Docs {
@@ -1116,6 +1123,7 @@ i:hover {
   .CPHeading {
     width: 50%;
     margin-left: 5%;
+    margin-top: -10%;
   }
 
    .Docs {
@@ -1297,11 +1305,11 @@ i:hover {
      padding-bottom: 2%;
   }
 
-    #PCGoTo {
-       width: 90%;
-       margin-left: 2em;
-       padding: 1%;
-       
+    
+  #PCGoTo {
+     width: 80%;
+     margin-left: 2em;
+     padding: 1%;   
   }
 
   #PCGoTo2 {
@@ -1338,7 +1346,7 @@ i:hover {
   }
 
   .CPBG {
-    height: 42em;
+    height: 40em;
   }    
 
   #CPimg {
@@ -1348,6 +1356,7 @@ i:hover {
   .CPHeading {
     width: 50%;
     margin-left: 5%;
+    margin-top: -10%;
   }
 
   .Docs {
@@ -1557,6 +1566,7 @@ i:hover {
   }
 
   #PCGoTo {
+    width: 80%;
     margin-top: -.3em;
   }
 
@@ -1565,7 +1575,7 @@ i:hover {
   }
 
   .CPBG {
-    height: 44em;
+    height: 40em;
   }    
 
   #CPimg {
@@ -1795,8 +1805,12 @@ i:hover {
   }
 
   .CPBG {
-    height: 45em;
+    height: 40em;
   }  
+
+  .CPHeading {
+    margin-top: 0;
+  }
 
   .Docs {
     width: 60%;
