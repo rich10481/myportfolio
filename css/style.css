@@ -148,17 +148,18 @@ i:hover {
   background-size: cover;
   width: 100%;
   text-align: center;
-  height: 40em;
+  height: 45em;
+  margin-top: 5em;
 }  
 
 .Box2 {
-  margin-top: 23em;
+  margin-top: 18em;
   max-width: 250px;
 }  
 
 
 .tools {
-  padding-top: 13em;
+  padding-top: 15em;
   width: 100%;
 }
 
@@ -356,11 +357,7 @@ i:hover {
 }
 
 .PCOverlay {
-<<<<<<< HEAD
   background: linear-gradient(180deg, #525B5C, 50%, #76898A 90%);
-=======
-  background: linear-gradient(180deg, #525B5c, 50%, #76898A 90%);
->>>>>>> d220a4f7894458658c6a41eb806177d354940dcd
   height: 100%;
   opacity: .7;
   margin-top: 10em;
