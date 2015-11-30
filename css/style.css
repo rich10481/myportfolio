@@ -1102,8 +1102,8 @@ i:hover {
   }
 
   .message {
-    margin-top: 1em;
-    margin-left: 3%;
+    margin-top: 1.3em;
+    margin-left: 4.5%;
   }
 }
 
@@ -1284,9 +1284,9 @@ i:hover {
   }
 
    .tab-group {
-     margin-top: -2.5em;
-     padding-top: 19em;
-     height: 50em;
+     margin-top: -2em;
+     padding-top: 22em;
+     height: 52em;
   }
    
    .tab label {
@@ -1308,7 +1308,7 @@ i:hover {
   }
 
   .message {
-    margin-top: 1em;
+    margin-top: 1.3em;
     margin-left: 20%;
   }
 
@@ -1323,6 +1323,9 @@ i:hover {
     height: 7em;
   }
 
+  .overlayAM {
+    height: 7em;
+  }
 
   .title {
     font-size: 1.2em;
@@ -1495,19 +1498,25 @@ i:hover {
     width: 70%;
   }
 
+  .Main {
+     margin-top: 0;
+     background-position: 0% 40%;
+     height: 52em;
+  }
+
   .tab-group {
-     margin-top: -.1em;
+     margin-top: 0em;
      padding-top: 19em;
-     height: 50em;
+     height: 52em;
      padding-left: 3em;
      padding-right: 3em;
   }
    
-   .tab label {
+  .tab label {
      font-size: 2.2em;
   }
 
-   .tab-content {
+  .tab-content {
      font-size: 1em;
      padding: 0 2em 0 0;
   }
@@ -1523,7 +1532,7 @@ i:hover {
   }
 
   .message {
-    margin-top: .7em;
+    margin-top: 1em;
     margin-left: 20%;
   }
 }
@@ -1721,7 +1730,7 @@ i:hover {
   }
 
   .message {
-    margin-top: .7em;
+    margin-top: 1em;
     margin-left: 18%;
   }
 }
@@ -1734,7 +1743,6 @@ i:hover {
   }
 
   .message {
-    margin-top: .7em;
     margin-left: 18%;
   }
 
