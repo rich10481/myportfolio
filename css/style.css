@@ -136,6 +136,10 @@ i:hover {
   padding: 11px;
 }
 
+.fa-envelope {
+  padding-right: 10px;
+}
+
 .textbox {
   background-color: rgba(81,91,92,.5);
   height: 20em;
