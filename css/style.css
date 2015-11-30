@@ -122,7 +122,18 @@ i:hover {
 
 .fa {
   color: white;
-  padding: 9px 5px 9px 5px;
+}
+
+.fa-twitter {
+  padding: 12px;
+}
+
+.fa-linkedin {
+  padding: 10px 10px 10px 11px;
+}
+
+.fa-github {
+  padding: 11px;
 }
 
 .textbox {
