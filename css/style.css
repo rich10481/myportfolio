@@ -1319,30 +1319,43 @@ i:hover {
 
 @media screen and (min-width: 1025px) {
    
+  .overlay {
+    height: 7em;
+  }
+
+
   .title {
-    font-size: 1.3em;
-    margin-top: 2em;
-    margin-left: 1em;
-    margin-bottom: 0;
+    font-size: 1.2em;
+    margin-top: 1.3em;
     text-align: left;
+    margin-left: 1.1em;
+    margin-bottom: 0;
   }
 
   .nav {
-    font-size: 1em;
+    font-size: .9em;
+    text-align: left;
     margin-left: 1em;
-    text-align: left;   
-    margin-top: -.5em;
+    margin-top: -1em;
+  }
+
+  .top-icons {
+    margin-top: .3em;
+    margin-right: -2em;
+  }
+
+  .social {
+    margin-top: -5.5em;
+    margin-right: 1.5em;
   }
 
   p {
     font-size: 1.2em;
   }
-  
-  .top-icons {
-    margin-top: 1.7em;
-    margin-left: -2.5em;
-  }
 
+  .CP1 {
+    margin-top: 7em;
+  }
 
   #BBResearchDocs {
       max-width: 60%;
@@ -1516,21 +1529,24 @@ i:hover {
 }
 
 @media screen and (min-width: 1200px) {
+    
   .title {
-    font-size: 1.3em;
-    margin-top: 2em;
-    margin-left: 1.75em;
+    margin-top: 1.4em;
+    margin-left: 1.1em;
     margin-bottom: 0;
   }
 
   .nav {
-    font-size: 1em;
-    margin-left: 1.75em;
-    margin-top: -.5em;
+    margin-left: 1em;
+    margin-top: -1em;
+  }
+
+   .social {
+    margin-right: 1.75em;
   }
 
   .top-icons {
-    margin-top: 1.7em;
+    margin-top: 0em;
     margin-right: -6em;
   }
 
