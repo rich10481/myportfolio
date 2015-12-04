@@ -756,11 +756,11 @@ i:hover {
   }
 
   .Main {
-    height: 40em;
+    height: 42em;
   }
 
   .tab-group {
-    height: 40em;
+    height: 42em;
     margin-top: -2.5em;
     padding-top: 16em;
   }
@@ -906,7 +906,12 @@ i:hover {
     width: 85%;
   }
 
+  .Main {
+    height: 44em;
+  }
+
   .tab-group {
+    height: 44em;
     padding-top: 16em;
     margin-top: -2.7em;
   }
