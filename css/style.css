@@ -381,6 +381,7 @@ i:hover {
 .CPBG {
   background: url("../Images/ClearPlate/CPBG.png") center no-repeat;
   background-size: cover;
+  height: 40em;
 }
 
 .CPOverlay {
@@ -390,8 +391,6 @@ i:hover {
 }
 
 #CPimg {
-  width: 100%;
-  margin-top: -35%;
   position: absolute;
 }
 
@@ -738,18 +737,11 @@ i:hover {
   }
 
   #CPimg {
-    margin-top: -35%;
+    width: 300px;
+    margin-top: -10em;
+    margin-left: 30px;
   }
 
-  .CPBG {
-    height: 40em;
-  }    
-
-  .CPHeading {
-    width: 75%;
-    margin-left: 5%;
-    margin-top: -10%;
-  }
 
   .Docs {
     width: 90%;
@@ -888,18 +880,11 @@ i:hover {
     padding-left: 1em;
   }
 
-  .CPBG {
-    height: 40em;
-  }    
 
   #CPimg {
-    margin-top: -30%;
-      }
-
-  .CPHeading {
-    width: 65%;
-    margin-left: 5%;
-    margin-top: -10%;
+    width: 300px;
+    margin-top: -10em;
+    margin-left: 30px;
   }
 
    .Docs {
@@ -1064,19 +1049,14 @@ i:hover {
     padding-left: 1em;
   }
 
-  .CPBG {
-    height: 42em;
-  }    
 
   #CPimg {
-    margin-top: -22%;
-      }
-
-  .CPHeading {
-    width: 50%;
-    margin-left: 5%;
-    margin-top: -10%;
+    width: 320px;
+    margin-top: -11em;
+    margin-left: 60px;
   }
+
+
 
    .Docs {
      width: 75%;
@@ -1267,21 +1247,14 @@ i:hover {
 
   .container {
     max-width: 70%;
-  }
-
-  .CPBG {
-    height: 40em;
-  }    
+  } 
 
   #CPimg {
-    margin-top: -20%;
-      }
-
-  .CPHeading {
-    width: 50%;
-    margin-left: 5%;
-    margin-top: -10%;
+    width: 320px;
+    margin-top: -11em;
+    margin-left: 60px;
   }
+
 
   .Docs {
     width: 70%;
@@ -1490,18 +1463,13 @@ i:hover {
     margin-top: -.3em;
   }
 
-  .CPBG {
-    height: 40em;
-  }    
 
   #CPimg {
-    margin-top: -20%;
-      }
-
-  .CPHeading {
-    width: 40%;
-    margin-left: 5%;
+    width: 340px;
+    margin-top: -13em;
+    margin-left: 70px;
   }
+
 
   .Docs {
     width: 70%;
@@ -1701,13 +1669,10 @@ i:hover {
     margin-top: .2em;
   }
 
-  .CPBG {
-    height: 40em;
-  }  
-
-  .CPHeading {
-    margin-top: 0;
+  #CPimg {
+    margin-left: 130px;
   }
+
 
   .Docs {
     width: 60%;
