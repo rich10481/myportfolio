@@ -745,6 +745,8 @@ i:hover {
 
   .Docs {
     width: 90%;
+    zoom: 50%;
+    -webkit-transform: scale(1.0);
   }
 
   .Main {
