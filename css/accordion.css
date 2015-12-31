@@ -27,6 +27,8 @@
   font-family: "proxima-nova", sans-serif;
   letter-spacing: .03em;
   font-size: 1.9em;
+  text-shadow: 2px 2px #000;
+
 }
 
 .tab-content {

@@ -1711,6 +1711,10 @@ i:hover {
   .message {
     margin-left: 18%;
   }
+
+  .tab label {
+    font-size: 2.5em;
+  }
 }
 
 @media screen and (min-width:1300px) {
