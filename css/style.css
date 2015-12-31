@@ -373,7 +373,7 @@ i:hover {
 .PCOverlay {
   background: linear-gradient(180deg, #525B5C, 50%, #76898A 90%);
   height: 100%;
-  opacity: .7;
+  opacity: .3;
   margin-top: 7em;
 }
 
@@ -386,7 +386,7 @@ i:hover {
 .CPOverlay {
   background: linear-gradient(180deg, #525B5c, 50%, #76898A 90%);
   height: 100%;
-  opacity: .35;
+  opacity: .3;
 }
 
 #CPimg {
@@ -395,7 +395,7 @@ i:hover {
 
 #PCimg {
   position: absolute;
-  height: 25em;
+  height: 27em;
   bottom: 0;
 }
 
