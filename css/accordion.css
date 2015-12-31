@@ -34,7 +34,7 @@
   overflow: auto;
   transition: all .35s;
   width: 100%;
-  font-size: .65em;
+  /*font-size: .65em;*/
   font-weight: normal;
   color: #fff;
 }

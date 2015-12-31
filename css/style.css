@@ -755,13 +755,13 @@ i:hover {
   }
 
   .Main {
-    height: 42em;
+    height: 43em;
   }
 
   .tab-group {
-    height: 42em;
-    margin-top: -2.5em;
-    padding-top: 16em;
+    height: 44em;
+    margin-top: -3.5em;
+    padding-top: 15em;
   }
 
   .tab-content p {
@@ -1685,7 +1685,7 @@ i:hover {
   }
 
   .tab-group {
-     padding-top: 25em;
+     padding-top: 21em;
      height: 52em;
   }
 
