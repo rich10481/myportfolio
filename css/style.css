@@ -182,7 +182,11 @@ i:hover {
   background-color: #525B5C;
   text-align: center;
   padding-top: 1em;
-  padding-bottom: 2em;
+  border-bottom: 1px solid #fff;
+}
+
+.Docs {
+  padding-bottom: 3em;
 }
 
 .hyperlink {
