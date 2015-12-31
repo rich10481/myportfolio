@@ -24,9 +24,9 @@
 .tab label {
   color: #FF7400;
   display: block;
-  font-family: "Comfortaa", sans-serif;
-  letter-spacing: .1em;
-  font-size: 1.5em;
+  font-family: "proxima-nova", sans-serif;
+  letter-spacing: .03em;
+  font-size: 1.9em;
 }
 
 .tab-content {
