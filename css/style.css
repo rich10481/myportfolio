@@ -367,6 +367,7 @@ i:hover {
 .PCBG {
   background: url("../Images/PAYCRAVE/PCBG.png") center no-repeat;
   background-size: cover;
+  height: 35em;
 }
 
 .PCOverlay {
@@ -667,10 +668,6 @@ i:hover {
     padding: 1em 0 2em 0;
   }
 
-  .PCBG {
-    height: 33em;
-  }
-
   .PCHeading {
     width: 75%
   }
@@ -806,10 +803,6 @@ i:hover {
       padding-top: .4em;
     }
 
-
-  .PCBG {
-    height: 35em;
-  }
 
   .PCHeading {
     width: 75%
@@ -995,10 +988,6 @@ i:hover {
       border-color: #525B5C;
     }
 
-    .PCBG {
-    height: 35em;
-    }
-
     .PCHeading {
       width: 50%;
     }
@@ -1139,10 +1128,6 @@ i:hover {
     bottom: 5em;
   }
 
-
-  .PCBG {
-    height: 37em;
-  }
 
   .PCHeading {
     width: 50%;
@@ -1403,10 +1388,6 @@ i:hover {
   }
 
 
-  .PCBG {
-    height: 40em;
-  }
-
   .PCHeading {
     max-width: 40%;
     margin-left: 7%;
@@ -1605,10 +1586,6 @@ i:hover {
     border: .2em solid;
     border-color: #525B5C;
     margin-bottom: 2em;
-  }
-
-  .PCBG {
-    height: 45em;
   }
 
   .PCHeading {
