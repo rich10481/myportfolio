@@ -433,14 +433,15 @@ i:hover {
 }
 
 #CP {
-  background: url("../Images/ClearPlate/CPMobileDisplay.png") center 5% no-repeat;
-  height: 35em;
+  background: url("../Images/ClearPlate/CPMobileDisplay.png") center -40% no-repeat;
+  height: 37em;
   background-size: 30em;
+  margin-top: 7em;
 }
 
 #overlay2 {
   height: 37em;
-  margin-top: -2em;
+  margin-top: 0em;
   width: 100%;
   position: absolute;
   background-color: #00E7FF;
@@ -451,13 +452,12 @@ i:hover {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10em;
+
 }
 
 .CPlogo {
-  margin: 14em auto 0;
-  width: 100%;
-  max-width: 250px;
+   margin-top: 15em;
+   width: 250px;
 }
 
 .PC1 {
@@ -656,6 +656,10 @@ i:hover {
   .nav li {
     font-size: 1em;
     font-weight: 300;
+  }
+
+  .CPlogo {
+    width: 200px;
   }
 
   .Box {
@@ -1124,6 +1128,10 @@ i:hover {
 
   .top-icons li {
     padding-top: .4em;
+  }
+
+  .CPlogo {
+    width: 300px;
   }
 
 
