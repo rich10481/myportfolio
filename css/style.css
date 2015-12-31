@@ -1,20 +1,20 @@
-
-
 h2 {
   font-family: "proxima-nova", sans-serif;
-  font-size: 1.4em;
+  letter-spacing: .25px;
   font-weight: 400;
   text-align: center;
+  text-shadow: 2px 1.5px 0px #222;
+  text-transform: uppercase;
 }
 
 p {
   font-family: "proxima-nova", sans-serif;
-  font-size: 1em;
-  font-weight: 300;
+  font-size: 1.3em;
+  font-weight: 100;
   text-align: left;
   margin-left: 7%;
   margin-right: 7%;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 
 .top {
@@ -27,7 +27,7 @@ p {
   position: fixed;
   top:0;
   width: 100%;
-  height: 10em;
+  height: 8em;
   border-bottom:2px inset;
   border-color: #00E7FF;
   box-shadow: 0 2px 20px 5px;
@@ -47,8 +47,8 @@ p {
 
 .title {
   font-family: "proxima-nova", Arial, Helvetica;
-  font-size: 1em;
   font-weight: 300;
+  letter-spacing: 1px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -79,7 +79,8 @@ p {
 
 .nav li {
   font-family: "proxima-nova", sans-serif;
-  font-size: .8em;
+  font-size: 1.7em;
+  font-weight: 100;
   text-decoration: none;
   text-align: left;
   list-style: none;
@@ -87,6 +88,7 @@ p {
   margin-top: 1.7em;
   margin-left: 8px;
   margin-right: 8px;
+  letter-spacing: 1px;
 }
 
 .top-icons {
@@ -99,7 +101,7 @@ p {
   list-style: none;
   display: inline-block;
   margin-right: 25px;
-  margin-top: -2em;
+  margin-top: -3.3em;
 }
 
 i {
@@ -208,8 +210,8 @@ i:hover {
 
 .blue {
   color: #00E7FF;
-  padding-top: 1.5em;
-  padding-bottom: .5em;
+  padding-top: .5em;
+  /* padding-bottom: .5em; */
 }
 
 .pBB {
@@ -646,14 +648,21 @@ i:hover {
   
 @media screen and (min-width: 320px) and (max-width:460px) {
 
+  .title {
+    font-size: 1.3em;
+    margin-top: 1em;
+  }
 
-  .top-icons li {
-    padding-top: .3em;
+  .nav {
+    margin-top: -1.5em;
+  }
+
+  .nav li {
+    font-size: 1em;
   }
 
   .Box {
     width: 150px;
-
   }
 
   .pBB {
@@ -777,21 +786,21 @@ i:hover {
 
 @media screen and (min-width: 461px) and (max-width:640px) {
 
-    .title {
-      font-size: 1.2em;
-      margin-top: 2em;
+    . .title {
+      font-size: 1.4em;
+      margin-top: 1em;
     }
 
     .nav {
-      margin-top: -1em;
+      margin-top: -1.7em;
     }
 
     .nav li {
-      font-size: .9em;
+      font-size: 1em;
     }
 
     .top-icons {
-      margin-top: -.6em;
+      margin-top: -.5em;
     }
   
 
@@ -930,12 +939,12 @@ i:hover {
 @media screen and (min-width: 641px) and (max-width: 899px) {
 
     .title {
-      font-size: 1.3em;
-      margin-top: 1.4em;
+      font-size: 1.7em;
+      margin-top: .5em;
     }
 
     .nav {
-      margin-top: -1em;
+      margin-top: -2em;
     }
 
     .nav li {
@@ -943,7 +952,7 @@ i:hover {
     }
 
     .top-icons {
-      margin-top: -.7em;
+      margin-top: -.2em;
     }
   
 
@@ -1100,16 +1109,16 @@ i:hover {
 @media screen and (min-width: 900px) {
 
   .title {
-      font-size: 1.3em;
-      margin-top: 1em;
+      font-size: 1.8em;
+      margin-top: .5em;
     }
 
     .nav {
-      margin-top: -1em;
+      margin-top: -2.9em;
     }
 
     .nav li {
-      font-size: 1em;
+      font-size: 1.3em;
     }
 
     .top-icons {
@@ -1311,22 +1320,22 @@ i:hover {
   }
 
   .title {
-    font-size: 1.2em;
-    margin-top: 1.3em;
+    font-size: 1.6em;
+    margin-top: .7em;
     text-align: left;
-    margin-left: 1.1em;
+    margin-left: .9em;
     margin-bottom: 0;
   }
 
   .nav {
-    font-size: .9em;
+    font-size: .8em;
     text-align: left;
-    margin-left: 1em;
-    margin-top: -1em;
+    margin-left: 1.3em;
+    margin-top: -2em;
   }
 
   .top-icons {
-    margin-top: .3em;
+    margin-top: .9em;
     margin-right: -2em;
   }
 
@@ -1336,7 +1345,7 @@ i:hover {
   }
 
   p {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .CP1 {
@@ -1517,15 +1526,15 @@ i:hover {
 
 @media screen and (min-width: 1200px) {
     
-  .title {
-    margin-top: 1.4em;
-    margin-left: 1.1em;
+   .title {
+    margin-top: .7em;
+    margin-left: .9em;
     margin-bottom: 0;
   }
 
   .nav {
-    margin-left: 1em;
-    margin-top: -1em;
+    margin-left: 1.3em;
+    margin-top: -1.5em;
   }
 
    .social {
@@ -1533,7 +1542,7 @@ i:hover {
   }
 
   .top-icons {
-    margin-top: 0em;
+    margin-top: .7em;
     margin-right: -6em;
   }
 
@@ -1726,8 +1735,3 @@ i:hover {
      height: 52em;
   }
 }
-
-
-
-
-
