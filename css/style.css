@@ -786,7 +786,7 @@ i:hover {
 
 @media screen and (min-width: 461px) and (max-width:640px) {
 
-    . .title {
+    .title {
       font-size: 1.4em;
       margin-top: 1em;
     }
@@ -1101,7 +1101,7 @@ i:hover {
   }
 
   .message {
-    margin-top: 1.3em;
+    margin-top: .9em;
     margin-left: 4.5%;
   }
 }
@@ -1209,7 +1209,7 @@ i:hover {
 
 
   #ViewProjects {
-    margin-top: .2em;
+    margin-top: -.1em;
     padding: 0;
   }
 
@@ -1300,7 +1300,7 @@ i:hover {
   }
 
   .message {
-    margin-top: 1.3em;
+    margin-top: .8em;
     margin-left: 20%;
   }
 
@@ -1447,7 +1447,6 @@ i:hover {
 
 
   #ViewProjects {
-    margin: 0;
     padding: 0;
   }
 
@@ -1519,7 +1518,7 @@ i:hover {
   }
 
   .message {
-    margin-top: 1em;
+    margin-top: .6em;
     margin-left: 20%;
   }
 }
@@ -1648,11 +1647,6 @@ i:hover {
     padding-top: 2.6%;    
     }
 
-  #ViewProjects {
-    margin: 0;
-    padding: 0;
-  }
-
   #BBGoTo {
      width: 60%;
      margin-top: .4em;
@@ -1714,7 +1708,6 @@ i:hover {
   }
 
   .message {
-    margin-top: 1em;
     margin-left: 18%;
   }
 }
@@ -1733,5 +1726,9 @@ i:hover {
   .Main {
      background-position: 0% 34%;
      height: 52em;
+  }
+
+  #ViewProjects {
+    margin-top: -.2em;
   }
 }
