@@ -646,6 +646,7 @@ i:hover {
   .title {
     font-size: 1.2em;
     margin-top: 1em;
+    font-weight: 400;
   }
 
   .nav {
@@ -654,6 +655,7 @@ i:hover {
 
   .nav li {
     font-size: 1em;
+    font-weight: 300;
   }
 
   .Box {
