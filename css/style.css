@@ -764,6 +764,10 @@ i:hover {
     padding-top: 16em;
   }
 
+  .tab-content p {
+    font-size: .9em;
+  }
+
   .footer {
     height: 5em;
     text-align: center;
@@ -908,12 +912,8 @@ i:hover {
     margin-top: -2.7em;
   }
 
-  .tab label {
-    font-size: 1.7em;
-  }
-
-  .tab-content {
-    font-size: .9em;
+  .tab-content p {
+    font-size: 1em;
   }
 
   .footer {
@@ -1081,10 +1081,10 @@ i:hover {
   }
 
    .tab label {
-     font-size: 1.7em;
+     font-size: 2.2em;
   }
 
-   .tab-content {
+   .tab-content p {
      font-size: 1em;
   }
 
