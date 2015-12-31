@@ -1,18 +1,17 @@
 
 
 h2 {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 1.4em;
+  font-weight: 400;
   text-align: center;
-  letter-spacing: .02em;
 }
 
 p {
-  font-family: "museo-slab", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 300;
   text-align: left;
-  letter-spacing: .03em;
   margin-left: 7%;
   margin-right: 7%;
   line-height: 1.6em;
