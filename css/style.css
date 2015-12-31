@@ -179,12 +179,6 @@ i:hover {
   width: 100%;
 }
 
-.projectTools {
-  font-family: 'Comfortaa', sans-serif;
-  font-size: 1em;
-  color: #FFF;
-}
-
 .DarkGray {
   background-color: #525B5C;
   text-align: center;
@@ -445,7 +439,8 @@ i:hover {
 }
 
 #overlay2 {
-  height: 35em;
+  height: 37em;
+  margin-top: -2em;
   width: 100%;
   position: absolute;
   background-color: #00E7FF;
