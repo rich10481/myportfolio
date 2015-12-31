@@ -394,8 +394,9 @@ i:hover {
 }
 
 #PCimg {
-  margin-top: -25%;
   position: absolute;
+  height: 25em;
+  bottom: 0;
 }
 
 #PCListView {
@@ -433,8 +434,10 @@ i:hover {
 }
 
 .PCHeading {
-  margin-left: 3%;
+  width: 320px;
+  margin-left: 2em;
 }
+
 
 #CP {
   background: url("../Images/ClearPlate/CPMobileDisplay.png") center -40% no-repeat;
@@ -668,8 +671,9 @@ i:hover {
     padding: 1em 0 2em 0;
   }
 
-  .PCHeading {
-    width: 75%
+   .PCHeading {
+    width: 320px;
+    margin-left: 2em;
   }
 
   #PCCA {
@@ -804,8 +808,9 @@ i:hover {
     }
 
 
-  .PCHeading {
-    width: 75%
+   .PCHeading {
+    width: 350px;
+    margin-left: 2em;
   }
 
   #PCDraftLogo {
@@ -989,7 +994,8 @@ i:hover {
     }
 
     .PCHeading {
-      width: 50%;
+      width: 350px;
+      margin-left: 2em;
     }
 
     #PCDraftLogo {
@@ -1130,7 +1136,8 @@ i:hover {
 
 
   .PCHeading {
-    width: 50%;
+    width: 400px;
+    margin-left: 7em;
   }
 
   #BBResearchDocs {
@@ -1389,8 +1396,7 @@ i:hover {
 
 
   .PCHeading {
-    max-width: 40%;
-    margin-left: 7%;
+    width: 450px;
   }
 
   #PCWireframes {
@@ -1589,8 +1595,7 @@ i:hover {
   }
 
   .PCHeading {
-    max-width: 40%;
-    margin-left: 7%;
+    width: 550px;
   }
 
  #PCWireframes {
