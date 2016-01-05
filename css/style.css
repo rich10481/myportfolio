@@ -171,7 +171,7 @@ i:hover {
 
 .Box2 {
   margin-top: 15em;
-  max-width: 250px;
+  width: 250px;
 }  
 
 
@@ -1359,7 +1359,7 @@ i:hover {
   }
 
   .Box2 {
-    width: 350px;
+    width: 300px;
   }
 
   #BBResearchDocs {
