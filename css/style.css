@@ -1,16 +1,16 @@
 h2 {
   font-family: "proxima-nova", sans-serif;
+  font-size: 1.9em;
   letter-spacing: .25px;
   font-weight: 400;
   text-align: center;
   text-shadow: 2px 1.5px 0px #222;
-  text-transform: uppercase;
 }
 
 p {
   font-family: "proxima-nova", sans-serif;
   font-size: 1.3em;
-  font-weight: 100;
+  font-weight: 300;
   text-align: left;
   margin-left: 7%;
   margin-right: 7%;
@@ -22,7 +22,7 @@ p {
 }
 
 .overlay {
-  background: linear-gradient(10deg,#525B5C 30%, #76898A 70%);
+  background: #525B5C;
   z-index:5;
   position: fixed;
   top:0;
@@ -34,7 +34,7 @@ p {
 }
 
 .overlayAM {
-  background: linear-gradient(10deg,#525B5C 30%, #76898A 70%);
+  background: #525B5C;
   z-index:5;
   position: relative;
   top:0;
@@ -55,6 +55,8 @@ p {
   margin-top: 1.5em;
   margin-bottom: .5em;
   color: #fff;
+  text-shadow: 2px 1.5px 0px #222;
+
 }
 
 .nav {
@@ -226,7 +228,7 @@ i:hover {
 
 
 #BBResearchDocs {
-  margin-bottom: -1.5em;
+  margin-bottom: 1em;
 }
 
 .BBResearch2 {
@@ -236,8 +238,7 @@ i:hover {
 }
 
 #UPimg {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 
@@ -394,8 +395,8 @@ i:hover {
 }
 
 #PCimg {
-  position: absolute;
-  height: 27em;
+  position: relative;
+  margin-top: -10em;
   bottom: 0;
 }
 
@@ -649,9 +650,13 @@ i:hover {
 @media screen and (min-width: 320px) and (max-width:460px) {
 
   .title {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-top: 1em;
     font-weight: 400;
+  }
+
+  h2 {
+    font-size: 1.5em;
   }
 
   .nav {
