@@ -765,6 +765,10 @@ i:hover {
     height: 43em;
   }
 
+  .tab label {
+     font-size: 1.3em;
+  }
+
   .tab-group {
     height: 44em;
     margin-top: -3.5em;
@@ -908,6 +912,10 @@ i:hover {
 
   .Main {
     height: 44em;
+  }
+
+  .tab label {
+     font-size: 1.5em;
   }
 
   .tab-group {
@@ -1075,14 +1083,14 @@ i:hover {
      height: 50em;
   }
 
+  .tab label {
+     font-size: 1.7em;
+  }
+
    .tab-group {
      margin-top: -2.5em;
      padding-top: 22em;
      height: 50em;
-  }
-
-   .tab label {
-     font-size: 2.2em;
   }
 
    .tab-content p {
@@ -1288,7 +1296,7 @@ i:hover {
   }
    
    .tab label {
-     font-size: 2.2em;
+     font-size: 2em;
   }
 
    .tab-content {
@@ -1506,7 +1514,7 @@ i:hover {
   }
    
   .tab label {
-     font-size: 2.2em;
+     font-size: 2em;
   }
 
   .tab-content {
@@ -1714,7 +1722,7 @@ i:hover {
   }
 
   .tab label {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 }
 
