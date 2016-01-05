@@ -10,7 +10,7 @@ h2 {
 p {
   font-family: "proxima-nova", sans-serif;
   font-size: 1.3em;
-  font-weight: 300;
+  font-weight: 100;
   text-align: left;
   margin-left: 7%;
   margin-right: 7%;
@@ -657,6 +657,10 @@ i:hover {
 
   h2 {
     font-size: 1.5em;
+  }
+
+  p {
+    font-weight: 300;
   }
 
   .nav {
