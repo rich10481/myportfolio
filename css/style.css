@@ -512,7 +512,7 @@ i:hover {
 
 
 .Main {
-  background:url("../Images/Me/Rich-7.jpg")left no-repeat;
+  background:url("../Images/Me/Rich-6.png")left no-repeat;
   background-size: cover;
   height: 40em;
 }
@@ -762,7 +762,8 @@ i:hover {
   }
 
   .Main {
-    height: 43em;
+    height: 35em;
+    background-position: 2% 70%;
   }
 
   .tab label {
@@ -770,9 +771,8 @@ i:hover {
   }
 
   .tab-group {
-    height: 44em;
-    margin-top: -3.5em;
-    padding-top: 15em;
+    height:30em;
+    padding-top: 8em;
   }
 
   .tab-content p {
@@ -1078,9 +1078,10 @@ i:hover {
      width: 75%;
   }
 
+   
    .Main {
-     background-position: 0% 40%;
-     height: 50em;
+     background-position: 0% 30%;
+     height: 40em;
   }
 
   .tab label {
@@ -1089,8 +1090,8 @@ i:hover {
 
    .tab-group {
      margin-top: -2.5em;
-     padding-top: 22em;
-     height: 50em;
+     padding-top: 11em;
+     height: 40em;
   }
 
    .tab-content p {
@@ -1284,15 +1285,15 @@ i:hover {
     width: 70%;
   }
 
-   .Main {
-     background-position: 0% 40%;
-     height: 52em;
+   . .Main {
+     background-position: 0% 30%;
+     height: 39.5em;
   }
 
    .tab-group {
-     margin-top: -2em;
-     padding-top: 22em;
-     height: 52em;
+     margin-top: -3em;
+     padding-top: 10em;
+     height: 40em;
   }
    
    .tab label {
@@ -1501,14 +1502,14 @@ i:hover {
 
   .Main {
      margin-top: 0;
-     background-position: 0% 40%;
-     height: 52em;
+     background-position: 0% 30%;
+     height: 40em;
   }
 
   .tab-group {
      margin-top: 0em;
-     padding-top: 19em;
-     height: 52em;
+     padding-top: 9em;
+     height: 40em;
      padding-left: 3em;
      padding-right: 3em;
   }
@@ -1693,13 +1694,12 @@ i:hover {
   }  
 
   .Main {
-     background-position: 0% 35%;
-     height: 52em;
+     background-position: 0% 30%;
+     height: 40em;
   }
 
   .tab-group {
-     padding-top: 21em;
-     height: 52em;
+     height: 40em;
   }
 
   .Button {
@@ -1738,8 +1738,13 @@ i:hover {
   }
 
   .Main {
-     background-position: 0% 34%;
-     height: 52em;
+     background-position: 0% 25%;
+     height: 45em;
+  }
+
+  .tab-group {
+    height: 45em;
+    padding-top: 15em;
   }
 
   #ViewProjects {
