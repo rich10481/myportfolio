@@ -919,8 +919,8 @@ i:hover {
 
    .Main {
     height: 38em;
-    background-size: 170%;
-    background-position: 35% 31%;
+    background-size: 180%;
+    background-position: 25% 30%;
   }
 
   .tab label {
@@ -1090,7 +1090,8 @@ i:hover {
    
   .Main {
     height: 38em;
-    background-position: 20% 100%;
+    background-size: 180%;
+    background-position: 35% 26%;
   }
 
   .tab label {
@@ -1099,7 +1100,7 @@ i:hover {
 
   .tab-group {
     height:38em;
-    padding-top: 10em;
+    padding-top: 13em;
     margin-top: -2.5em;
   }
 
@@ -1295,14 +1296,14 @@ i:hover {
   }
 
   .Main {
-    background-size: 115%;
-    background-position: 2% 27%;
+    background-size: 170%;
+    background-position: 30% 26.5%;
     height: 39.5em;
   }
 
   .tab-group {
     margin-top: -3em;
-    padding-top: 11em;
+    padding-top: 13em;
     height: 40em;
   }
    
@@ -1311,7 +1312,7 @@ i:hover {
   }
 
    .tab-content {
-     font-size: 1em;
+     font-size: .9em;
      padding: 0 2em 0 0em;
   }
 
@@ -1510,17 +1511,17 @@ i:hover {
     width: 70%;
   }
 
-   .Main {
+  .Main {
      margin-top: 0;
-     background-size: 110%;
-     background-position: 0% 26%;
-     height: 42em;
+     background-size: 170%;
+     background-position: 30% 26%;
+     height: 44em;
   }
 
   .tab-group {
      margin-top: 0em;
-     padding-top: 14em;
-     height: 42em;
+     padding-top: 16em;
+     height: 44em;
      padding-left: 3em;
      padding-right: 3em;
   }
@@ -1704,15 +1705,15 @@ i:hover {
     width: 60%;
   }  
 
-   .Main {
-     background-size: 110%;
-     background-position: 0% 25%;
-     height: 43em;
+  .Main {
+     background-size: 165%;
+     background-position: 30% 25%;
+     height: 44em;
   }
 
   .tab-group {
-     padding-top: 16em;
-     height: 43em;
+     padding-top: 17em;
+     height: 44em;
   }
 
   .Button {
@@ -1750,15 +1751,17 @@ i:hover {
     margin-left: 18%;
   }
 
-   .Main {
-     background-position: 0% 26%;
-     height: 45em;
+  .Main {
+     background-size: 150%;
+     background-position: 30% 26%;
+     height: 46em;
   }
 
   .tab-group {
-    height: 45em;
-    padding-top: 16em;
+    height: 46em;
+    padding-top: 17em;
   }
+
 
   #ViewProjects {
     margin-top: -.2em;
