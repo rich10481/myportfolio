@@ -650,8 +650,9 @@ i:hover {
 @media screen and (min-width: 320px) and (max-width:460px) {
 
   .title {
-    font-size: 1.2em;
-    margin-top: 1em;
+    font-size: 1em;
+    margin-top: 1.2em;
+    margin-bottom: 0;
     font-weight: 400;
   }
 
@@ -664,12 +665,16 @@ i:hover {
   }
 
   .nav {
-    margin-top: -1.3em;
+    margin-bottom: 0;
   }
 
   .nav li {
-    font-size: 1em;
+    font-size: .7em;
     font-weight: 300;
+  }
+
+  .top-icons {
+    margin-top: 1em;
   }
 
   .pBB {
