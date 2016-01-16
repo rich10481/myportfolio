@@ -669,8 +669,10 @@ i:hover {
   }
 
   .nav li {
-    font-size: .7em;
+    font-size: .8em;
     font-weight: 300;
+    margin-left: 4px;
+
   }
 
   .top-icons {
