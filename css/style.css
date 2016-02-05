@@ -644,6 +644,22 @@ i:hover {
   right: 0;
 }
 
+/*-----------CONTACT FORM--------------------------------------------------*/
+    
+    #ContactForm {
+      padding-top: 11em;
+      background-color: #525b5C;
+    }
+
+    #ContactHeading {
+      color: #fff;
+    }
+
+     label {
+      color: white;
+      padding-bottom: .7em;
+    }
+
 /*-----------MEDIA QUERIES--------------------------------------------------*/
 
   

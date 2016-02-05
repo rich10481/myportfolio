@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width" />
+    <script src="https://use.typekit.net/fxk6oef.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="js/vendor/modernizr.js"></script>
+    <title>Rich Smallwood | Portfolio</title>
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <header>
+    <div class="overlay">
+      <div class="large-8 columns">
+       <h1 class="title">RICH SMALLWOOD | UX/UI Designer</h1>
+        <ul class="nav">
+           <li><a href="index.html">Portfolio</a></li>
+           <li><a href="aboutme.html">About Me</a></li>
+           <li><a href="Images/Me/RESUME.pdf" target="_blank">Resume</a></li>
+           <li class="selected"><a href="contact.html">Contact</a></li>
+           </ul>
+          </div>
+        <div class="large-3 large-offset-1 columns social">
+          <ul class="top-icons">
+            <li><a href="https://twitter.com/rich10481" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/richardsmallwoodca" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li> 
+            <li><a href="https://github.com/rich10481" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+          </ul>
+         </div>
+        </div>
+    </header>
+    <body>
+     <div id="ContactForm"> 
+      <h2 id="ContactHeading">Send Me a Message</h2>
+      <form class="form">
+       <form action="mail.php" method="POST">
+
+        <p class="name">
+         <label for="name">Name</label>
+         <input type="text" name="name" id="name" placeholder="First and Last Name" />
+         
+        </p>
+        <p class="email">
+         <label for="email">Email</label>
+         <input type="text" name="email" id="email" placeholder="email@example.com" />
+         
+        </p>
+        <p class="message">
+         <textarea name="message" placeholder="Write your message here" /></textarea>
+        </p>
+        <p class="submit">
+          <input type="submit" value="Submit">
+        </p> 
+        <?php $name = $_POST['name'];
+          $email = $_POST['email'];
+          $message = $_POST['message'];
+          $formcontent="From: $name \n Message: $message";
+          $recipient = "rich10481@gmail.com";
+          $subject = "Contact Form";
+          $mailheader = "From: $email \r\n";
+          mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+          echo "Thank You!";
+        ?>
+      </form> 
+     </div>   
+    </body>
