@@ -674,6 +674,8 @@ i:hover {
 
     label {
       color: #fff;
+      font-weight: 100;
+      letter-spacing: 1px;
     }
 
 
