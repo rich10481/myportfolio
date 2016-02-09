@@ -2,9 +2,9 @@ h2 {
   font-family: "proxima-nova", sans-serif;
   font-size: 1.9em;
   letter-spacing: .25px;
-  font-weight: 400;
+  font-weight: 100;
   text-align: center;
-  text-shadow: 2px 1.5px 0px #222;
+  /*text-shadow: 2px 1.5px 0px #222;*/
 }
 
 p {
@@ -47,7 +47,7 @@ p {
 
 .title {
   font-family: "proxima-nova", Arial, Helvetica;
-  font-weight: 300;
+  font-weight: 100;
   letter-spacing: 1px;
   margin-left: auto;
   margin-right: auto;
@@ -55,7 +55,7 @@ p {
   margin-top: 1.5em;
   margin-bottom: .5em;
   color: #fff;
-  text-shadow: 2px 1.5px 0px #222;
+  /*text-shadow: 2px 1.5px 0px #222;*/
 
 }
 
@@ -82,7 +82,7 @@ p {
 .nav li {
   font-family: "proxima-nova", sans-serif;
   font-size: 1.7em;
-  font-weight: 300;
+  font-weight: 100;
   text-decoration: none;
   text-align: left;
   list-style: none;
