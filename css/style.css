@@ -38,6 +38,31 @@ h1.PageTitle {
   padding-top: 1em;
 }
 
+.social-container {
+  text-align: center;
+}
+
+.social-icons {
+  border: none;
+  background-color: #D94423;
+  font-size: 24px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 1em;
+}
+
+.CopyText {
+  color: #F2EBDF;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.left-off-canvas-menu {
+  background-color: #D94423;
+}
+
+
+
 
 
 
@@ -77,6 +102,7 @@ h1.PageTitle {
   .CP1HeroTitle{
     width: 200px;
     margin-left: 1em;
+    margin-bottom: .75em;
   }
 
    .Arrow {
@@ -85,6 +111,31 @@ h1.PageTitle {
     font-size: 60px;
     margin-top: .18em; 
     margin-left: .5em;
+  }
+
+  .PC1Mockup {
+    margin-top: 2em;
+  }
+
+  .PC1HeroTitle {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+
+  .BBMockup {
+    margin-left: 1em;
+    margin-bottom: 2em;
+    transform: rotate(20deg);
+    width: 350px;
+  }
+
+  .BB1HeroTitle {
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  .CopyText {
+    font-size: .8em;
   }
 }
 
