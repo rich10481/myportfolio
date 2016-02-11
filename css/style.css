@@ -1,3 +1,59 @@
+body {
+  background-color: #4D4B47;
+}
+
+.Top-Bar-Left {
+  margin-top: 1em;
+}
+
+.Top-Bar-Right {
+  margin-top: 1.2em;
+}
+
+.Line {
+  border-bottom: 1px solid #F2EBDF;
+}
+
+
+.MyTitle {
+  color: #F2EBDF;
+}
+
+.hamburger {
+  max-width: 25px;
+}
+
+.off-canvas-list {
+  background-color: #D94423;
+}
+
+.tab-bar {
+  background-color: #4D4B47;
+}
+
+.left-small {
+  border: none;
+}
+
+
+
+
+
+/*NEW MEDIA QUERIES*/
+@media (min-width: 320px) and (max-width: 400px) {
+  .MyTitle {
+    font-size: .79em;
+    letter-spacing: .7px;
+    text-align: left;
+    margin-left: -13px; 
+  }
+
+  
+}
+
+
+/*---------OLD PORTFOLIO CODE STARTS HERE-------------------------*/
+
 h2 {
   font-family: "proxima-nova", sans-serif;
   font-size: 1.9em;
