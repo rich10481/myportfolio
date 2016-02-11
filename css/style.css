@@ -2,25 +2,14 @@ body {
   background-color: #4D4B47;
 }
 
-.Top-Bar-Left {
-  margin-top: 1em;
-}
-
-.Top-Bar-Right {
-  margin-top: 1.2em;
-}
 
 .Line {
   border-bottom: 1px solid #F2EBDF;
 }
 
 
-.MyTitle {
+h2.MyTitle {
   color: #F2EBDF;
-}
-
-.hamburger {
-  max-width: 25px;
 }
 
 .off-canvas-list {
@@ -35,20 +24,68 @@ body {
   border: none;
 }
 
+.tab-bar .menu-icon {
+  margin-left: 15px;
+  margin-top: 4px;
+}
+
+h1.PageTitle {
+  color: #D94423;
+  font-weight: 100;
+}
+
+.Landing1 {
+  padding-top: 1em;
+}
+
 
 
 
 
 /*NEW MEDIA QUERIES*/
 @media (min-width: 320px) and (max-width: 400px) {
-  .MyTitle {
-    font-size: .79em;
-    letter-spacing: .7px;
-    text-align: left;
-    margin-left: -13px; 
+  
+  .hamburger {
+    margin-left: 1.8em;
+    margin-top: 1em;
+    width: 65%;
   }
 
-  
+  h2.MyTitle {
+    font-size: .9em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: center; 
+    margin-top: 2px;
+    margin-left: 9px;
+  } 
+
+  .line {
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    letter-spacing: 2px;
+    margin-top: 1em;
+    margin-left: .4em;
+  }
+
+  .CP1Mockup {
+
+  }
+
+  .CP1HeroTitle{
+    width: 200px;
+    margin-left: 1em;
+  }
+
+   .Arrow {
+    color: #D94423;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: .18em; 
+    margin-left: .5em;
+  }
 }
 
 
