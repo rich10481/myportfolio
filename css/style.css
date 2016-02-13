@@ -2,6 +2,10 @@ body {
   background-color: #4D4B47;
 }
 
+a:hover {
+  color: #F2EBDF;
+}
+
 
 .Line {
   border-bottom: 1px solid #F2EBDF;
@@ -9,6 +13,7 @@ body {
 
 
 h2.MyTitle {
+  font-family: "Proxima Nova", sans-serif;
   color: #F2EBDF;
 }
 
@@ -30,13 +35,17 @@ h2.MyTitle {
 }
 
 h1.PageTitle {
+  font-family: "Proxima Nova", sans-serif;
   color: #D94423;
   font-weight: 100;
 }
 
-.Landing1 {
-  padding-top: 1em;
-}
+
+.Arrow {
+    color: #D94423;
+    font-size: 60px;
+
+}   
 
 .social-container {
   text-align: center;
@@ -45,10 +54,10 @@ h1.PageTitle {
 .social-icons {
   border: none;
   background-color: #D94423;
-  font-size: 24px;
-  padding: 10px;
-  margin-right: 20px;
-  margin-bottom: 1em;
+}  
+
+.social-icons a:hover {
+  color: #F2EBDF;
 }
 
 .CopyText {
@@ -61,6 +70,25 @@ h1.PageTitle {
   background-color: #D94423;
 }
 
+i {
+  margin-top: 1.8em;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+i:hover {
+  color: #0D0D0D;
+}
+
+.fa {
+  color: #F2EBDF;
+}
+
+
+
 
 
 
@@ -68,35 +96,38 @@ h1.PageTitle {
 
 
 /*NEW MEDIA QUERIES*/
-@media (min-width: 320px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 414px) {
   
   .hamburger {
-    margin-left: 1.8em;
-    margin-top: 1em;
-    width: 65%;
+    margin-left: .8em;
+    margin-top: 1.3em;
+    width: 50%;
   }
 
   h2.MyTitle {
     font-size: .9em;
     font-weight: 100;
     letter-spacing: .7px;
-    text-align: center; 
-    margin-top: 2px;
-    margin-left: 9px;
+    text-align: left; 
+    margin-top: 1em;
+    margin-left: -1em;
   } 
 
   .line {
+    margin-top: .1em;
     border-bottom: 1px solid #F2EBDF;
   }
 
   h1.PageTitle {
-    letter-spacing: 2px;
+    font-size: 1.5em;
+    text-align: left;
+    letter-spacing: 1px;
     margin-top: 1em;
-    margin-left: .4em;
+    margin-left: -.6em;
   }
 
-  .CP1Mockup {
-
+  .project-title {
+    margin-top: 1em;
   }
 
   .CP1HeroTitle{
@@ -108,8 +139,6 @@ h1.PageTitle {
    .Arrow {
     color: #D94423;
     font-weight: 100;
-    font-size: 60px;
-    margin-top: .18em; 
     margin-left: .5em;
   }
 
@@ -123,10 +152,11 @@ h1.PageTitle {
   }
 
   .BBMockup {
-    margin-left: 1em;
-    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-left: 2.4em;
+    margin-bottom: 4em;
     transform: rotate(20deg);
-    width: 350px;
+    width: 250px;
   }
 
   .BB1HeroTitle {
@@ -134,11 +164,400 @@ h1.PageTitle {
     margin-bottom: 1em;
   }
 
+  i {
+    width: 50px;
+    height: 50px;
+  } 
+
+  .social-icons {
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 1.7em;
+  }
+
   .CopyText {
-    font-size: .8em;
+    font-size: .6em;
+    margin-top: 2em;
+  }
+
+  .CP1HeroTitle2 {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    display: none;
+  }
+
+  .Arrow2 {
+    display: none;
+  }
+
+  .Arrow2BB {
+    display:none;
   }
 }
 
+@media (min-width: 415px) and (max-width: 500px) {
+  .hamburger {
+    margin-left: 1.7em;
+    margin-top: 1.7em;
+    width: 60%;
+  }
+
+  h2.MyTitle {
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.7em;
+  } 
+
+  .line {
+    margin-top: .8em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: -.5em;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .CP1Mockup {
+    margin-top: 1em
+  }
+
+  .CP1HeroTitle{
+    width: 250px;
+    margin-left: 1em;
+    margin-bottom: .75em;
+  }
+
+   .Arrow {
+    color: #D94423;
+    font-size: 5em;
+    margin-left: .5em;
+  }
+
+  .PC1Mockup {
+    margin-top: 2em;
+  }
+
+  .PC1HeroTitle {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+
+  .BBMockup {
+    margin-top: 2em;
+    margin-left: 2.4em;
+    margin-bottom: 4em;
+    transform: rotate(20deg);
+    width: 400px;
+  }
+
+  .BB1HeroTitle {
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  i {
+    width: 60px;
+    height: 60px;
+  } 
+
+  .social-icons {
+    font-size: 30px;
+    padding: 14px;
+    margin-right: 35px;
+    margin-bottom: 1.5em;
+  }
+
+  .CopyText {
+    text-align: left;
+    font-size: .8em;
+    margin-top: 2em;
+  }
+
+  .CP1HeroTitle2 {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    display: none;
+  }
+
+  .Arrow2 {
+    display: none;
+  }
+
+  .Arrow2BB {
+    display:none;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+  .hamburger {
+    margin-left: 1.7em;
+    margin-top: 1.7em;
+    width: 75%;
+  }
+
+  h2.MyTitle {
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.7em;
+  } 
+
+  .line {
+    margin-top: .8em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: -.4em;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .CP1Mockup {
+    margin-top: 1em;
+  }
+
+  .CP1HeroTitle{
+    width: 300px;
+    margin-left: 1em;
+    margin-bottom: .75em;
+  }
+
+   .Arrow {
+    color: #D94423;
+    font-size: 5em;
+    margin-left: .5em;
+  }
+
+  .PC1Mockup {
+    margin-top: 2em;
+  }
+
+  .PC1HeroTitle {
+    width: 350px;
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+
+  .BBMockup {
+    margin-top: 2em;
+    margin-left: 2.4em;
+    margin-bottom: 4em;
+    transform: rotate(20deg);
+    width: 400px;
+  }
+
+  .BB1HeroTitle {
+    width: 350px;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  i {
+    width: 80px;
+    height: 80px;
+  } 
+
+  .social-icons {
+    font-size: 40px;
+    padding: 20px;
+    margin-right: 35px;
+    margin-bottom: 1.5em;
+  }
+
+  .CopyText {
+    text-align: left;
+    font-size: .8em;
+    margin-top: 2em;
+  }
+
+  .CP1HeroTitle2 {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    display: none;
+  }
+
+  .Arrow2 {
+    display: none;
+  }
+
+  .Arrow2BB {
+    display:none;
+  }
+
+} 
+
+@media (min-width: 701px) and (max-width: 800px) {
+  .hamburger {
+    margin-left: 2em;
+    margin-top: 1.7em;
+    width: 85%;
+  }
+
+  h2.MyTitle {
+    font-size: 1.7em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.6em;
+  } 
+
+  .line {
+    margin-top: .8em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    font-size: 3em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: -.3em;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .CP1Mockup {
+    margin-top: 1em;
+    width: 80%;
+    margin-left: -6em;
+  }
+
+  .CP1HeroTitle{
+    display: none;
+  }
+
+  .CP1HeroTitle2 {
+    width: 200px;
+    margin-left: -7em;
+  }
+
+   .Arrow {
+    display: none;
+  }
+
+   .Arrow2 {
+    color: #D94423;
+    font-size: 7em;
+    margin-left: .7em;
+   }
+
+  .PC1Mockup {
+    width: 80%;
+    margin-top: 2em;
+    margin-left: -7em;
+  }
+
+  .PC1HeroTitle {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    width: 240px;
+    margin-top: 7em;
+    margin-left: -8.5em;
+  }
+
+  .BBMockup {
+    width: 60%;
+    margin-top: 6em;
+    margin-left: -3em;
+    margin-bottom: 4em;
+    transform: rotate(335deg);
+  }
+
+  .BB1HeroTitle {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    width: 230px;
+    margin-top: 8em;
+    margin-left: 2em;
+  }
+
+  .Arrow2BB {
+    color: #D94423;
+    font-size: 7em;
+  }
+
+  i {
+    width: 100px;
+    height: 100px;
+  } 
+
+  .social-icons {
+    font-size: 54px;
+    padding: 20px;
+    margin-right: 60px;
+    margin-bottom: 1.5em;
+  }
+
+  .CopyText {
+    text-align: left;
+    font-size: 1em;
+    margin-top: 2em;
+  }
+  
+} 
+
+@media (min-width: 801px) and (max-width: 900px) {
+  
+} 
+
+@media (min-width: 901px) and (max-width: 1000px) {
+  
+} 
+
+@media (min-width: 1001px) and (max-width: 1100px) {
+  
+} 
+
+@media (min-width: 1101px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1201px) and (max-width: 1300px) {
+
+}
 
 /*---------OLD PORTFOLIO CODE STARTS HERE-------------------------*/
 
@@ -250,7 +669,7 @@ p {
   margin-top: -3.3em;
 }
 
-i {
+/*i {
   width: 50px;
   height: 50px;
   margin-top: 1.8em;
@@ -286,6 +705,8 @@ i:hover {
 .fa-envelope {
   padding-right: 10px;
 }
+
+*/
 
 .textbox {
   background-color: rgba(81,91,92,.5);
