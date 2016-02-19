@@ -1,45 +1,69 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
+<!DOCTYPE HTML>
+<head>
+  <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width" />
-    <script src="https://use.typekit.net/fxk6oef.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="js/vendor/modernizr.js"></script>
+    <script src="https://use.typekit.net/fxk6oef.js"></script>
+    <!--<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
     <title>Rich Smallwood | Portfolio</title>
-    <link rel="stylesheet" href="css/accordion.css">
     <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-   <header>
-    <div class="overlayAM">
-      <div class="large-8 columns">
-       <h1 class="title">RICH SMALLWOOD | UX/UI Designer</h1>
-        <ul class="nav">
-         <li><a href="index.html">Portfolio</a></li>
-           <li class="selected"><a href="aboutme.html">About Me</a></li>
-           <li><a href="Images/Me/RESUME.pdf" target="_blank">Resume</a></li>
-           <li><a href="contact.html">Contact</a></li>
-           </ul>
-          </div>
-        <div class="large-3 large-offset-1 columns social">
-          <ul class="top-icons">
-            <li><a href="https://twitter.com/rich10481" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/richardsmallwoodca" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li> 
-            <li><a href="https://github.com/rich10481" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
-          </ul>
-         </div>
-        </div>
-       </header> 
-       <div class="Main">
+    <link rel="stylesheet" href="css/accordion.css">
+</head>
+<body>
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle"><img class="hamburger" src="Images/hamburgericon.png" href="#" &gt;<span=""></a><span></span></a>
+        <img class="TopLeftLogo" src="Images/Me/RSLOGO.png">
+      </section>
+      <div class="row">
+      <div class="small-2 medium-2 large-2 columns">
+      </div>
+      <div class="small-10 medium-10 large-10 columns line"> 
+        <h2 class="MyTitle">RICH SMALLWOOD | ux/ui designer</h2> 
+      </div>
+    </div>
+    </nav>
+   <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <img class="BarLogo" src="Images/Me/RSLOGO.png">
+        <li><a class="BarIndicator" href="index2.html">PORTFOLIO</a></li>
+        <li class="submenu"><a class="SubmenuSelected" href="clearplate.html">clear plate</a></li>
+        <li class="submenu"><a href="paycrave.html">paycrave</a></li>
+        <li class="submenu"><a href="blocbox.html">blocbox</a></li>
+        <li><a href="aboutme2.html">ABOUT ME</a></li>
+        <li><a href="Images/Me/RESUME.pdf">RESUME</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </aside>
+    <div class="row">
+    <div class="large-11 offset-1 columns TopNav">
+      <ul class="TopMenu">
+        <li><a class="indicator" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:5000" aria-controls="drop1" aria-expanded="false">PORTFOLIO...</a></li>
+          <ul id="hover1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+            <li><a class="indicator" href="clearplate.html">clear plate</a></li>
+            <li><a href="paycrave.html">paycrave</a></li>
+            <li><a href="blocbox.html">blocbox</a></li>
+          </ul> 
+        <li><a href="aboutme2.html">ABOUT ME</a></li>
+        <li><a href="Images/Me/RESUME.pdf">RESUME</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+   </div>
+
+    <section class="main-section">
+       <div class="SelfPortrait">
+       </div>
         <div class="tab-group">
          <div class="tab">
           <input id="tab-one" type="radio" name="tabs" value=""checked/>
           <a class="hvr-underline-from-center2"><label for="tab-one">PASSION</label></a>
           <div class="tab-content">
-            <p class="bold"> I was born with a passion for creativity. My whole life it has been a part of me, and has been expressed through music, drawing, and more recently in designing digital spaces. Georg Hegel said, "Nothing great in this world has ever been accomplished without passion." Let's just say I've got a very solid foundation I'm builing on.
+            <p class="bold"> I was born with a passion for creativity. My whole life it has been a part of me, and has been expressed through music, drawing, and more recently in designing digital spaces. Georg Hegel said, "Nothing great in this world has ever been accomplished without passion." Let's just say I've got a very solid foundation I'm building on.
             </p>
           </div>
          </div>
@@ -61,8 +85,37 @@
        </div>
       </div> 
      </div> 
-     <div class="small-4 small-centered columns footer">
-   <p class="Copyright">&copy;2015-2016 Rich Smallwood. All Rights Reserved.</p>
-   <p class="message"><a href="contact.html"><span class="fa fa-envelope"></span>Send Me a Message</a></p>
- </div> 
-        
+     <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/fastclick.js"></script>
+        <script src="js/foundation.min.js"></script> 
+        <script>
+          $(document).foundation();
+        </script> 
+         </body>
+        <footer>
+        <div class="row">
+          <div class="small-10 columns line">
+          </div>
+          <div class="small-2 columns">  
+          </div>
+        </div>  
+       <div class="row">
+        <div class="small-12 columns social-container">
+          <i class="fa fa-twitter social-icons"><a href="https://twitter.com/rich10481"></a></i>
+          <i class="fa fa-linkedin social-icons"><a href="https://www.linkedin.com/in/richardsmallwoodca"></a></i>
+          <i class="fa fa-github social-icons"><a href="https://github.com/rich10481"></a></i>
+          <i class="fa fa-behance social-icons"><a href="https://www.behance.net/rich104"></a></i>
+        </div>
+        <div class="row">
+          <div class="small-2 columns">
+            </div>
+            <div class="small-10 columns line">  
+            </div>
+          </div>
+  <div class="row">
+    <div class="small-12 columns copyright">
+      <p class="CopyText">Designed and Coded by Rich Smallwood &copy; 2016. All Rights Reserved.</p>
+      </div>  
+    </div>
+</footer>
+</html>

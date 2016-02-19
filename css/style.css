@@ -178,6 +178,10 @@ i:hover {
   max-width: 60%;
  }
 
+ .PCHeader {
+  margin-top: -2em;
+ }
+
 
 
 
@@ -835,7 +839,8 @@ i:hover {
   }
 
   h1.PageTitle {
-    display: none;
+    margin-left: 3em;
+    /*display: none;*/
   }
 
   .project-title {
@@ -954,7 +959,8 @@ i:hover {
   }
 
   h1.PageTitle {
-    display: none;
+    margin-left: 2.2em;
+    /*display: none;*/
   }
 
   .project-title {
@@ -1073,7 +1079,8 @@ i:hover {
   }
 
   h1.PageTitle {
-    display: none;
+    margin-left: 1em;
+    /*display: none;*/
   }
 
   .project-title {
@@ -1191,7 +1198,8 @@ i:hover {
   }
 
   h1.PageTitle {
-    display: none;
+    margin-left: -.9em;
+    /*display: none;*/
   }
 
   .project-title {
@@ -1280,7 +1288,7 @@ i:hover {
   }
 }
 
-@media (min-width: 1441px) and (max-width: 1600px) {
+@media (min-width: 1441px) {
 
   .hamburger {
     display: none;
@@ -1288,7 +1296,7 @@ i:hover {
 
   .TopLeftLogo {
     margin-top: 1em;
-    margin-left: 4.5em;
+    margin-left: 1.5em;
     min-width: 110px;
   }
 
@@ -1318,7 +1326,8 @@ i:hover {
   }
 
   h1.PageTitle {
-    display: none;
+    margin-left: -.9em;
+    /*display: none;*/
   }
 
   .project-title {
@@ -1701,6 +1710,10 @@ i:hover {
   padding: 2em;
 }
 
+#UPimg {
+  width: 90%;
+}
+
 #BBsketches {
   margin-bottom: 2em;
   border-top: .2em solid;
@@ -1777,6 +1790,7 @@ i:hover {
   max-width: 70%;
   border: .2em solid;
   border-color: #525B5c;
+  margin-bottom: 1em;
 }
 
 .PCBG {
@@ -1806,28 +1820,23 @@ i:hover {
 
 }
 
-#PCListView {
-  width: 40%;
-}
 
 #PCListView2 {
-  width: 40%;
+  width: 100%;
 }
 
-#PCDetailView1 {
-  width: 40%;
-}
 
 #PCDetailView2 {
-  width: 40%;
-}
-
-#PCMenu1 {
-  width: 40%;
+  width: 100%;
 }
 
 #PCMenu2 {
-  width: 40%;
+  width: 100%;
+}
+
+.PC3 {
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 .GoTo {
@@ -1908,12 +1917,16 @@ i:hover {
   background-color: #525B5C;
 }
 
+.SelfPortrait {
+  background: url("../Images/Me/Rich-12.jpg") left no-repeat;
+  background-size: cover;
+}
 
-.Main {
+/*.Main {
   background:url("../Images/Me/Rich-6.png")left no-repeat;
   background-size: cover;
   height: 40em;
-}
+}*/
 
 .BB {
   background: url("../Images/Blocbox/BBbackground.png") center no-repeat;
@@ -2189,6 +2202,42 @@ i:hover {
     padding: 1em 0 2em 0;
   }
 
+  #BBsketches {
+    width: 90%;
+  }
+
+  #BBLogo1 {
+    width: 90%;
+  }
+
+  #BBLogo2 {
+    width: 90%;
+  }
+
+  #BBFont {
+    width: 90%;
+  }
+
+  #BBUFimg {
+    width: 90%;
+  }
+
+  #BBBalsamiqWF {
+    max-width: 90%;
+  }
+
+  #BBBlackWhiteWF {
+    max-width: 90%;
+  }
+
+  #BBColorWF {
+    max-width: 90%;
+  }
+
+  #BBCode {
+    max-width: 90%;
+  }
+
   #PCCA {
     border-left: none;
     border-right: none;
@@ -2264,10 +2313,9 @@ i:hover {
     width: 90%;
   }
 
-  .Main {
-    height: 35em;
-    background-position: 30% 32%;
-    background-size: 200%;
+  .SelfPortrait {
+    background: url("../Images/Me/Rich-12.jpg") left no-repeat;
+    background-size: cover;
   }
 
   .tab label {
@@ -2328,6 +2376,10 @@ i:hover {
 
     .top-icons li {
       padding-top: .4em;
+    }
+
+     #BBsketches {
+      width: 90%;
     }
 
   #PCDraftLogo {
@@ -2475,28 +2527,17 @@ i:hover {
       padding-top: .4em;
     }
 
-    #PCListView {
-      width: 30%;
-    }
-
     #PCListView2 {
-      width: 30%;
+       width: 80%;
     }
 
-    #PCDetailView1 {
-      width: 30%;
-    }
 
     #PCDetailView2 {
-      width: 30%;
-    }
-
-    #PCMenu1 {
-      width: 30%;
+       width: 80%;
     }
 
     #PCMenu2 {
-      width: 30%;
+      width: 80%;
     }
 
     #BBResearchDocs {
@@ -2686,28 +2727,16 @@ i:hover {
     max-width: 60%;
   }
 
-  #PCListView {
-  width: 20%;
-  }
-
   #PCListView2 {
-    width: 20%;
-  }
-
-  #PCDetailView1 {
-    width: 20%;
+    width: 60%;
   }
 
   #PCDetailView2 {
-    width: 20%;
-  }
-
-  #PCMenu1 {
-    width: 20%;
+    width: 60%;
   }
 
   #PCMenu2 {
-    width: 20%;
+    width: 60%;
   }
 
   #BBUFimg {

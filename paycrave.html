@@ -41,19 +41,24 @@
     <div class="row">
     <div class="large-11 offset-1 columns TopNav">
       <ul class="TopMenu">
-        <li><a class="indicator" href="index2.html">PORTFOLIO</a></li>
+        <li><a class="indicator" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:5000" aria-controls="drop1" aria-expanded="false">PORTFOLIO...</a></li>
+          <ul id="hover1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+            <li><a href="clearplate.html">clear plate</a></li>
+            <li><a class="indicator" href="paycrave.html">paycrave</a></li>
+            <li><a href="blocbox.html">blocbox</a></li>
+          </ul> 
         <li><a href="aboutme2.html">ABOUT ME</a></li>
         <li><a href="Images/Me/RESUME.pdf">RESUME</a></li>
         <li><a href="contact.html">CONTACT</a></li>
       </ul>
     </div>
-   </div> 
+   </div>
 
     <section class="main-section">
     
     <div class="row">
       <div class="small-8 columns">
-        <h1 class="PageTitle">PORTFOLIO</h1>
+        <h1 class="PageTitle">PAYCRAVE</h1>
       </div>
       <div class="small-4 columns"> 
       </div>
@@ -84,11 +89,11 @@
        <div class="DarkGray">
          <h2 class="blue">Branding</h2>
          <p class="pBB">
-         After taking a good look at the competition I felt ready to start designing Paycrave. I began with a styleguide that BLOC provided, and I already had a logo in mind, so I put together a very simple idea in Illustrator and brought it to my mentor for his critique.
+         After taking a good look at the competition I felt ready to start designing Paycrave. I chose to keep the color scheme that Bloc provided for the project because I thought red and green worked well for a food app. I already had a logo in mind, so I put together a very simple idea in Illustrator and revised it from there.
          </p>
          <img id="PCDraftLogo" src="Images/PAYCRAVE/PaycraveLogo.png" alt="Paycrave Draft Logo">
          <p class="pBB">
-         As you can see, I wasn't kidding when I said "simple." This logo passed the test of size, but still had room for improvement. After discussing how it could improve with my mentor, I knew what to do. Below is the final logo for Paycrave.
+         This logo passed the test of size, but still had room for improvement. After discussing how it could improve with my mentor, I knew what to do. Below is the final logo for Paycrave.
          </p>
          <img id="PCFinalLogo" src="Images/PAYCRAVE/PaycraveLogo2.png" alt="Paycrave Final Logo">
          </div>
@@ -117,29 +122,18 @@
          <div class="DarkGray">
           <h2 class="blue">Hi-Fi Wireframing</h2>
           <p class="pBB">
-          When I started my Sketch designs for Paycrave, I knew that I had a very limited time to complete the project, and I ended up rushing through the designs. I learned that a good design does not come out of a rookie in a rush! I ended up re-designing almost every screen, and I think the improvement in the new designs really shines. The first re-designed screen was the list view that shows trucks near the user.</p>
-          <img id="PCListView" src="Images/PAYCRAVE/PCListView1.png" alt="Paycrave Screenshot">
+          I designed the Hi-Fi Wireframes using Sketch, and although there are some things I would change now, I think the app came out pretty strong for my first complete design of an iOS app. The three screens below were my favorites out of the designs.</p>
+          </div>
+          <div class="row PC3">
+          <div class="small-4 medium-4 large-4 columns">
           <img id="PCListView2" src="Images/PAYCRAVE/PCListView2.png" alt="Paycrave Screenshot">
-          <p class="pBB">
-          One important lesson I learned while designing Paycrave is that real estate is very limited with mobile designs, so a good mobile design doesn't waste space. The toggle switch for map and list view at the top, was wasting space, so I placed the pin symbol in the top right corner, which left enough space to include a screen title.
-          <br>
-          <br>
-          I really thought that I should have the menu available on this screen in my initial design, but my mentor looked at the design and pointed out that clicking on the heart icon looked like it could be difficult to do, and there could easily be an accidental click which could cause frustration for the user. I decided to remove the menu icon from this screen which allowed me to place the heart icon on the right side, eliminating the possibility of a negative user experience due to accidental clicks. 
-          <br>
-          <br>
-          I won't bore you by going through each and every design change, but I'm sure you can see how all of the changes really improved the look and functionality of this screen.
-          <br>
-          <br>
-          Once a user selected a truck from the nearby list, the detail screen below would be displayed where the truck's menu, ratings, and additional images could be viewed. The first change that I'll point out is that I eliminated the Paycrave title from the top, as well as the information below the food truck's name. This resulted in a lot more space for me to improve the design. At the time a user reaches this screen they have already selected a truck, and are aware of it's operating hours, so you can probably guess what they're looking for...got it? Yes, a menu. That's why on the newer design I stuck the menu icon near the center of the page, and made it a button that spans the width of the screen. I think the new placement of this button alone would create a much better experience for the user.</p>
-          <img id="PCDetailView1" src="Images/PAYCRAVE/PCDetailView1.png" alt="Paycrave Screenshot">
-          <img id="PCDetailView2" src="Images/PAYCRAVE/PCDetailView2.png" alt="Paycrave Screenshot">     
-          <p class="pBB">
-          Feeling the pressure of time, I started designing a very simple menu format for Paycrave which you can see below on the left. Without really looking at any other menus available on other apps, this was a pretty un-inspired design. I really didn't want to post this on my portfolio because I don't even want to look at it anymore! Thankfully, you can see a much stronger design of mine next to it, that came after some good pointers from my mentor and some time spent examining other apps.</p>
-          <img id="PCMenu1" src="Images/PAYCRAVE/PCMenu1.png" alt="Paycrave Screenshot">
+          </div>
+          <div class="small-4 medium-4 large-4 columns">
+          <img id="PCDetailView2" src="Images/PAYCRAVE/PCDetailView2.png" alt="Paycrave Screenshot">
+          </div>
+          <div class="small-4 medium-4 large-4 columns">
           <img id="PCMenu2" src="Images/PAYCRAVE/PCMenu2.png" alt="Paycrave Screenshot">
-          <p class="pBB">
-          When re-designing this menu I imagined using it to order food and immediately ran into some questions like, "What if I want to customize my order?", or "What if I change my mind and don't want an item that I selected?", and "What if I want multiple quanitites of one item?". After considering these things, I created a simple flow for ordering. You can see how "Fried Onion Bites" is selected  above, which shows the quantity, that if tapped again will increase by 1. Once an item is selected the user then has 2 options appear which allow them to either customize the order, or remove it should they change their mind.
-          </p>
+          </div>
          </div>
          <div class="row">
           <div class="small-2 columns">
