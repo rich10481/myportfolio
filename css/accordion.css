@@ -1,10 +1,11 @@
 .tab-group {
   width: 100%;
+  margin-top: 2em;
   float: left;
-  background-color: rgba(7,7,7,.2);
+  /*background-color: rgba(7,7,7,.2);*/
   padding: 0 2em;
   text-align: left;
-  height: 40em;
+  height: 22em;
 }
 
 .tab {
@@ -22,34 +23,89 @@
 }
 
 .tab label {
-  color: #FFF;
+  color: #D94423;
+  font-weight: 100;
   display: block;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   letter-spacing: .03em;
-  font-size: 1.9em;
-  text-shadow: 2px 2px #000;
-
+  font-size: 1.5em;
 }
 
 .tab-content {
   max-height: 0;
   overflow: auto;
   transition: all .35s;
-  width: 100%;
-  /*font-size: .65em;*/
-  font-weight: normal;
-  color: #fff;
 }
 
 .tab-content p {
-  margin: 1em 0;
+  font-family: "Proxima Nova", sans-serif;
   text-align: left;
-
+  font-weight: 100;
+  font-size: .95em;
+  color: #F2EBDF;
+  margin-left: 0;
 }
 
 .tab input:checked ~ .tab-content {
     max-height: 30em;
   }
+
+/*-----------MEDIA QUERIES-------------------------*/
+
+@media (min-width: 320px) and (max-width: 414px) {
+  .tab label {
+     font-size: 1.5em;
+     margin-left: -.7em;
+  }
+
+}
+
+@media (min-width: 415px) and (max-width: 500px) {
+   .tab label {
+      font-size: 2em;
+   }
+
+   .tab-content p {
+      font-size: 1em;
+   }
+ }
+
+ @media (min-width: 501px) and (max-width: 900px) {
+     
+     .tab-group {
+      height: 27em;
+    }
+
+     .tab label {
+      font-size: 2.5em;
+   }
+
+   .tab-content p {
+      font-size: 1.2em;
+   }
+}
+
+ @media (min-width: 901px) {
+      .tab label {
+        font-size: 2.5em;
+     }
+
+      .tab-content p {
+        font-size: 1.4em;
+     }
+}   
+
+@media (min-width: 701px) and (max-width: 1300px) {
+     .tab-content {
+       width: 90%;
+     }
+}
+
+@media (min-width: 1301px) {
+      .tab-content {
+        width: 80%;
+      }
+} 
 
 
 

@@ -73,6 +73,15 @@ h1.PageTitle {
   font-family: "Proxima Nova", sans-serif;
   color: #D94423;
   font-weight: 100;
+} 
+
+h1.PageTitleAM {
+  font-family: "Proxima Nova", sans-serif;
+  color: #D94423;
+  font-weight: 100;
+}  
+
+
 }
 
 .CP1Mockup {
@@ -91,7 +100,7 @@ h1.PageTitle {
 
 .social-icons {
   border: none;
-  background-color: #D94423;
+  /*background-color: #D94423;*/
 }  
 
 .social-icons a:hover {
@@ -100,7 +109,8 @@ h1.PageTitle {
 
 .CopyText {
   color: #F2EBDF;
-  margin-top: 1em;
+  margin-top: 5em 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -114,10 +124,10 @@ h1.PageTitle {
 }
 
 i {
-  margin-top: 1.8em;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
+  /*margin-top: 1.8em;*/
+  /*-moz-border-radius: 50px;*/
+  /*-webkit-border-radius: 50px;*/
+  /*border-radius: 50px;*/
   text-align: center;
   display: inline-block;
 }
@@ -192,1229 +202,6 @@ i:hover {
 
 
 
-/*NEW MEDIA QUERIES*/
-@media (min-width: 320px) and (max-width: 414px) {
-  
-  .hamburger {
-    margin-left: .8em;
-    margin-top: 1.3em;
-    width: 50%;
-  }
-
-  .TopLeftLogo {
-    display: none;
-  }
-
-  .TopNav {
-    display: none;
-  }
-
-  .TopMenu {
-    display: none;
-  }
-
-  h2.MyTitle {
-    font-size: .9em;
-    font-weight: 100;
-    letter-spacing: .7px;
-    text-align: left; 
-    margin-top: 1em;
-    margin-left: -1em;
-  } 
-
-  .line {
-    margin-top: .1em;
-    border-bottom: 1px solid #F2EBDF;
-  }
-
-  h1.PageTitle {
-    font-size: 1.5em;
-    text-align: left;
-    letter-spacing: 1px;
-    margin-top: 1em;
-  }
-
-  .project-title {
-    margin-top: 1em;
-  }
-
-  .CP1Mockup {
-    width: 90%;
-  }
-
-  .CP1HeroTitle{
-    width: 200px;
-    margin-left: 1em;
-    margin-bottom: .75em;
-  }
-
-   .Arrow {
-    color: #D94423;
-    font-weight: 100;
-    margin-left: 1em;
-  }
-
-  .PC1Mockup {
-    width: 90%;
-    margin-top: 2em;
-  }
-
-  .PC1HeroTitle {
-    margin-left: 2em;
-    margin-bottom: 1em;
-  }
-
-  .BBMockup {
-    margin-top: 2em;
-    margin-left: 2.4em;
-    margin-bottom: 4em;
-    transform: rotate(20deg);
-    width: 250px;
-  }
-
-  .BB1HeroTitle {
-    margin-left: 2.5em;
-    margin-bottom: 1em;
-  }
-
-  i {
-    width: 50px;
-    height: 50px;
-  } 
-
-  .social-icons {
-    font-size: 24px;
-    padding: 10px;
-    margin-right: 15px;
-    margin-bottom: 1.7em;
-  }
-
-  .CopyText {
-    font-size: .6em;
-    margin-top: 2em;
-  }
-
-  .CP1HeroTitle2 {
-    display: none;
-  }
-
-  .PC1HeroTitle2 {
-    display: none;
-  }
-
-  .BB1HeroTitle2 {
-    display: none;
-  }
-
-  .Arrow2 {
-    display: none;
-  }
-
-  #CPHiFi {
-    max-width: 85%;
-  }
-}
-
-@media (min-width: 415px) and (max-width: 500px) {
-  .hamburger {
-    margin-left: 1.7em;
-    margin-top: 1.7em;
-    width: 60%;
-  }
-
-  .TopLeftLogo {
-    display: none;
-  }
-
-  .TopNav {
-    display: none;
-  }
-
-  .TopMenu {
-    display: none;
-  }
-
-
-  h2.MyTitle {
-    font-size: 1.2em;
-    font-weight: 100;
-    letter-spacing: .7px;
-    text-align: left; 
-    margin-top: .3em;
-    margin-left: -.7em;
-  } 
-
-  .line {
-    margin-top: .8em;
-    border-bottom: 1px solid #F2EBDF;
-  }
-
-  h1.PageTitle {
-    font-size: 2em;
-    letter-spacing: 1px;
-    margin-top: 1em;
-    margin-left: .4em;
-  }
-
-  .project-title {
-    margin-top: 1em;
-  }
-
-  .CP1Mockup {
-    width: 90%;
-    margin-top: 1em
-  }
-
-  .CP1HeroTitle{
-    width: 250px;
-    margin-left: 1em;
-    margin-bottom: .75em;
-  }
-
-   .Arrow {
-    color: #D94423;
-    font-size: 5em;
-    margin-left: 1em;
-  }
-
-  .PC1Mockup {
-    width: 90%;
-    margin-top: 2em;
-  }
-
-  .PC1HeroTitle {
-    margin-left: 2em;
-    margin-bottom: 1em;
-  }
-
-  .BBMockup {
-    margin-top: 2em;
-    margin-left: 2.4em;
-    margin-bottom: 4em;
-    transform: rotate(20deg);
-    width: 325px;
-  }
-
-  .BB1HeroTitle {
-    margin-left: 2.5em;
-    margin-bottom: 1em;
-  }
-
-  i {
-    width: 60px;
-    height: 60px;
-  } 
-
-  .social-icons {
-    font-size: 30px;
-    padding: 14px;
-    margin-right: 35px;
-    margin-bottom: 1.5em;
-  }
-
-  .CopyText {
-    text-align: left;
-    font-size: .8em;
-    margin-top: 2em;
-  }
-
-  .CP1HeroTitle2 {
-    display: none;
-  }
-
-  .PC1HeroTitle2 {
-    display: none;
-  }
-
-  .BB1HeroTitle2 {
-    display: none;
-  }
-
-  .Arrow2 {
-    display: none;
-  }
-
-  #CPHiFi {
-    max-width: 80%;
-  }
-}
-
-@media (min-width: 501px) and (max-width: 700px) {
-  .hamburger {
-    margin-left: 1.7em;
-    margin-top: 1.7em;
-    width: 75%;
-  }
-
-  .TopLeftLogo {
-    display: none;
-  }
-
-  .TopNav {
-    display: none;
-  }
-
-  .TopMenu {
-    display: none;
-  }
-
-
-  h2.MyTitle {
-    font-size: 1.5em;
-    font-weight: 100;
-    letter-spacing: .7px;
-    text-align: left; 
-    margin-top: .3em;
-    margin-left: -.7em;
-  } 
-
-  .line {
-    margin-top: .8em;
-    border-bottom: 1px solid #F2EBDF;
-  }
-
-  h1.PageTitle {
-    font-size: 2.5em;
-    letter-spacing: 1px;
-    margin-top: 1em;
-    margin-left: .3em;
-  }
-
-  .project-title {
-    margin-top: 1em;
-  }
-
-  .CP1Mockup {
-    width: 95%;
-    margin-top: 1em;
-  }
-
-  .CP1HeroTitle{
-    width: 300px;
-    margin-left: 1em;
-    margin-bottom: .75em;
-  }
-
-   .Arrow {
-    color: #D94423;
-    font-size: 5em;
-    margin-left: 1em;
-  }
-
-  .PC1Mockup {
-    width: 95%s;
-    margin-top: 2em;
-  }
-
-  .PC1HeroTitle {
-    width: 350px;
-    margin-left: 2em;
-    margin-bottom: 1em;
-  }
-
-  .BBMockup {
-    margin-top: 2em;
-    margin-left: 2.4em;
-    margin-bottom: 4em;
-    transform: rotate(20deg);
-    width: 400px;
-  }
-
-  .BB1HeroTitle {
-    width: 350px;
-    margin-left: 2.5em;
-    margin-bottom: 1em;
-  }
-
-  i {
-    width: 80px;
-    height: 80px;
-  } 
-
-  .social-icons {
-    font-size: 40px;
-    padding: 20px;
-    margin-right: 35px;
-    margin-bottom: 1.5em;
-  }
-
-  .CopyText {
-    text-align: left;
-    font-size: .8em;
-    margin-top: 2em;
-  }
-
-  .CP1HeroTitle2 {
-    display: none;
-  }
-
-  .PC1HeroTitle2 {
-    display: none;
-  }
-
-  .BB1HeroTitle2 {
-    display: none;
-  }
-
-  .Arrow2 {
-    display: none;
-  }
-
-  #CPHiFi {
-    max-width: 70%;
-  }
-} 
-
-@media (min-width: 701px) and (max-width: 900px) {
-  .hamburger {
-    margin-left: 2em;
-    margin-top: 1.7em;
-    width: 85%;
-  }
-
-  .TopLeftLogo {
-    display: none;
-  }
-
-  .TopNav {
-    display: none;
-  }
-
-  .TopMenu {
-    display: none;
-  }
-
-
-  h2.MyTitle {
-    font-size: 1.7em;
-    font-weight: 100;
-    letter-spacing: .7px;
-    text-align: left; 
-    margin-top: .3em;
-    margin-left: -.6em;
-  } 
-
-  .line {
-    margin-top: .8em;
-    border-bottom: 1px solid #F2EBDF;
-  }
-
-  h1.PageTitle {
-    font-size: 3em;
-    letter-spacing: 1px;
-    margin-top: 1em;
-    margin-left: .3em;
-  }
-
-  .project-title {
-    margin-top: 1em;
-  }
-
-  .CP1Mockup {
-    margin-top: 1em;
-    width: 75%;
-    margin-left: -6em;
-  }
-
-  .CP1HeroTitle{
-    display: none;
-  }
-
-  .CP1HeroTitle2 {
-    width: 200px;
-    margin-left: -7em;
-  }
-
-   .Arrow {
-    display: none;
-  }
-
-  .Arrow2 {
-    margin-top: 1em;
-  }
-
-  .PC1Mockup {
-    width: 75%;
-    margin-top: 2em;
-    margin-left: -7em;
-  }
-
-  .PC1HeroTitle {
-    display: none;
-  }
-
-  .PC1HeroTitle2 {
-    width: 240px;
-    margin-top: 7em;
-    margin-left: -8.5em;
-  }
-
-  .BBMockup {
-    width: 60%;
-    margin-top: 6em;
-    margin-left: -3em;
-    margin-bottom: 4em;
-    transform: rotate(335deg);
-  }
-
-  .BB1HeroTitle {
-    display: none;
-  }
-
-  .BB1HeroTitle2 {
-    width: 230px;
-    margin-left: 2em;
-  }
-
-  i {
-    width: 100px;
-    height: 100px;
-  } 
-
-  .social-icons {
-    font-size: 54px;
-    padding: 20px;
-    margin-right: 60px;
-    margin-bottom: 1.5em;
-  }
-
-  .CopyText {
-    text-align: left;
-    font-size: 1em;
-    margin-top: 2em;
-  }
-  
-} 
-
-
-@media (min-width: 901px) and (max-width: 1025px) {
-  .hamburger {
-    margin-left: 3.5em;
-    margin-top: 2em;
-    width: 95%;
-  }
-
-  .TopLeftLogo {
-    display: none;
-  }
-
-  .TopNav {
-    display: none;
-  }
-
-  .TopMenu {
-    display: none;
-  }
-
-
-  h2.MyTitle {
-    font-size: 1.7em;
-    font-weight: 100;
-    letter-spacing: .7px;
-    text-align: left; 
-    margin-top: .6em;
-    margin-left: -.6em;
-  } 
-
-  .line {
-    margin-top: .8em;
-    border-bottom: 1px solid #F2EBDF;
-  }
-
-  h1.PageTitle {
-    font-size: 3em;
-    letter-spacing: 1px;
-    margin-top: 1em;
-    margin-left: .6em;
-  }
-
-  .project-title {
-    margin-top: 1em;
-  }
-
-  .CP1Mockup {
-    margin-top: 1em;
-    width: 70%;
-    margin-left: -6em;
-  }
-
-  .CP1HeroTitle{
-    display: none;
-  }
-
-  .CP1HeroTitle2 {
-    width: 200px;
-    margin-left: -3em;
-  }
-
-   .Arrow {
-    display: none;
-  }
-
-  .Arrow2 {
-    margin-top: 1.5em;
-  }
-
-
-  .PC1Mockup {
-    width: 70%;
-    margin-top: 2em;
-    margin-left: -7em;
-  }
-
-  .PC1HeroTitle {
-    display: none;
-  }
-
-  .PC1HeroTitle2 {
-    width: 240px;
-    margin-top: 7em;
-    margin-left: -3em;
-  }
-
-  .BBMockup {
-    width: 50%;
-    margin-top: 6em;
-    margin-left: -3em;
-    margin-bottom: 4em;
-    transform: rotate(335deg);
-  }
-
-  .BB1HeroTitle {
-    display: none;
-  }
-
-  .BB1HeroTitle2 {
-    width: 230px;
-    margin-left: 6em;
-  }
-
-
-  i {
-    width: 100px;
-    height: 100px;
-  } 
-
-  .social-icons {
-    font-size: 54px;
-    padding: 20px;
-    margin-right: 60px;
-    margin-bottom: 1.5em;
-  }
-
-  .CopyText {
-    text-align: left;
-    font-size: 1em;
-    margin-top: 2em;
-  }
-  
-} 
-
-@media (min-width: 1026px) and (max-width: 1100px) {
-  .hamburger {
-    display: none;
-  }
-
-  .TopLeftLogo {
-    margin-top: 1em;
-    margin-left: 3em;
-    min-width: 90px;
-  }
-
-  h2.MyTitle {
-    font-size: 1.7em;
-    font-weight: 100;
-    letter-spacing: .7px;
-    text-align: left; 
-    margin-top: .3em;
-    margin-left: -.6em;
-  } 
-
-  .line {
-    width: 90%;
-    margin-top: .8em;
-    margin-right: -3.1em;
-    margin-left: -3.1em;
-    border-bottom: 1px solid #F2EBDF;
-  }
-
-  h1.PageTitle {
-    margin-left: 3em;
-    /*display: none;*/
-  }
-
-  .project-title {
-    margin-top: 1em;
-  }
-
-  .mockup-container {
-    min-width: 100%;
-    margin: 0;
-    padding: 0; 
-  }
-
-  .CP1Mockup {
-    margin-top: 1em;
-    width: 70%;
-    margin-left: -6em;
-  }
-
-  .CP1HeroTitle{
-    display: none;
-  }
-
-  .CP1HeroTitle2 {
-    width: 200px;
-    margin-left: -3em;
-  }
-
-   .Arrow {
-    display: none;
-  }
-
-  .Arrow2 {
-    margin-top: 1.5em;
-  }
-
-
-  .PC1Mockup {
-    width: 70%;
-    margin-top: 2em;
-    margin-left: -3em;
-  }
-
-  .PC1HeroTitle {
-    display: none;
-  }
-
-  .PC1HeroTitle2 {
-    width: 240px;
-    margin-left: -7em;
-  }
-
-  .BBMockup {
-    width: 50%;
-    margin-top: 6em;
-    margin-left: -3em;
-    margin-bottom: 4em;
-    transform: rotate(335deg);
-  }
-
-  .BB1HeroTitle {
-    display: none;
-  }
-
-  .BB1HeroTitle2 {
-    width: 230px;
-    margin-left: 6em;
-  }
-
-
-  i {
-    width: 100px;
-    height: 100px;
-  } 
-
-  .social-icons {
-    font-size: 54px;
-    padding: 20px;
-    margin-right: 60px;
-    margin-bottom: 1.5em;
-  }
-
-  .CopyText {
-    text-align: left;
-    font-size: 1em;
-    margin-top: 2em;
-  }
-  
-} 
-
-@media (min-width: 1101px) and (max-width: 1200px) {
-  .hamburger {
-    display: none;
-  }
-
-  .TopLeftLogo {
-    margin-top: 1em;
-    margin-left: 3em;
-    min-width: 90px;
-  }
-
-  h2.MyTitle {
-    font-size: 1.7em;
-    font-weight: 100;
-    letter-spacing: .7px;
-    text-align: left; 
-    margin-top: .3em;
-    margin-left: -.6em;
-  } 
-
-  .line {
-    width: 100%;
-    margin-top: .8em;
-    margin-right: -7em;
-    margin-left: -7em;
-    border-bottom: 1px solid #F2EBDF;
-  }
-
-  h1.PageTitle {
-    margin-left: 2.2em;
-    /*display: none;*/
-  }
-
-  .project-title {
-    margin-top: 1em;
-  }
-
-  .mockup-container {
-    min-width: 100%;
-    margin: 0;
-    padding: 0; 
-  }
-
-  .CP1Mockup {
-    margin-top: 1em;
-    width: 70%;
-    margin-left: -6em;
-  }
-
-  .CP1HeroTitle{
-    display: none;
-  }
-
-  .CP1HeroTitle2 {
-    width: 200px;
-    margin-left: -3em;
-  }
-
-   .Arrow {
-    display: none;
-  }
-
-  .Arrow2 {
-    margin-top: 1.5em;
-  }
-
-
-  .PC1Mockup {
-    width: 70%;
-    margin-top: 2em;
-    margin-left: -3em;
-  }
-
-  .PC1HeroTitle {
-    display: none;
-  }
-
-  .PC1HeroTitle2 {
-    width: 240px;
-    margin-left: -7em;
-  }
-
-  .BBMockup {
-    width: 50%;
-    margin-top: 6em;
-    margin-left: -3em;
-    margin-bottom: 4em;
-    transform: rotate(335deg);
-  }
-
-  .BB1HeroTitle {
-    display: none;
-  }
-
-  .BB1HeroTitle2 {
-    width: 230px;
-    margin-left: 6em;
-  }
-
-
-  i {
-    width: 100px;
-    height: 100px;
-  } 
-
-  .social-icons {
-    font-size: 54px;
-    padding: 20px;
-    margin-right: 60px;
-    margin-bottom: 1.5em;
-  }
-
-  .CopyText {
-    text-align: left;
-    font-size: 1em;
-    margin-top: 2em;
-  }
-
-}
-
-@media (min-width: 1201px) and (max-width: 1300px) {
-  .hamburger {
-    display: none;
-  }
-
-  .TopLeftLogo {
-    margin-top: 1em;
-    margin-left: 3em;
-    min-width: 90px;
-  }
-
-  h2.MyTitle {
-    font-size: 1.7em;
-    font-weight: 100;
-    letter-spacing: .7px;
-    text-align: left; 
-    margin-top: .3em;
-    margin-left: -.6em;
-  } 
-
-  .line {
-    width: 110%;
-    margin-top: .8em;
-    margin-right: -10em;
-    margin-left: -10em;
-    border-bottom: 1px solid #F2EBDF;
-  }
-
-  h1.PageTitle {
-    margin-left: 1em;
-    /*display: none;*/
-  }
-
-  .project-title {
-    margin-top: 1em;
-  }
-
-  .mockup-container {
-    min-width: 100%;
-    margin: 0;
-    padding: 0; 
-  }
-
-  .CP1Mockup {
-    margin-top: 1em;
-    width: 70%;
-    margin-left: -6em;
-  }
-
-  .CP1HeroTitle{
-    display: none;
-  }
-
-  .CP1HeroTitle2 {
-    width: 200px;
-    margin-left: -3em;
-  }
-
-   .Arrow {
-    display: none;
-  }
-
-  .Arrow2 {
-    margin-top: 1.5em;
-  }
-
-
-  .PC1Mockup {
-    width: 70%;
-    margin-top: 2em;
-    margin-left: -3em;
-  }
-
-  .PC1HeroTitle {
-    display: none;
-  }
-
-  .PC1HeroTitle2 {
-    width: 240px;
-    margin-left: -7em;
-  }
-
-  .BBMockup {
-    width: 50%;
-    margin-top: 6em;
-    margin-left: -3em;
-    margin-bottom: 4em;
-    transform: rotate(335deg);
-  }
-
-  .BB1HeroTitle {
-    display: none;
-  }
-
-  .BB1HeroTitle2 {
-    width: 230px;
-    margin-left: 6em;
-  }
-
-
-  i {
-    width: 100px;
-    height: 100px;
-  } 
-
-  .social-icons {
-    font-size: 54px;
-    padding: 20px;
-    margin-right: 60px;
-    margin-bottom: 1.5em;
-  }
-
-  .CopyText {
-    text-align: left;
-    font-size: 1em;
-    margin-top: 2em;
-  }
-}
-
-@media (min-width: 1301px) and (max-width: 1440px) {
-  .hamburger {
-    display: none;
-  }
-
-  .TopLeftLogo {
-    margin-top: 1em;
-    margin-left: 3em;
-    min-width: 90px;
-  }
-
-  h2.MyTitle {
-    font-size: 1.7em;
-    font-weight: 100;
-    letter-spacing: .7px;
-    text-align: left; 
-    margin-top: .3em;
-    margin-left: -.6em;
-  } 
-
-  .line {
-    width: 125%;
-    margin-top: .8em;
-    margin-right: -14em;
-    margin-left: -14em;
-    border-bottom: 1px solid #F2EBDF;
-  }
-
-  h1.PageTitle {
-    margin-left: -.9em;
-    /*display: none;*/
-  }
-
-  .project-title {
-    margin-top: 1em;
-  }
-
-  .mockup-container {
-    min-width: 100%;
-    margin: 0;
-    padding: 0; 
-  }
-
-  .CP1Mockup {
-    margin-top: 1em;
-    width: 70%;
-    margin-left: -6em;
-  }
-
-  .CP1HeroTitle{
-    display: none;
-  }
-
-  .CP1HeroTitle2 {
-    width: 200px;
-    margin-left: -3em;
-  }
-
-   .Arrow {
-    display: none;
-  }
-
-  .Arrow2 {
-    margin-top: 1.5em;
-  }
-
-
-  .PC1Mockup {
-    width: 70%;
-    margin-top: 2em;
-    margin-left: -3em;
-  }
-
-  .PC1HeroTitle {
-    display: none;
-  }
-
-  .PC1HeroTitle2 {
-    width: 240px;
-    margin-left: -7em;
-  }
-
-  .BBMockup {
-    width: 50%;
-    margin-top: 6em;
-    margin-left: -3em;
-    margin-bottom: 4em;
-    transform: rotate(335deg);
-  }
-
-  .BB1HeroTitle {
-    display: none;
-  }
-
-  .BB1HeroTitle2 {
-    width: 230px;
-    margin-left: 6em;
-  }
-
-
-  i {
-    width: 100px;
-    height: 100px;
-  } 
-
-  .social-icons {
-    font-size: 54px;
-    padding: 20px;
-    margin-right: 60px;
-    margin-bottom: 1.5em;
-  }
-
-  .CopyText {
-    text-align: left;
-    font-size: 1em;
-    margin-top: 2em;
-  }
-}
-
-@media (min-width: 1441px) {
-
-  .hamburger {
-    display: none;
-  }
-
-  .TopLeftLogo {
-    margin-top: 1em;
-    margin-left: 1.5em;
-    min-width: 110px;
-  }
-
-  .TopMenu li a {
-    font-size: 1.3em;
-  }
-
-  .TopMenu li a.indicator {
-    font-size: 1.3em;
-  }
-
-  h2.MyTitle {
-    font-size: 1.8em;
-    font-weight: 100;
-    letter-spacing: .7px;
-    text-align: left; 
-    margin-top: .3em;
-    margin-left: -.5em;
-  } 
-
-  .line {
-    width: 135%;
-    margin-top: 1em;
-    margin-right: -19em;
-    margin-left: -19em;
-    border-bottom: 1px solid #F2EBDF;
-  }
-
-  h1.PageTitle {
-    margin-left: -.9em;
-    /*display: none;*/
-  }
-
-  .project-title {
-    margin-top: 1em;
-  }
-
-  .mockup-container {
-    min-width: 100%;
-    margin: 0;
-    padding: 0; 
-  }
-
-  .CP1Mockup {
-    margin-top: 1em;
-    width: 70%;
-    margin-left: -6em;
-  }
-
-  .CP1HeroTitle{
-    display: none;
-  }
-
-  .CP1HeroTitle2 {
-    width: 200px;
-    margin-left: -3em;
-  }
-
-   .Arrow {
-    display: none;
-  }
-
-  .Arrow2 {
-    margin-top: 1.5em;
-  }
-
-
-  .PC1Mockup {
-    width: 70%;
-    margin-top: 2em;
-    margin-left: -3em;
-  }
-
-  .PC1HeroTitle {
-    display: none;
-  }
-
-  .PC1HeroTitle2 {
-    width: 240px;
-    margin-left: -7em;
-  }
-
-  .BBMockup {
-    width: 50%;
-    margin-top: 6em;
-    margin-left: -3em;
-    margin-bottom: 4em;
-    transform: rotate(335deg);
-  }
-
-  .BB1HeroTitle {
-    display: none;
-  }
-
-  .BB1HeroTitle2 {
-    width: 230px;
-    margin-left: 6em;
-  }
-
-
-  i {
-    width: 100px;
-    height: 100px;
-  } 
-
-  .social-icons {
-    font-size: 54px;
-    padding: 20px;
-    margin-right: 60px;
-    margin-bottom: 1.5em;
-  }
-
-  .CopyText {
-    text-align: left;
-    font-size: 1em;
-    margin-top: 2em;
-  }
-}
 
 
 /*---------OLD PORTFOLIO CODE STARTS HERE-------------------------*/
@@ -1514,66 +301,6 @@ p {
   letter-spacing: 1px;
 }
 
-.top-icons {
-  text-align: center;
-}
-
-.top-icons li {
-  font-size: 14px;
-  text-decoration: none;
-  list-style: none;
-  display: inline-block;
-  margin-right: 25px;
-  margin-top: -3.3em;
-}
-
-/*i {
-  width: 50px;
-  height: 50px;
-  margin-top: 1.8em;
-  background: #525B5C ;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  border: 1px solid #00E7FF; 
-  text-align: center;
-  display: inline-block;
-}
-
-i:hover {
-  color: #FF7400;
-}
-
-.fa {
-  color: white;
-}
-
-.fa-twitter {
-  padding: 12px;
-}
-
-.fa-linkedin {
-  padding: 10px 10px 10px 11px;
-}
-
-.fa-github {
-  padding: 11px;
-}
-
-.fa-envelope {
-  padding-right: 10px;
-}
-
-*/
-
-.textbox {
-  background-color: rgba(81,91,92,.5);
-  height: 20em;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-top: 10em;
-}
 
 .Box {
   margin-top: 14em;
@@ -1759,21 +486,21 @@ i:hover {
 }
 
 #BBBalsamiqWF {
-  max-width: 70%;
+  max-width: 60%;
   border: .2em solid;
   border-color: #525B5c;
   margin-bottom: 2em;
 }
 
 #BBBlackWhiteWF {
-  max-width: 70%;
+  max-width: 60%;
   border: .2em solid;
   border-color: #525B5c;
   margin-bottom: 2em;
 }
 
 #BBColorWF {
-  max-width: 70%;
+  max-width: 60%;
   border: .2em solid;
   border-color: #525B5c;
   margin-bottom: 2em;
@@ -1787,7 +514,7 @@ i:hover {
 }
 
 #BBCode {
-  max-width: 70%;
+  max-width: 60%;
   border: .2em solid;
   border-color: #525B5c;
   margin-bottom: 1em;
@@ -1837,15 +564,6 @@ i:hover {
 .PC3 {
   margin-bottom: 2em;
   text-align: center;
-}
-
-.GoTo {
-  /*background: #76898A;*/
-  border-color: #fff;
-}
-
-#ViewProjects {
-  color: #eaeaea;
 }
 
 
@@ -1920,13 +638,9 @@ i:hover {
 .SelfPortrait {
   background: url("../Images/Me/Rich-12.jpg") left no-repeat;
   background-size: cover;
+  background-position: 0% 42%;
 }
 
-/*.Main {
-  background:url("../Images/Me/Rich-6.png")left no-repeat;
-  background-size: cover;
-  height: 40em;
-}*/
 
 .BB {
   background: url("../Images/Blocbox/BBbackground.png") center no-repeat;
@@ -1938,135 +652,20 @@ i:hover {
 
 
 .bold {
-  font-weight: 300;
-  color: #fff;
+  font-weight: 500;
+  margin-bottom: 1em;
 }
 
-
-.Button {
-  font-family: comfortaa, arial, helvetica;
-  padding: .5em;
-  text-align: center;
-  margin-left: 0;
-  margin-right: 3em;
-  color: #fff;
-  border: solid;
-  border-radius: 10px;
-  border-color: #00E7FF; 
-  max-width: 15em;
-  padding: 2%;
-  background-color: #525B5C;
-}
-
-.Button:hover {
-  border-color: #FF7400;
-}
-
-.footer {
-  position: relative;
-  bottom: 0;
-  background-color: #525B5C;
-  width: 100%;
-  border-top: .2em solid;
-  border-color: #fff;
-  clear: both;
-}
-
-.Copyright {
-  font-size: .7em;
-  color: #eaeaea;
-}
-
-.message a {
-  color: #00E7FF;
-}
-
-.message a:hover {
-  color: #FF7400;
-}
-
-.hvr-underline-from-center {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  overflow: hidden;
-}
-
-.hvr-underline-from-center:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 50%;
-  right: 50%;
-  bottom: 0;
-  background: #FF7400;
-  height: 2px;
-  -webkit-transition-property: left, right;
-  transition-property: left, right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-  left: 0;
-  right: 0;
-}
-
-.hvr-underline-from-center2 {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  overflow: hidden;
-}
-
-.hvr-underline-from-center2:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 50%;
-  right: 50%;
-  bottom: 0;
-  background: #00E7FF;
-  height: 2px;
-  -webkit-transition-property: left, right;
-  transition-property: left, right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.hvr-underline-from-center2:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-  left: 0;
-  right: 0;
-}
 
 /*-----------CONTACT FORM--------------------------------------------------*/
-     .ContactBackground {
-      height: 150%;
-      background-color: #525B5C;
-    }
+    
     
     .ContactForm {
-      padding-top: 13em;
+      padding-top: 1em;
     }
 
     .ContactForm input {
-      height: 5em;
+      height: 3em;
 
     }
 
@@ -2075,32 +674,78 @@ i:hover {
     }
 
     .ContactForm input:focus {
-      background-color: #525b5c;
-      color: #fff;
+      background-color: transparent;
+      color: #F2EBDF;
     }
 
     .ContactForm input, select , textarea {
-      color: #fff;
+      color: #F2EBDF;
     }
 
     label {
-      color: #fff;
+      color: #F2EBDF;
+      font-family: "Proxima Nova", sans-serif;
       font-weight: 100;
+      text-transform: uppercase;
       letter-spacing: 1px;
+      text-align: left;
     }
 
 
     #ContactHeading {
-      color: #fff;
+      color: #D94423;
+      text-transform: uppercase;
+      text-align: left;
     }
 
     input[type="text"] {
-      background-color: #525b5c;
-      border-bottom-color: #00e7ff;
+      background-color: transparent;
+      border-bottom-color: #F2EBDF;
       border-left: none;
       border-right: none;
       border-top: none;
       box-shadow: none;
+      font-family: "Proxima Nova", sans-serif;
+      font-weight: 100;
+      letter-spacing: .5px;
+    }
+
+    input[type="email"] {
+      background-color: transparent;
+      border-bottom-color: #F2EBDF;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      box-shadow: none;
+      font-family: "Proxima Nova", sans-serif;
+      font-weight: 100;
+      letter-spacing: .5px;
+    }
+
+    input[type="tel"] {
+      background-color: transparent;
+      border-bottom-color: #F2EBDF;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      box-shadow: none;
+      font-family: "Proxima Nova", sans-serif;
+      font-weight: 100;
+      letter-spacing: .5px;
+    }
+
+    textarea {
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      color: #fff;
+      font-family: "Proxima Nova", sans-serif;
+      font-weight: 100;
+      letter-spacing: .5px;
+    }
+
+    textarea:focus {
+      background-color: transparent;
     }
 
     :-moz-placeholder {
@@ -2109,62 +754,1659 @@ i:hover {
 
     ::-webkit-input-placeholder {
       color: #fff;
-      font-family: "proxima nova";
+      font-family: "Proxima Nova";
       font-size: 1.2em;
       font-weight: 200;
     }
 
-    input[type="email"] {
-      background-color: #525b5c;
-      border-bottom-color: #00e7ff;
-      border-left: none;
-      border-right: none;
-      border-top: none;
-      box-shadow: none;
-    }
-
-    input[type="tel"] {
-      background-color: #525b5c;
-      border-bottom-color: #00e7ff;
-      border-left: none;
-      border-right: none;
-      border-top: none;
-      box-shadow: none;
-    }
-
-    textarea {
-      background-color: #525b5c;
-      border: none;
-      box-shadow: none;
-      color: #fff;
-    }
-
-    textarea:focus {
-      background-color: #525B5C;
-    }
-
 
     button {
-      height: 1.5em;
-      margin: auto;
-      padding: 10px 30px 30px 30px;
+      height: 3.5em;
+      width: 100%;
+      padding: 20px 90px 20px 90px;
       text-align: center;
-      background-color: transparent;
+      background-color: #D94423;
       border: solid .5px;
-      border-color: #00E7FF;
-      color: #fff;
-      box-shadow: #000 0px 2px 5px;
+      border-color: #F2EBDF;
+      color: #F2EBDF;
+      box-shadow: #000 0px 1px 1px;
+      margin-bottom: 2em;
     }
 
     button:hover {
-      border-color: #FF7400;
-      background-color: transparent;
+      border-color: #0D0D0D;
+      background-color: #D94423;
     }
 
 
 
 /*-----------MEDIA QUERIES--------------------------------------------------*/
 
+/*NEW MEDIA QUERIES*/
+@media (min-width: 320px) and (max-width: 414px) {
+  
+  p {
+    font-size: 1.1em;
+  }
+  
+  .hamburger {
+    margin-left: .8em;
+    margin-top: 1.3em;
+    width: 50%;
+  }
+
+  .TopLeftLogo {
+    display: none;
+  }
+
+  .TopNav {
+    display: none;
+  }
+
+  .TopMenu {
+    display: none;
+  }
+
+  h2.MyTitle {
+    font-size: .9em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: 1em;
+    margin-left: -1em;
+  } 
+
+  .line {
+    margin-top: .1em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    font-size: 1.5em;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: 1em;
+  }
+
+  h1.PageTitleAM {
+    font-size: 1.5em;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: 1em;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .CP1Mockup {
+    width: 90%;
+  }
+
+  .CP1HeroTitle{
+    width: 200px;
+    margin-left: 1em;
+    margin-bottom: .75em;
+  }
+
+   .Arrow {
+    color: #D94423;
+    font-weight: 100;
+    margin-left: 1em;
+  }
+
+  .PC1Mockup {
+    width: 90%;
+    margin-top: 2em;
+  }
+
+  .PC1HeroTitle {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+
+  .BBMockup {
+    margin-top: 2em;
+    margin-left: 2.4em;
+    margin-bottom: 4em;
+    transform: rotate(20deg);
+    width: 250px;
+  }
+
+  .BB1HeroTitle {
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  .CP1HeroTitle2 {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    display: none;
+  }
+
+  .Arrow2 {
+    display: none;
+  }
+
+  #CPHiFi {
+    max-width: 85%;
+  }
+
+  .SelfPortrait {
+    height: 13em;
+    margin-top: 1em;
+  }
+
+   label {
+    font-size: .7em;
+  }
+
+   input[type="text"] {
+    font-size: 1em; 
+    height: 2em;     
+  }
+
+   input[type="email"] {
+    font-size: 1em;
+    height: 2em;
+
+  }
+
+   input[type="tel"] {
+     height: 2em;
+    font-size: 1em;
+  }
+
+    textarea {
+      font-size: 1em;
+  }
+
+  button {
+    height: 2em;
+    padding: 0px;
+  }
+
+  .social-icons {
+    font-size: 34px;
+    padding: 15px;
+    margin-top: .5em;
+    margin-bottom: .25em;
+  }
+
+  .CopyText {
+    font-size: .6em;
+    margin: 1em 0;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 500px) {
+  
+  p {
+    font-size: 1.2em;
+  }
+
+  .hamburger {
+    margin-left: 1.7em;
+    margin-top: 1.7em;
+    width: 60%;
+  }
+
+  .TopLeftLogo {
+    display: none;
+  }
+
+  .TopNav {
+    display: none;
+  }
+
+  .TopMenu {
+    display: none;
+  }
+
+
+  h2.MyTitle {
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.7em;
+  } 
+
+  .line {
+    margin-top: .8em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: .4em;
+  }
+
+  h1.PageTitleAM {
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: .4em;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .CP1Mockup {
+    width: 90%;
+    margin-top: 1em
+  }
+
+  .CP1HeroTitle{
+    width: 250px;
+    margin-left: 1em;
+    margin-bottom: .75em;
+  }
+
+   .Arrow {
+    color: #D94423;
+    font-size: 5em;
+    margin-left: 1em;
+  }
+
+  .PC1Mockup {
+    width: 90%;
+    margin-top: 2em;
+  }
+
+  .PC1HeroTitle {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+
+  .BBMockup {
+    margin-top: 2em;
+    margin-left: 2.4em;
+    margin-bottom: 4em;
+    transform: rotate(20deg);
+    width: 325px;
+  }
+
+  .BB1HeroTitle {
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  .CP1HeroTitle2 {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    display: none;
+  }
+
+  .Arrow2 {
+    display: none;
+  }
+
+  #CPHiFi {
+    max-width: 80%;
+  }
+  .SelfPortrait {
+    height: 14em;
+    margin-top: 1em;
+  }
+
+  label {
+    font-size: .8em;
+  }
+
+  input[type="text"] {
+    font-size: 1.1em; 
+    height: 2em;     
+    }
+
+   input[type="email"] {
+    font-size: 1.1em;
+    height: 2em;
+
+    }
+
+   input[type="tel"] {
+    font-size: 1.1em;
+    height: 2em;
+    }
+
+    textarea {
+      font-size: 1.1em;
+    }
+
+    button {
+    height: 2.25em;
+    padding: 0px;
+  }
+
+  .social-icons {
+    font-size: 40px;
+    padding: 15px;
+    margin-top: .5em;
+    margin-bottom: .25em;
+  }
+
+  .CopyText {
+    text-align: center;
+    font-size: .8em;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+  .hamburger {
+    margin-left: 1.7em;
+    margin-top: 1.7em;
+    width: 75%;
+  }
+
+  .TopLeftLogo {
+    display: none;
+  }
+
+  .TopNav {
+    display: none;
+  }
+
+  .TopMenu {
+    display: none;
+  }
+
+
+  h2.MyTitle {
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.7em;
+  } 
+
+  .line {
+    margin-top: .8em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: .3em;
+  }
+
+  h1.PageTitleAM {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: .3em;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .CP1Mockup {
+    width: 95%;
+    margin-top: 1em;
+  }
+
+  .CP1HeroTitle{
+    width: 300px;
+    margin-left: 1em;
+    margin-bottom: .75em;
+  }
+
+   .Arrow {
+    color: #D94423;
+    font-size: 5em;
+    margin-left: 1em;
+  }
+
+  .PC1Mockup {
+    width: 95%s;
+    margin-top: 2em;
+  }
+
+  .PC1HeroTitle {
+    width: 350px;
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+
+  .BBMockup {
+    margin-top: 2em;
+    margin-left: 2.4em;
+    margin-bottom: 4em;
+    transform: rotate(20deg);
+    width: 400px;
+  }
+
+  .BB1HeroTitle {
+    width: 350px;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  i {
+    width: 80px;
+    height: 80px;
+  } 
+
+  .social-icons {
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .CopyText {
+    text-align: center;
+    font-size: .8em;
+  }
+
+  .CP1HeroTitle2 {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    display: none;
+  }
+
+  .Arrow2 {
+    display: none;
+  }
+
+  #CPHiFi {
+    max-width: 70%;
+  }
+
+  .SelfPortrait {
+    height: 18em;
+    margin-top: 1em;
+  }
+
+  .ContactForm {
+    width: 75%;
+  }
+
+  label {
+    font-size: .9em;
+  }
+
+  input[type="text"] {
+    font-size: 1.1em; 
+    height: 2.5em;
+    margin-bottom: 2em;     
+  }
+
+   input[type="email"] {
+    font-size: 1.1em;
+    height: 2.5em;
+    margin-bottom: 2em;     
+  }
+
+   input[type="tel"] {
+    font-size: 1.1em;
+    height: 2.5em;
+    margin-bottom: 2em;     
+  }
+
+    textarea {
+      font-size: 1.1em;
+      height: 2.5em;
+      margin-bottom: 2em;     
+  }
+
+    button {
+     height: 2.75em;
+     padding: 0px;
+  }
+
+  .social-icons {
+    font-size: 45px;
+    padding: 15px;
+    margin-top: .5em;
+    margin-bottom: .25em;
+  }
+
+
+  .CopyText {
+    text-align: center;
+    font-size: .8em;
+  }
+
+} 
+
+@media (min-width: 701px) and (max-width: 900px) {
+  
+  p {
+    margin: 0 12%;
+  }
+
+  .hamburger {
+    margin-left: 2em;
+    margin-top: 1.7em;
+    width: 85%;
+  }
+
+  .TopLeftLogo {
+    display: none;
+  }
+
+  .TopNav {
+    display: none;
+  }
+
+  .TopMenu {
+    display: none;
+  }
+
+
+  h2.MyTitle {
+    font-size: 1.7em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.6em;
+  } 
+
+  .line {
+    margin-top: .8em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: .3em;
+  }
+
+  h1.PageTitleAM {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: .3em;
+  }
+
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .CP1Mockup {
+    margin-top: 1em;
+    width: 75%;
+    margin-left: -6em;
+  }
+
+  .CP1HeroTitle{
+    display: none;
+  }
+
+  .CP1HeroTitle2 {
+    width: 200px;
+    margin-left: -7em;
+  }
+
+   .Arrow {
+    display: none;
+  }
+
+  .Arrow2 {
+    margin-top: 1em;
+  }
+
+  .PC1Mockup {
+    width: 75%;
+    margin-top: 2em;
+    margin-left: -7em;
+  }
+
+  .PC1HeroTitle {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    width: 240px;
+    margin-top: 7em;
+    margin-left: -8.5em;
+  }
+
+  .BBMockup {
+    width: 60%;
+    margin-top: 6em;
+    margin-left: -3em;
+    margin-bottom: 4em;
+    transform: rotate(335deg);
+  }
+
+  .BB1HeroTitle {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    width: 230px;
+    margin-left: 2em;
+  }
+
+  .SelfPortrait {
+    height: 21em;
+    margin-top: 1em;
+  }
+
+  .ContactForm {
+    width: 65%;
+  }
+
+  label {
+    font-size: 1em;
+  }
+
+  input[type="text"] {
+    font-size: 1.1em; 
+    height: 3em;
+    margin-bottom: 2em; 
+  }
+
+   input[type="email"] {
+    font-size: 1.1em;
+    height: 3em;
+    margin-bottom: 2em;
+     
+  }
+
+   input[type="tel"] {
+    font-size: 1.1em;
+    height: 3em;
+    margin-bottom: 2em; 
+    
+  }
+
+    textarea {
+      font-size: 1.1em;
+      height: 3em;
+      margin-bottom: 2em;     
+  }
+
+    button {
+      font-size: 1.5em;
+      height: 2.75em;
+      padding: 0px;
+
+  }
+
+  .social-icons {
+    font-size: 58px;
+    padding: 40px;
+    margin-top: .5em;
+    margin-bottom: .25em;
+  }
+
+
+  .CopyText {
+    text-align: center;
+    font-size: 1em;
+  }
+} 
+
+
+@media (min-width: 901px) and (max-width: 1024px) {
+  
+  p {
+    margin: 0 16%;
+  }
+
+  .hamburger {
+    margin-left: 3.5em;
+    margin-top: 2em;
+    width: 95%;
+  }
+
+  .TopLeftLogo {
+    display: none;
+  }
+
+  .TopNav {
+    display: none;
+  }
+
+  .TopMenu {
+    display: none;
+  }
+
+
+  h2.MyTitle {
+    font-size: 1.7em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .6em;
+    margin-left: -.6em;
+  } 
+
+  .line {
+    margin-top: .8em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: .6em;
+  }
+
+  h1.PageTitleAM {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-left: .6em;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .CP1Mockup {
+    margin-top: 1em;
+    width: 70%;
+    margin-left: -6em;
+  }
+
+  .CP1HeroTitle{
+    display: none;
+  }
+
+  .CP1HeroTitle2 {
+    width: 200px;
+    margin-left: -3em;
+  }
+
+   .Arrow {
+    display: none;
+  }
+
+  .Arrow2 {
+    margin-top: 1.5em;
+  }
+
+
+  .PC1Mockup {
+    width: 70%;
+    margin-top: 2em;
+    margin-left: -7em;
+  }
+
+  .PC1HeroTitle {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    width: 240px;
+    margin-top: 7em;
+    margin-left: -3em;
+  }
+
+  .BBMockup {
+    width: 50%;
+    margin-top: 6em;
+    margin-left: -3em;
+    margin-bottom: 4em;
+    transform: rotate(335deg);
+  }
+
+  .BB1HeroTitle {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    width: 230px;
+    margin-left: 6em;
+  }
+
+  .SelfPortrait {
+    height: 26em;
+    margin-top: 1em;
+  }
+
+  .ContactForm {
+    width: 60%;
+  }
+
+  label {
+    font-size: 1.1em;
+  }
+
+  input[type="text"] {
+    font-size: 1.1em; 
+    height: 3em;
+    margin-bottom: 2em; 
+  }
+
+   input[type="email"] {
+    font-size: 1.1em;
+    height: 3em;
+    margin-bottom: 2em;
+
+     
+  }
+
+   input[type="tel"] {
+    font-size: 1.1em;
+    height: 3em;
+    margin-bottom: 2em;
+  
+    
+  }
+
+    textarea {
+      font-size: 1.1em;
+      height: 3em;
+      margin-bottom: 2em;
+  }
+
+    button {
+      font-size: 1.5em;
+      height: 2.75em;
+      padding: 0px;
+
+  }
+
+  .social-icons {
+    font-size: 58px;
+    padding: 40px;
+    margin-top: .5em;
+    margin-bottom: .25em;
+  }
+
+
+  .CopyText {
+    text-align: center;
+    font-size: 1em;
+  }
+  
+} 
+
+@media (min-width: 1025px) and (max-width: 1100px) {
+
+   p {
+    font-size: 1.4em;
+    margin: 0 15%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .TopLeftLogo {
+    margin-top: 1em;
+    margin-left: 3em;
+    min-width: 90px;
+  }
+
+  h2.MyTitle {
+    font-size: 1.7em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.6em;
+  } 
+
+  .line {
+    width: 90%;
+    margin-top: .8em;
+    margin-right: -3.1em;
+    margin-left: -3.1em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    margin-left: 3em;
+    /*display: none;*/
+  }
+
+  h1.PageTitleAM {
+    display: none;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .mockup-container {
+    min-width: 100%;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .CP1Mockup {
+    margin-top: 1em;
+    width: 70%;
+    margin-left: -6em;
+  }
+
+  .CP1HeroTitle{
+    display: none;
+  }
+
+  .CP1HeroTitle2 {
+    width: 200px;
+    margin-left: -3em;
+  }
+
+   .Arrow {
+    display: none;
+  }
+
+  .Arrow2 {
+    margin-top: 1.5em;
+  }
+
+
+  .PC1Mockup {
+    width: 70%;
+    margin-top: 2em;
+    margin-left: -3em;
+  }
+
+  .PC1HeroTitle {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    width: 240px;
+    margin-left: -7em;
+  }
+
+  .BBMockup {
+    width: 50%;
+    margin-top: 6em;
+    margin-left: -3em;
+    margin-bottom: 4em;
+    transform: rotate(335deg);
+  }
+
+  .BB1HeroTitle {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    width: 230px;
+    margin-left: 6em;
+  }
+
+  .SelfPortrait {
+    height: 29em;
+    margin-top: 1em;
+  }
+
+  label {
+    font-size: 1.1em;
+  }
+
+  input[type="text"] {
+    font-size: 1.3em;      
+    }
+
+   input[type="email"] {
+    font-size: 1.3em;
+
+    }
+
+   input[type="tel"] {
+    font-size: 1.3em;
+    }
+
+    textarea {
+      font-size: 1.3em;
+    }
+
+    .social-icons {
+      font-size: 35px;
+      padding: 20px;
+    }
+
+   .CopyText {
+      margin-top: 3.2em;
+      text-align: left;
+      font-size: .6em;
+    }
+   } 
+
+@media (min-width: 1101px) and (max-width: 1200px) {
+  
+  p {
+    font-size: 1.4em;
+    margin: 0 18%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .TopLeftLogo {
+    margin-top: 1em;
+    margin-left: 3em;
+    min-width: 90px;
+  }
+
+  h2.MyTitle {
+    font-size: 1.7em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.6em;
+  } 
+
+  .line {
+    width: 100%;
+    margin-top: .8em;
+    margin-right: -7em;
+    margin-left: -7em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    margin-left: 2.2em;
+    /*display: none;*/
+  }
+
+  h1.PageTitleAM {
+    display: none;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .mockup-container {
+    min-width: 100%;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .CP1Mockup {
+    margin-top: 1em;
+    width: 70%;
+    margin-left: -6em;
+  }
+
+  .CP1HeroTitle{
+    display: none;
+  }
+
+  .CP1HeroTitle2 {
+    width: 200px;
+    margin-left: -3em;
+  }
+
+   .Arrow {
+    display: none;
+  }
+
+  .Arrow2 {
+    margin-top: 1.5em;
+  }
+
+
+  .PC1Mockup {
+    width: 70%;
+    margin-top: 2em;
+    margin-left: -3em;
+  }
+
+  .PC1HeroTitle {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    width: 240px;
+    margin-left: -7em;
+  }
+
+  .BBMockup {
+    width: 50%;
+    margin-top: 6em;
+    margin-left: -3em;
+    margin-bottom: 4em;
+    transform: rotate(335deg);
+  }
+
+  .BB1HeroTitle {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    width: 230px;
+    margin-left: 6em;
+  }
+
+  .SelfPortrait {
+    height: 30em;
+    margin-top: 1em;
+  }
+
+  label {
+    font-size: 1em;
+  }
+
+  input[type="text"] {
+    font-size: 1.4em;      
+    }
+
+   input[type="email"] {
+    font-size: 1.4em;
+
+    }
+
+   input[type="tel"] {
+    font-size: 1.4em;
+    }
+
+    textarea {
+      font-size: 1.4em;
+    }
+
+    .social-icons {
+     font-size: 35px;
+     padding: 20px;
+    }
+
+    .CopyText {
+      margin-top: 1.5em;
+      text-align: left;
+      font-size: .8em;
+   }
+
+}
+
+@media (min-width: 1201px) and (max-width: 1300px) {
+  
+  p {
+    font-size: 1.5em;
+    margin: 0 20%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .TopLeftLogo {
+    margin-top: 1em;
+    margin-left: 3em;
+    min-width: 90px;
+  }
+
+  h2.MyTitle {
+    font-size: 1.7em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.6em;
+  } 
+
+  .line {
+    width: 110%;
+    margin-top: .8em;
+    margin-right: -10em;
+    margin-left: -10em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    margin-left: 1em;
+    /*display: none;*/
+  }
+
+  h1.PageTitleAM {
+    display: none;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .mockup-container {
+    min-width: 100%;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .CP1Mockup {
+    margin-top: 1em;
+    width: 70%;
+    margin-left: -6em;
+  }
+
+  .CP1HeroTitle{
+    display: none;
+  }
+
+  .CP1HeroTitle2 {
+    width: 200px;
+    margin-left: -3em;
+  }
+
+   .Arrow {
+    display: none;
+  }
+
+  .Arrow2 {
+    margin-top: 1.5em;
+  }
+
+
+  .PC1Mockup {
+    width: 70%;
+    margin-top: 2em;
+    margin-left: -3em;
+  }
+
+  .PC1HeroTitle {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    width: 240px;
+    margin-left: -7em;
+  }
+
+  .BBMockup {
+    width: 50%;
+    margin-top: 6em;
+    margin-left: -3em;
+    margin-bottom: 4em;
+    transform: rotate(335deg);
+  }
+
+  .BB1HeroTitle {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    width: 230px;
+    margin-left: 6em;
+  }
+
+  .SelfPortrait {
+    height: 34em;
+    margin-top: 1em;
+  }
+
+   label {
+    font-size: 1em;
+   }
+
+   input[type="text"] {
+    font-size: 1.5em;      
+    }
+
+   input[type="email"] {
+    font-size: 1.5em;
+
+    }
+
+   input[type="tel"] {
+    font-size: 1.5em;
+    }
+
+    textarea {
+      font-size: 1.5em;
+    }
+
+    label {
+      font-size: 1em;
+   }
+
+    input[type="text"] {
+      font-size: 1.4em;      
+    }
+
+    input[type="email"] {
+     font-size: 1.4em;
+
+    }
+
+    input[type="tel"] {
+     font-size: 1.4em;
+    }
+
+    textarea {
+      font-size: 1.4em;
+    }
+
+    .social-icons {
+     font-size: 35px;
+     padding: 20px;
+    }
+
+    .CopyText {
+      margin-top: 1.5em;
+      text-align: left;
+      font-size: .8em;
+   }
+}
+
+@media (min-width: 1301px) and (max-width: 1440px) {
+  
+  p {
+    font-size: 1.5em;
+    margin: 0 20%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .TopLeftLogo {
+    margin-top: 1em;
+    margin-left: 3em;
+    min-width: 90px;
+  }
+
+  h2.MyTitle {
+    font-size: 1.7em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.6em;
+  } 
+
+  .line {
+    width: 125%;
+    margin-top: .8em;
+    margin-right: -14em;
+    margin-left: -14em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    margin-left: -.9em;
+    /*display: none;*/
+  }
+
+  h1.PageTitleAM {
+    display: none;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .mockup-container {
+    min-width: 100%;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .CP1Mockup {
+    margin-top: 1em;
+    width: 70%;
+    margin-left: -6em;
+  }
+
+  .CP1HeroTitle{
+    display: none;
+  }
+
+  .CP1HeroTitle2 {
+    width: 200px;
+    margin-left: -3em;
+  }
+
+   .Arrow {
+    display: none;
+  }
+
+  .Arrow2 {
+    margin-top: 1.5em;
+  }
+
+
+  .PC1Mockup {
+    width: 70%;
+    margin-top: 2em;
+    margin-left: -3em;
+  }
+
+  .PC1HeroTitle {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    width: 240px;
+    margin-left: -7em;
+  }
+
+  .BBMockup {
+    width: 50%;
+    margin-top: 6em;
+    margin-left: -3em;
+    margin-bottom: 4em;
+    transform: rotate(335deg);
+  }
+
+  .BB1HeroTitle {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    width: 230px;
+    margin-left: 6em;
+  }
+
+  .SelfPortrait {
+    height: 36em;
+    margin-top: 1em;
+  }
+
+    label {
+      font-size: 1em;
+   }
+
+    input[type="text"] {
+      font-size: 1.4em;      
+    }
+
+    input[type="email"] {
+     font-size: 1.4em;
+
+    }
+
+    input[type="tel"] {
+     font-size: 1.4em;
+    }
+
+    textarea {
+      font-size: 1.4em;
+    }
+
+    .social-icons {
+     font-size: 35px;
+     padding: 20px;
+    }
+
+    .CopyText {
+      margin-top: 1.5em;
+      text-align: left;
+      font-size: .8em;
+   }
+}
+
+@media (min-width: 1441px) {
+
+  .hamburger {
+    display: none;
+  }
+
+  .TopLeftLogo {
+    margin-top: 1em;
+    margin-left: 1.5em;
+    min-width: 110px;
+  }
+
+  .TopMenu li a {
+    font-size: 1.3em;
+  }
+
+  .TopMenu li a.indicator {
+    font-size: 1.3em;
+  }
+
+  h2.MyTitle {
+    font-size: 1.8em;
+    font-weight: 100;
+    letter-spacing: .7px;
+    text-align: left; 
+    margin-top: .3em;
+    margin-left: -.5em;
+  } 
+
+  .line {
+    width: 135%;
+    margin-top: 1em;
+    margin-right: -19em;
+    margin-left: -19em;
+    border-bottom: 1px solid #F2EBDF;
+  }
+
+  h1.PageTitle {
+    margin-left: -.9em;
+    /*display: none;*/
+  }
+
+  h1.PageTitleAM {
+    display: none;
+  }
+
+  .project-title {
+    margin-top: 1em;
+  }
+
+  .mockup-container {
+    min-width: 100%;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .CP1Mockup {
+    margin-top: 1em;
+    width: 70%;
+    margin-left: -6em;
+  }
+
+  .CP1HeroTitle{
+    display: none;
+  }
+
+  .CP1HeroTitle2 {
+    width: 200px;
+    margin-left: -3em;
+  }
+
+   .Arrow {
+    display: none;
+  }
+
+  .Arrow2 {
+    margin-top: 1.5em;
+  }
+
+
+  .PC1Mockup {
+    width: 70%;
+    margin-top: 2em;
+    margin-left: -3em;
+  }
+
+  .PC1HeroTitle {
+    display: none;
+  }
+
+  .PC1HeroTitle2 {
+    width: 240px;
+    margin-left: -7em;
+  }
+
+  .BBMockup {
+    width: 50%;
+    margin-top: 6em;
+    margin-left: -3em;
+    margin-bottom: 4em;
+    transform: rotate(335deg);
+  }
+
+  .BB1HeroTitle {
+    display: none;
+  }
+
+  .BB1HeroTitle2 {
+    width: 230px;
+    margin-left: 6em;
+  }
+
+  .SelfPortrait {
+    height: 40em;
+    margin-top: 1em;
+  }
+
+  label {
+      font-size: 1em;
+   }
+
+    input[type="text"] {
+      font-size: 1.4em;      
+    }
+
+    input[type="email"] {
+     font-size: 1.4em;
+
+    }
+
+    input[type="tel"] {
+     font-size: 1.4em;
+    }
+
+    textarea {
+      font-size: 1.4em;
+    }
+
+    .social-icons {
+     font-size: 35px;
+     padding: 20px;
+    }
+
+    .CopyText {
+      margin-top: 1em;
+      text-align: left;
+      font-size: 1em;
+   }
+}
+
+  /* --------   OLD MEDIA QUERIES   ---------- */
   
 @media screen and (min-width: 320px) and (max-width:460px) {
 
@@ -2188,10 +2430,6 @@ i:hover {
     font-weight: 300;
     margin-left: 4px;
 
-  }
-
-  .top-icons {
-    margin-top: 1em;
   }
 
   .pBB {
@@ -2262,46 +2500,6 @@ i:hover {
     border-right: none;
   }
 
-   .GoTo {
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-  }
-
-  #ViewProjects {
-    margin: 0;
-    padding: 2% 0;
-    background-color: rgba(81,91,92,.2);
-  }
-
-  .center-GoTo {
-    padding-top: 3%;
-  }
-
-  #BBGoTo {
-     width: 40%;
-     padding-top: 5%;
-     padding-bottom: 2%;
-  }
-
-  #PCGoTo {
-    width: 40%;
-    padding-top: 5%;
-    padding-bottom: 1%;
-  }
-
-  #PCGoTo2 {
-    width: 50%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-
-  }
-
-  #CPGoTo {
-    width: 50%;
-    padding-left: 1em;
-  }
-
   #CPimg {
     width: 300px;
     margin-top: -10em;
@@ -2311,46 +2509,6 @@ i:hover {
 
   .Docs {
     width: 90%;
-  }
-
-  .SelfPortrait {
-    background: url("../Images/Me/Rich-12.jpg") left no-repeat;
-    background-size: cover;
-  }
-
-  .tab label {
-     font-size: 1.3em;
-  }
-
-  .tab-group {
-    height:35.3em;
-    padding-top: 9em;
-    margin-top: -3em;
-  }
-
-  .tab-content p {
-    font-size: .9em;
-  }
-
-
-  .tab-content p {
-    font-size: .9em;
-  }
-
-  .footer {
-    height: 5em;
-    text-align: center;
-  }
-
-  .Copyright {
-    margin-top: 1.5em;
-    text-align: center;
-    margin-bottom: 0;
-  }
-
-  .message {
-    margin-bottom: 1em;
-    text-align: center;
   }
 }
 
@@ -2367,15 +2525,6 @@ i:hover {
 
     .nav li {
       font-size: 1em;
-    }
-
-    .top-icons {
-      margin-top: -.5em;
-    }
-  
-
-    .top-icons li {
-      padding-top: .4em;
     }
 
      #BBsketches {
@@ -2414,47 +2563,6 @@ i:hover {
     border-color: #525B5C;
   }
 
-  .GoTo {
-    text-align: center;
-    display: inline-block;
-    padding-top: 3%;
-    padding-bottom: 3%;
-  }
-
-  .center-GoTo {
-    padding-top: 3%;
-  }
-
-  #BBGoTo {
-     width: 30%;
-     padding-top: 5%;
-     padding-bottom: 2%;
-  }
-
-  #PCGoTo {
-    width: 35%;
-    padding-top: 5%;
-    padding-bottom: 1%;
-  }
-
-  #PCGoTo2 {
-    width: 35%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-
-  #ViewProjects {
-    margin: 0;
-    padding: 2% 0;
-    background-color: rgba(81,91,92,.2);
-  }
-
-  #CPGoTo {
-    width: 45%;
-    padding-bottom: 1%;
-    padding-left: 1em;
-  }
-
 
   #CPimg {
     width: 300px;
@@ -2465,42 +2573,6 @@ i:hover {
    .Docs {
     width: 85%;
   }
-
-   .Main {
-    height: 38em;
-    background-size: 180%;
-    background-position: 25% 30%;
-  }
-
-  .tab label {
-     font-size: 1.5em;
-  }
-
-  .tab-group {
-    height:38em;
-    padding-top: 10em;
-    margin-top: -2.5em;
-  }
-
-  .tab-content p {
-    font-size: 1em;
-  }
-
-  .footer {
-    height: 5em;
-    text-align: center;
-  }
-
-  .Copyright {
-    margin-top: 1.5em;
-    text-align: center;
-    margin-bottom: 0;
-  }
-
-  .message {
-    margin-bottom: 1em;
-    text-align: center;
-  }  
 } 
 
 @media screen and (min-width: 641px) and (max-width: 899px) {
@@ -2516,15 +2588,6 @@ i:hover {
 
     .nav li {
       font-size: 1em;
-    }
-
-    .top-icons {
-      margin-top: -.2em;
-    }
-  
-
-    .top-icons li {
-      padding-top: .4em;
     }
 
     #PCListView2 {
@@ -2589,48 +2652,6 @@ i:hover {
       width: 30%;
     }
 
-    .GoTo {
-      text-align: center;
-      padding-top: 3%;
-      padding-bottom: 3%;
-    }
-
-    .center-GoTo {
-      padding-top: 3%;
-    }
-
-    #ViewProjects {
-      font-size: 1.6em;
-      margin: 0;
-      padding: 2% 0;
-      background-color: rgba(81,91,92,.2);    
-    }
-
-  #BBGoTo {
-     width: 25%;
-     padding-top: 5%;
-     padding-bottom: 2%;
-  }
-
-  #PCGoTo {
-    width: 30%;
-    padding-top: 5%;
-    padding-bottom: 1%;
-  }
-
-  #PCGoTo2 {
-    width: 30%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-
-  }
-
-  #CPGoTo {
-    width: 35%;
-    padding-bottom: 1%;
-    padding-left: 1em;
-  }
-
 
   #CPimg {
     width: 320px;
@@ -2642,41 +2663,6 @@ i:hover {
 
    .Docs {
      width: 75%;
-  }
-
-   
-  .Main {
-    height: 38em;
-    background-size: 180%;
-    background-position: 35% 26%;
-  }
-
-  .tab label {
-     font-size: 1.5em;
-  }
-
-  .tab-group {
-    height:38em;
-    padding-top: 13em;
-    margin-top: -2.5em;
-  }
-
-   .tab-content p {
-     font-size: 1em;
-  }
-
-   .footer {
-     height: 4em;
-     display: inline-flex;
-  }
-
-   .Copyright{
-     margin-top: 2.5em;
-  }
-
-  .message {
-    margin-top: .9em;
-    margin-left: 4.5%;
   }
 }
 
@@ -2693,10 +2679,6 @@ i:hover {
 
   .nav li {
     font-size: 1.3em;
-  }
-
-  .top-icons li {
-    padding-top: .4em;
   }
 
   .overlayAM {
@@ -2740,92 +2722,38 @@ i:hover {
   }
 
   #BBUFimg {
-      width: 70%;
+      width: 60%;
       border: .2em solid;
       border-color: #525B5C;
     }
 
   #BBsketches {
-  width: 70%;  
+  width: 60%;  
   border: .2em solid;
   border-color: #525B5C;
   }
 
   #BBLogo1 {
-      width: 70%;
+      width: 60%;
       border: .2em solid;
       border-color: #525B5C;
       margin-bottom: 2em;
     }
 
   #BBLogo2 {
-    width: 70%;
+    width: 60%;
     border: .2em solid;
     border-color: #525B5C;
     margin-bottom: 2em;
   }
 
   #BBFont {
-    width: 70%;
+    width: 60%;
     border: .2em solid;
     border-color: #525B5C;
   }
 
-  .GoTo {
-    height: 100px;
-  }
-
-  .left-GoTo {
-    width: 20%;
-    float: left;
-    display: inline-block;
-    padding-top: 2.7%;
-  }
-
-  .right-GoTo {
-    width: 20%;
-    float: right;
-    display: inline-block;
-    padding-top: 1.5%;
-  }
-
-  .center-GoTo {
-    width: 60%;
-    display: inline-block;
-    padding-top: 3.2%;    
-    }
-
-
-  #ViewProjects {
-    font-size: 1.7em;
-    padding: 0;
-  }
-
-  #BBGoTo {
-     width: 65%;
-     margin-top: .4em;
-     margin-left: 1em;
-     padding-bottom: 2%;
-  }
-
-    #PCGoTo {
-       width: 80%;
-       margin-left: 2em;
-       padding: 1%;
-  }
-
-  #PCGoTo2 {
-    width: 75%;
-    padding-top: 9%;
-    padding-bottom: 5%;
-  }
-
-  #CPGoTo {
-    width: 95%;
-    margin-top: .2em;
-    padding: 1%;
-  }
-
+  
   #PCDraftLogo {
     width: 25%;
   }
@@ -2855,48 +2783,8 @@ i:hover {
 
 
   .Docs {
-    width: 70%;
+    width: 60%;
   }
-
-  .Main {
-    background-size: 170%;
-    background-position: 30% 26.5%;
-    height: 39.5em;
-  }
-
-  .tab-group {
-    margin-top: -3em;
-    padding-top: 13em;
-    height: 40em;
-  }
-   
-   .tab label {
-     font-size: 2em;
-  }
-
-   .tab-content {
-     font-size: .9em;
-     padding: 0 2em 0 0em;
-  }
-
-  .footer {
-    height: 4em;
-    display: inline-flex;
-  }
-
-  .Copyright{
-    margin-top: 2.5em;
-  }
-
-  .message {
-    margin-top: .8em;
-    margin-left: 20%;
-  }
-
-.hvr-underline-from-center2:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-  left: .2em;
-  right: .2em;
-}
 
 @media screen and (min-width: 1025px) {
    
@@ -2921,20 +2809,6 @@ i:hover {
     text-align: left;
     margin-left: 1.3em;
     margin-top: -2em;
-  }
-
-  .top-icons {
-    margin-top: .9em;
-    margin-right: -2em;
-  }
-
-  .social {
-    margin-top: -5.5em;
-    margin-right: 1.5em;
-  }
-
-  p {
-    font-size: 1.5em;
   }
 
   .CP1 {
@@ -3006,58 +2880,6 @@ i:hover {
     max-width: 70%;
   }
 
-  .GoTo {
-    height: 100px;
-  }
-
-  .left-GoTo {
-    width: 20%;
-    float: left;
-    display: inline-block;
-    padding-top: 2.7%;
-  }
-
-  .right-GoTo {
-    width: 20%;
-    float: right;
-    display: inline-block;
-    padding-top: 1.5%;
-  }
-
-  .center-GoTo {
-    width: 60%;
-    display: inline-block;
-    padding-top: 3.2%;    
-  }
-
-
-  #ViewProjects {
-    padding: 0;
-  }
-
-  #BBGoTo {
-     width: 65%;
-     margin-top: .4em;
-     margin-left: 1em;
-     padding-bottom: 2%;
-  }
-
-  #PCGoTo2 {
-    width: 75%;
-    padding-top: 8%;
-    padding-bottom: 5%;
-  }
-
-  #PCGoTo {
-    width: 80%;
-    margin-top: -.3em;
-  }
-
-  #CPGoTo {
-    margin-top: -.3em;
-  }
-
-
   #CPimg {
     width: 340px;
     margin-top: -13em;
@@ -3067,45 +2889,6 @@ i:hover {
 
   .Docs {
     width: 70%;
-  }
-
-  .Main {
-     margin-top: 0;
-     background-size: 170%;
-     background-position: 30% 26%;
-     height: 44em;
-  }
-
-  .tab-group {
-     margin-top: 0em;
-     padding-top: 16em;
-     height: 44em;
-     padding-left: 3em;
-     padding-right: 3em;
-  }
-   
-  .tab label {
-     font-size: 1.9em;
-  }
-
-  .tab-content {
-     font-size: .9em;
-     padding: 0 2em 0 0;
-  }
-
-  .footer {
-    height: 4em;
-    display: inline-flex;
-  }
-
-  .Copyright{
-    margin-top: 2.5em;
-    margin-left: 10%;
-  }
-
-  .message {
-    margin-top: .6em;
-    margin-left: 20%;
   }
 }
 
@@ -3120,20 +2903,6 @@ i:hover {
   .nav {
     margin-left: 1.3em;
     margin-top: -1.5em;
-  }
-
-   .social {
-    margin-right: 1.75em;
-  }
-
-  .top-icons {
-    margin-top: .7em;
-    margin-right: -6em;
-  }
-
-  p { 
-   margin-left: 18%;
-   margin-right: 18%; 
   }
 
   .CA {
@@ -3201,55 +2970,6 @@ i:hover {
     max-width: 50%;
   }
 
-  .GoTo {
-    height: 100px;
-  }
-
-  .left-GoTo {
-    width: 20%;
-    float: left;
-    display: inline-block;
-    padding-top: 1.7%;
-  }
-
-  .right-GoTo {
-    width: 20%;
-    float: right;
-    display: inline-block;
-    padding-top: .5%;
-  }
-
-  .center-GoTo {
-    width: 60%;
-    display: inline-block;
-    padding-top: 2.6%;    
-    }
-
-  #BBGoTo {
-     width: 60%;
-     margin-top: .4em;
-     margin-left: 4em;
-     padding: 0;
-     padding-bottom: 2%;
-  }
-
-  #PCGoTo {
-       width: 70%;
-       margin-left: 4em;
-       padding: 0;
-       margin-top: .1em;
-  }
-
-  #PCGoTo2 {
-    width: 70%;
-    margin-right: 4em;
-    padding-top: 5%;
-  }
-
-  #CPGoTo {
-    width: 75%;
-    margin-top: .2em;
-  }
 
   #CPimg {
     margin-left: 130px;
@@ -3259,64 +2979,9 @@ i:hover {
   .Docs {
     width: 60%;
   }  
-
-  .Main {
-     background-size: 165%;
-     background-position: 30% 25%;
-     height: 44em;
-  }
-
-  .tab-group {
-     padding-top: 17em;
-     height: 44em;
-  }
-
-  .Button {
-    padding: 1%;
-  }
-
-  .footer {
-    height: 4em;
-    display: inline-flex;
-  }
-
-  .Copyright{
-    margin-top: 2.3em;
-    margin-left: 15%;
-    margin-right: 5%;
-  }
-
-  .message {
-    margin-left: 18%;
-  }
-
-  .tab label {
-    font-size: 2em;
-  }
 }
 
 @media screen and (min-width:1300px) {
-
-  .Copyright{
-    margin-top: 2.3em;
-    margin-left: 18%;
-  }
-
-  .message {
-    margin-left: 18%;
-  }
-
-  .Main {
-     background-size: 150%;
-     background-position: 30% 26%;
-     height: 46em;
-  }
-
-  .tab-group {
-    height: 46em;
-    padding-top: 17em;
-  }
-
 
   #ViewProjects {
     margin-top: -.2em;
