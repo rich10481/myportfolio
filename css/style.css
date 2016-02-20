@@ -217,6 +217,7 @@ h2 {
 
 p {
   font-family: "Proxima Nova", sans-serif;
+  color: #F2EBDF;
   font-size: 1.3em;
   font-weight: 100;
   text-align: left;
@@ -652,6 +653,7 @@ p {
 
 
 .bold {
+  color: #F2EBDF;
   font-weight: 500;
   margin-bottom: 1em;
 }
