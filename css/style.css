@@ -365,7 +365,6 @@ p {
 }
 
 .pBB {
-  color: #fff;
   padding-bottom: 1em;
   padding-top: 1em;
 }
@@ -479,12 +478,6 @@ p {
   margin-bottom: 1.5em;
 }
 
-.LightGray {
-  text-align: center;
-  background-color: #76898A;
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
 
 #BBBalsamiqWF {
   max-width: 60%;
