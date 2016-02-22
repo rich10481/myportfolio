@@ -13,7 +13,7 @@ a:hover {
 
 
 h2.MyTitle {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   color: #F2EBDF;
 }
 
@@ -31,7 +31,7 @@ h2.MyTitle {
 
 ul.off-canvas-list li {
   color: #F2EBDF;
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-weight: 100;
   font-size: 1.1em;
   letter-spacing: .02em;
@@ -70,13 +70,13 @@ ul.off-canvas-list li a.SubmenuSelected {
 }
 
 h1.PageTitle {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   color: #D94423;
   font-weight: 100;
 } 
 
 h1.PageTitleAM {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   color: #D94423;
   font-weight: 100;
 }  
@@ -148,7 +148,7 @@ i:hover {
 }
 
 .TopMenu {
-  font-family: "Proxima Nova"; sans-serif;
+  font-family: "proxima-nova"; sans-serif;
   font-size: 1.1em;
   font-weight: 100;
   letter-spacing: .03em;
@@ -207,7 +207,7 @@ i:hover {
 /*---------OLD PORTFOLIO CODE STARTS HERE-------------------------*/
 
 h2 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   /*font-size: 1.9em;*/
   letter-spacing: .25px;
   font-weight: 100;
@@ -216,7 +216,7 @@ h2 {
 }
 
 p {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   color: #F2EBDF;
   font-size: 1.3em;
   font-weight: 100;
@@ -679,7 +679,7 @@ p {
 
     label {
       color: #F2EBDF;
-      font-family: "Proxima Nova", sans-serif;
+      font-family: "proxima-nova", sans-serif;
       font-weight: 100;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -700,7 +700,7 @@ p {
       border-right: none;
       border-top: none;
       box-shadow: none;
-      font-family: "Proxima Nova", sans-serif;
+      font-family: "proxima-nova", sans-serif;
       font-weight: 100;
       letter-spacing: .5px;
     }
@@ -712,7 +712,7 @@ p {
       border-right: none;
       border-top: none;
       box-shadow: none;
-      font-family: "Proxima Nova", sans-serif;
+      font-family: "proxima-nova", sans-serif;
       font-weight: 100;
       letter-spacing: .5px;
     }
@@ -734,7 +734,7 @@ p {
       border: none;
       box-shadow: none;
       color: #fff;
-      font-family: "Proxima Nova", sans-serif;
+      font-family: "proxima-nova", sans-serif;
       font-weight: 100;
       letter-spacing: .5px;
     }
@@ -749,7 +749,7 @@ p {
 
     ::-webkit-input-placeholder {
       color: #fff;
-      font-family: "Proxima Nova";
+      font-family: "proxima-nova";
       font-size: 1.2em;
       font-weight: 200;
     }
