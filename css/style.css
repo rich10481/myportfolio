@@ -192,6 +192,44 @@ i:hover {
   margin-top: -2em;
  }
 
+ .cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(217, 68, 35, 0.8) url(../Images/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #D94423;
+  opacity: 1;
+}
+
 
 
 
@@ -1461,10 +1499,15 @@ p {
     text-align: center;
     font-size: 1em;
   }
+
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
 } 
 
 
-@media (min-width: 901px) and (max-width: 1024px) {
+@media (min-width: 901px) and (max-width: 1023px) {
   
   p {
     margin: 0 16%;
@@ -1638,10 +1681,11 @@ p {
     text-align: center;
     font-size: 1em;
   }
+
   
 } 
 
-@media (min-width: 1025px) and (max-width: 1100px) {
+@media (min-width: 1024px) and (max-width: 1100px) {
 
    p {
     font-size: 1.4em;
@@ -1785,6 +1829,13 @@ p {
       margin-top: 3.2em;
       text-align: left;
       font-size: .6em;
+    }
+
+   .cd-top {
+     height: 60px;
+     width: 60px;
+     right: 30px;
+     bottom: 30px;
     }
    } 
 
@@ -1933,6 +1984,12 @@ p {
       text-align: left;
       font-size: .8em;
    }
+   .cd-top {
+     height: 60px;
+     width: 60px;
+     right: 30px;
+     bottom: 30px;
+    }
 
 }
 
@@ -2102,6 +2159,13 @@ p {
       text-align: left;
       font-size: .8em;
    }
+
+   .cd-top {
+     height: 60px;
+     width: 60px;
+     right: 30px;
+     bottom: 30px;
+    }
 }
 
 @media (min-width: 1301px) and (max-width: 1440px) {
@@ -2249,6 +2313,13 @@ p {
       text-align: left;
       font-size: .8em;
    }
+
+   .cd-top {
+     height: 60px;
+     width: 60px;
+     right: 30px;
+     bottom: 30px;
+    }
 }
 
 @media (min-width: 1441px) {
@@ -2399,6 +2470,13 @@ p {
       text-align: left;
       font-size: 1em;
    }
+
+   .cd-top {
+     height: 60px;
+     width: 60px;
+     right: 30px;
+     bottom: 30px;
+    }
 }
 
   /* --------   OLD MEDIA QUERIES   ---------- */
