@@ -1,8 +1,8 @@
-.tab-group {
+/*.tab-group {
   width: 100%;
   margin-top: 2em;
   float: left;
-  /*background-color: rgba(7,7,7,.2);*/
+  background-color: rgba(7,7,7,.2);
   padding: 0 2em;
   text-align: left;
   height: 22em;
@@ -50,7 +50,7 @@
     max-height: 30em;
   }
 
-/*-----------MEDIA QUERIES-------------------------*/
+/*-----------MEDIA QUERIES-------------------------
 
 @media (min-width: 320px) and (max-width: 414px) {
   .tab label {
@@ -107,7 +107,7 @@
       }
 } 
 
-
+/*
 
 
 
