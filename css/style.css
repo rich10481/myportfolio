@@ -148,7 +148,7 @@ i:hover {
 }
 
 .TopMenu {
-  font-family: "proxima-nova"; sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 1.1em;
   font-weight: 100;
   letter-spacing: .03em;

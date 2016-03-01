@@ -5064,10 +5064,10 @@ ul.off-canvas-list {
 
 /* Foundation Dropdowns */
 .f-dropdown {
-  display: block;
+  display: inline-block;
   left: -9999px;
   list-style: none;
-  margin-left: 1.9em;
+  margin-left: 9.5em;
   position: absolute;
   /*background: #FFFFFF;*/
   /*border: solid 1px #cccccc;*/
@@ -5076,10 +5076,10 @@ ul.off-canvas-list {
   max-height: none;
   width: 100%;
   z-index: 89;
-  margin-top: 2px;
-  max-width: 168px; }
+  margin-top: 4px;
+  max-width: 400px; }
   .f-dropdown.open {
-    display: block; }
+    display: inline-block; }
   .f-dropdown > *:first-child {
     margin-top: 0; }
   .f-dropdown > *:last-child {
@@ -5268,7 +5268,7 @@ ul.off-canvas-list {
     .f-dropdown li.radius {
       border-radius: 3px; }
     .f-dropdown li a {
-      display: block;
+      display: inline-block;
       padding: 0.5rem;
       color: #555555; }
   .f-dropdown.content {
