@@ -1,5 +1,5 @@
 body {
-  background-color: #4D4B47;
+  background-color: #3B3936;
 }
 
 a:hover {
@@ -57,7 +57,7 @@ ul.off-canvas-list li a.SubmenuSelected {
 }
 
 .tab-bar {
-  background-color: #4D4B47;
+  background-color: #3B3936;
 }
 
 .left-small {
@@ -830,7 +830,7 @@ p {
   
   .hamburger {
     margin-left: .8em;
-    margin-top: 1.3em;
+    margin-top: 1.7em;
     width: 50%;
   }
 
@@ -847,8 +847,8 @@ p {
   }
 
   h2.MyTitle {
-    font-size: .9em;
-    font-weight: 100;
+    font-size: .88em;
+    font-weight: 300;
     letter-spacing: .7px;
     text-align: left; 
     margin-top: 1em;
@@ -890,7 +890,7 @@ p {
 
    .Arrow {
     color: #D94423;
-    font-weight: 100;
+    font-weight: 300;
     margin-left: 1em;
   }
 
