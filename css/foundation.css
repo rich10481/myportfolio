@@ -5264,7 +5264,7 @@ ul.off-canvas-list {
     line-height: 1.125rem;
     margin: 0; }
     .f-dropdown li:hover, .f-dropdown li:focus {
-      background: #EEEEEE; }
+      color: #0D0D0D; }
     .f-dropdown li.radius {
       border-radius: 3px; }
     .f-dropdown li a {
