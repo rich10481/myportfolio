@@ -81,6 +81,9 @@ h1.PageTitleAM {
   font-weight: 100;
 }  
 
+#CPHiFi {
+  max-width: 100%;
+}
 
 }
 
@@ -103,9 +106,6 @@ h1.PageTitleAM {
   /*background-color: #D94423;*/
 }  
 
-.social-icons a:hover {
-  color: #F2EBDF;
-}
 
 .CopyText {
   color: #F2EBDF;
@@ -133,7 +133,7 @@ i {
 }
 
 i:hover {
-  color: #0D0D0D;
+  color: #C2BBB1;
 }
 
 .fa {
@@ -183,10 +183,6 @@ i:hover {
   text-align: center;
  }
 
- #CPHiFi {
-  margin-bottom: 2em;
-  max-width: 60%;
- }
 
  .PCHeader {
   margin-top: -2em;
@@ -391,7 +387,7 @@ p {
 }
 
 .hyperlink:hover {
-  color: #0D0D0D;
+  color: #C2BBB1;
 }
 
 .hyperlinkOrange {
@@ -399,7 +395,7 @@ p {
 }
 
 .hyperlinkOrange:hover {
-  color: #0D0D0D;
+  color: #C2BBB1;
 }
 
 .blue {
@@ -933,9 +929,6 @@ p {
     display: none;
   }
 
-  #CPHiFi {
-    max-width: 85%;
-  }
 
   .SelfPortrait {
     height: 13em;
@@ -1097,9 +1090,6 @@ p {
     display: none;
   }
 
-  #CPHiFi {
-    max-width: 80%;
-  }
   .SelfPortrait {
     height: 14em;
     margin-top: 1em;
@@ -1272,9 +1262,6 @@ p {
     display: none;
   }
 
-  #CPHiFi {
-    max-width: 70%;
-  }
 
   .SelfPortrait {
     height: 18em;
