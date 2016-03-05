@@ -85,8 +85,12 @@ h2.PageTitleAM {
 
 #CPHiFi {
   max-width: 100%;
+  margin-top: -2em;
 }
 
+#PC3Fav {
+  margin-top: -2em;
+  margin-left: -.7em;
 }
 
 .CP1Mockup {
