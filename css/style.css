@@ -407,6 +407,7 @@ p {
 .blue {
   color: #D94423;
   padding-top: .5em;
+  font-weight: 300;
   /* padding-bottom: .5em; */
 }
 
