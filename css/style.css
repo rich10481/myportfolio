@@ -258,6 +258,8 @@ h2 {
   letter-spacing: .25px;
   font-weight: 100;
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
   /*text-shadow: 2px 1.5px 0px #222;*/
 }
 
