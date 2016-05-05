@@ -2,6 +2,10 @@ body {
   background-color: #3B3936;
 }
 
+a {
+  color: #D94423;
+}
+
 a:hover {
   color: #F2EBDF;
 }
@@ -9,6 +13,19 @@ a:hover {
 
 .Line {
   border-bottom: 1px solid #F2EBDF;
+}
+
+.Latest {
+  border-top: 1px solid #D94423;
+  border-bottom: 1px solid #D94423;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.LatestMessage {
+  color: #F2EBDF;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 100;
 }
 
 
@@ -834,9 +851,9 @@ p {
   }
   
   .hamburger {
-    margin-left: .8em;
-    margin-top: 1.7em;
-    width: 50%;
+    margin-left: 40%;
+    margin-top: 2em;
+    width: 40%;
   }
 
   .TopLeftLogo {
@@ -865,11 +882,16 @@ p {
     border-bottom: 1px solid #F2EBDF;
   }
 
+  .LatestMessage {
+    font-size: .8em;
+  }
+
   h2.PageTitle {
     font-size: 1.5em;
     text-align: left;
     letter-spacing: 1px;
     margin-top: 1.5em;
+    margin-left: .2em;
   }
 
   h2.PageTitleAM {
@@ -997,9 +1019,9 @@ p {
   }
 
   .hamburger {
-    margin-left: 1.7em;
-    margin-top: 1.7em;
-    width: 60%;
+    margin-left: 50%;
+    margin-top: 2em;
+    width: 50%;
   }
 
   .TopLeftLogo {
@@ -1154,9 +1176,9 @@ p {
 
 @media (min-width: 501px) and (max-width: 700px) {
   .hamburger {
-    margin-left: 1.7em;
-    margin-top: 1.7em;
-    width: 75%;
+    margin-left: 65%;
+    margin-top: 2em;
+    width: 65%;
   }
 
   .TopLeftLogo {
@@ -1345,9 +1367,9 @@ p {
   }
 
   .hamburger {
-    margin-left: 2em;
-    margin-top: 1.7em;
-    width: 85%;
+    margin-left: 90%;
+    margin-top: 2em;
+    width: 70%;
   }
 
   .TopLeftLogo {
@@ -1524,9 +1546,9 @@ p {
   }
 
   .hamburger {
-    margin-left: 3.5em;
-    margin-top: 2em;
-    width: 95%;
+    margin-left: 132%;
+    margin-top: 2.2em;
+    width: 80%;
   }
 
   .TopLeftLogo {
@@ -1728,6 +1750,13 @@ p {
     border-bottom: 1px solid #F2EBDF;
   }
 
+  .Latest {
+    width: 90%;
+    margin-top: .8em;
+    margin-right: -3.1em;
+    margin-left: -3.1em;
+  }
+
   h2.PageTitle {
     margin-left: 3.7em;
     /*display: none;*/
@@ -1882,6 +1911,12 @@ p {
     border-bottom: 1px solid #F2EBDF;
   }
 
+  .Latest {
+    width: 100%;
+    margin-right: -7em;
+    margin-left: -7em;
+  }
+
   h2.PageTitle {
     margin-left: 2.7em;
     /*display: none;*/
@@ -2034,6 +2069,12 @@ p {
     margin-right: -10em;
     margin-left: -10em;
     border-bottom: 1px solid #F2EBDF;
+  }
+
+  .Latest {
+    width: 110%;
+    margin-right: -10em;
+    margin-left: -10em;
   }
 
   h2.PageTitle {
@@ -2194,25 +2235,32 @@ p {
     min-width: 90px;
   }
 
-  h2.MyTitle {
+   h2.MyTitle {
     /*font-size: 1.7em;*/
     font-weight: 100;
     letter-spacing: .7px;
-    text-align: left; 
+    text-align: left;
     margin-top: .3em;
-    margin-left: -.6em;
+    margin-left: -.8em;
   } 
 
+
   .line {
-    width: 125%;
+    width: 120%;
     margin-top: .8em;
     margin-right: -14em;
     margin-left: -14em;
     border-bottom: 1px solid #F2EBDF;
   }
 
+  .Latest {
+    width: 120%;
+    margin-right: -14em;
+    margin-left: -14em;
+  }
+
   h2.PageTitle {
-    margin-left: -1em;
+    margin-left: .2em;
     /*display: none;*/
   }
 
@@ -2366,6 +2414,12 @@ p {
     margin-right: -19em;
     margin-left: -19em;
     border-bottom: 1px solid #F2EBDF;
+  }
+
+  .Latest {
+    width: 135%;
+    margin-right: -19em;
+    margin-left: -19em;
   }
 
   h2.PageTitle {
